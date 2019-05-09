@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning style file ./portfolio.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file portfolio.glo....done (28 entries accepted, 0 rejected).
+Sorting entries....done (130 comparisons).
+Generating output file portfolio.gls....done (38 lines written, 0 warnings).
+Output written in portfolio.gls.
+Transcript written in portfolio.glg.

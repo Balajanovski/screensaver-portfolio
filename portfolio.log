@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  3 MAR 2019 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  9 MAY 2019 15:21
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **portfolio.tex
 (./portfolio.tex
@@ -576,6 +576,12 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count109
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip47
+)
+\rownum=\count110
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -603,17 +609,17 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen137
 \caption@hangindent=\dimen138
 )
-\c@ContinuedFloat=\count110
+\c@ContinuedFloat=\count111
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box28
 \UL@hyphenbox=\box29
-\UL@skip=\skip47
-\UL@hook=\toks22
+\UL@skip=\skip48
+\UL@hook=\toks23
 \UL@height=\dimen139
-\UL@pe=\count111
+\UL@pe=\count112
 \UL@pixel=\dimen140
 \ULC@box=\box30
 Package: ulem 2012/05/18
@@ -623,24 +629,24 @@ Package: ulem 2012/05/18
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks23
-\SOUL@lasttoken=\toks24
-\SOUL@cmds=\toks25
-\SOUL@buffer=\toks26
-\SOUL@token=\toks27
-\SOUL@spaceskip=\skip57
+\SOUL@word=\toks24
+\SOUL@lasttoken=\toks25
+\SOUL@cmds=\toks26
+\SOUL@buffer=\toks27
+\SOUL@token=\toks28
+\SOUL@spaceskip=\skip58
 \SOUL@ttwidth=\dimen142
 \SOUL@uldp=\dimen143
 \SOUL@ulht=\dimen144
@@ -670,16 +676,16 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count112
-\calc@Bcount=\count113
+\calc@Acount=\count113
+\calc@Bcount=\count114
 \calc@Adimen=\dimen147
 \calc@Bdimen=\dimen148
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count114
-\calc@Cskip=\skip60
+\calc@Ccount=\count115
+\calc@Cskip=\skip61
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -691,9 +697,9 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box31
-\AM@global@opts=\toks28
-\AM@toc@title=\toks29
-\c@AM@survey=\count115
+\AM@global@opts=\toks29
+\AM@toc@title=\toks30
+\c@AM@survey=\count116
 \AM@templatesizebox=\box32
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/parskip/parskip.sty
@@ -704,7 +710,7 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks30
+\pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen151
 \pgfutil@tempdimb=\dimen152
 
@@ -724,12 +730,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks33
+\pgfkeys@tmptoks=\toks34
 ))
 \pgf@x=\dimen153
 \pgf@y=\dimen154
@@ -741,13 +747,13 @@ ode.tex
 \pgf@yc=\dimen160
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count116
-\c@pgf@countb=\count117
-\c@pgf@countc=\count118
-\c@pgf@countd=\count119
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
+\c@pgf@counta=\count117
+\c@pgf@countb=\count118
+\c@pgf@countc=\count119
+\c@pgf@countd=\count120
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -765,8 +771,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count120
-\pgfsyssoftpath@bigbuffer@items=\count121
+\pgfsyssoftpath@smallbuffer@items=\count121
+\pgfsyssoftpath@bigbuffer@items=\count122
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -779,11 +785,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen161
-\pgfmath@count=\count122
+\pgfmath@count=\count123
 \pgfmath@box=\box34
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -804,7 +810,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count123
+\c@pgfmathroundto@lastzeros=\count124
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -842,7 +848,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box35
 \pgf@hbox=\box36
 \pgf@layerbox@main=\box37
-\pgf@picture@serial@count=\count124
+\pgf@picture@serial@count=\count125
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -877,7 +883,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen185
-\pgf@sys@shading@range@num=\count125
+\pgf@sys@shading@range@num=\count126
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -930,8 +936,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen188
 \pgffor@skip=\dimen189
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -940,7 +946,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count126
+\pgf@plot@mark@count=\count127
 \pgfplotmarksize=\dimen190
 )
 \tikz@lastx=\dimen191
@@ -953,19 +959,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box41
 \tikz@tempbox=\box42
 \tikz@tempbox@bg=\box43
-\tikztreelevel=\count127
-\tikznumberofchildren=\count128
-\tikznumberofcurrentchild=\count129
-\tikz@fig@count=\count130
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count131
-\pgfmatrixcurrentcolumn=\count132
-\pgf@matrix@numberofcolumns=\count133
+\pgfmatrixcurrentrow=\count132
+\pgfmatrixcurrentcolumn=\count133
+\pgf@matrix@numberofcolumns=\count134
 )
-\tikz@expandcount=\count134
+\tikz@expandcount=\count135
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -979,10 +985,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks42
-\XKV@tempa@toks=\toks43
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count135
+\XKV@depth=\count136
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -990,10 +996,10 @@ Package: mfirstuc 2015/12/17 v2.02 (NLCT)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count136
+\etb@tempcnta=\count137
 )
-\@glsmfirst=\toks44
-\@glsmrest=\toks45
+\@glsmfirst=\toks45
+\@glsmrest=\toks46
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1006,7 +1012,7 @@ Package: datatool-base 2016/01/18 v2.25 (NLCT)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip61
+\@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1014,7 +1020,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks46
+\@emptytoks=\toks47
 \ex@=\dimen197
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1024,13 +1030,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count137
+\inf@bad=\count138
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count138
-\leftroot@=\count139
+\uproot@=\count139
+\leftroot@=\count140
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count140
-\DOTSCASE@=\count141
+\classnum@=\count141
+\DOTSCASE@=\count142
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -1039,32 +1045,32 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen199
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count142
-\c@MaxMatrixCols=\count143
+\macc@depth=\count143
+\c@MaxMatrixCols=\count144
 \dotsspace@=\muskip11
-\c@parentequation=\count144
-\dspbrk@lvl=\count145
-\tag@help=\toks47
-\row@=\count146
-\column@=\count147
-\maxfields@=\count148
-\andhelp@=\toks48
+\c@parentequation=\count145
+\dspbrk@lvl=\count146
+\tag@help=\toks48
+\row@=\count147
+\column@=\count148
+\maxfields@=\count149
+\andhelp@=\toks49
 \eqnshift@=\dimen256
 \alignsep@=\dimen257
 \tagshift@=\dimen258
 \tagwidth@=\dimen259
 \totwidth@=\dimen260
 \lineht@=\dimen261
-\@envbody=\toks49
-\multlinegap=\skip62
-\multlinetaggap=\skip63
-\mathdisplay@stack=\toks50
+\@envbody=\toks50
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks51
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count149
+\c@su@anzahl=\count150
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/01/18 v2.25 (NLCT)
@@ -1075,19 +1081,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count150
+\actioncount=\count151
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count151
-\FP@xia=\count152
-\FP@xib=\count153
-\FP@xfa=\count154
-\FP@xfb=\count155
-\FP@rega=\count156
-\FP@regb=\count157
-\FP@regs=\count158
-\FP@times=\count159
+\FP@xs=\count152
+\FP@xia=\count153
+\FP@xib=\count154
+\FP@xfa=\count155
+\FP@xfb=\count156
+\FP@rega=\count157
+\FP@regb=\count158
+\FP@regs=\count159
+\FP@times=\count160
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1106,7 +1112,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count160
+\FPseed=\count161
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1117,15 +1123,15 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks51
-\@dtl@tmpcount=\count161
-\dtl@tmplength=\skip64
-\dtl@sortresult=\count162
-\@dtl@numgrpsepcount=\count163
-\@dtl@datatype=\count164
-\dtl@codeA=\count165
-\dtl@codeB=\count166
-\@dtl@foreach@level=\count167
+\@dtl@toks=\toks52
+\@dtl@tmpcount=\count162
+\dtl@tmplength=\skip65
+\dtl@sortresult=\count163
+\@dtl@numgrpsepcount=\count164
+\@dtl@datatype=\count165
+\dtl@codeA=\count166
+\dtl@codeB=\count167
+\@dtl@foreach@level=\count168
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
@@ -1144,13 +1150,13 @@ uage-mappings.tex))
 lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count168
-\@gls@tmpb=\toks52
-\gls@tmplen=\skip65
-\glskeylisttok=\toks53
-\glslabeltok=\toks54
-\glsshorttok=\toks55
-\glslongtok=\toks56
+\gls@level=\count169
+\@gls@tmpb=\toks53
+\gls@tmplen=\skip66
+\glskeylisttok=\toks54
+\glslabeltok=\toks55
+\glsshorttok=\toks56
+\glslongtok=\toks57
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -1159,42 +1165,42 @@ Package: glossary-hypernav 2016/04/30 v4.23 (NLCT)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2016/04/30 v4.23 (NLCT)
-\glslistdottedwidth=\skip66
+\glslistdottedwidth=\skip67
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2016/04/30 v4.23 (NLCT)
  (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip67
-\LTright=\skip68
-\LTpre=\skip69
-\LTpost=\skip70
-\LTchunksize=\count169
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count170
 \LTcapwidth=\dimen262
 \LT@head=\box46
 \LT@firsthead=\box47
 \LT@foot=\box48
 \LT@lastfoot=\box49
-\LT@cols=\count170
-\LT@rows=\count171
-\c@LT@tables=\count172
-\c@LT@chunks=\count173
-\LT@p@ftn=\toks57
+\LT@cols=\count171
+\LT@rows=\count172
+\c@LT@tables=\count173
+\c@LT@chunks=\count174
+\LT@p@ftn=\toks58
 )
-\glsdescwidth=\skip71
-\glspagelistwidth=\skip72
+\glsdescwidth=\skip72
+\glspagelistwidth=\skip73
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
 Package: glossary-super 2016/04/30 v4.23 (NLCT)
  (/usr/local/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count174
+\c@tracingst=\count175
 \ST@wd=\dimen263
-\ST@rightskip=\skip73
-\ST@leftskip=\skip74
-\ST@parfillskip=\skip75
+\ST@rightskip=\skip74
+\ST@leftskip=\skip75
+\ST@parfillskip=\skip76
 \ST@pageleft=\dimen264
 \ST@headht=\dimen265
 \ST@tailht=\dimen266
@@ -1210,8 +1216,13 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2016/04/30 v4.23 (NLCT)
-\glstreeindent=\skip76
-))
+\glstreeindent=\skip77
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count176
+\c@@ppsavesec=\count177
+\c@@ppsaveapp=\count178
+)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
@@ -1224,30 +1235,334 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen274
-))
-\glswrite=\write4
-\glo@main@file=\write5
-\openout5 = `portfolio.glo'.
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2015/09/09 v2.1 Yet another Pygments shim for LaTeX
 
-Package glossaries Info: Writing glossary file portfolio.glo on input line 42.
- (./portfolio.aux)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count179
+\FV@InFile=\read2
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count180
+\FV@StepNumber=\count181
+\FV@OutFile=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "portfolio.w18")...executed.
+
+
+(./portfolio.w18)
+runsystem(rm -- "portfolio.w18")...executed.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count182
+\decimalpart=\count183
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count184
+\output=\toks59
+\linenoprevgraf=\count185
+\linenumbersep=\dimen275
+\linenumberwidth=\dimen276
+\c@linenumber=\count186
+\c@pagewiselinenumber=\count187
+\c@LN@truepage=\count188
+\c@internallinenumber=\count189
+\c@internallinenumbers=\count190
+\quotelinenumbersep=\dimen277
+\bframerule=\dimen278
+\bframesep=\dimen279
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\minted@appexistsfile=\read3
+\FV@BreakIndent=\dimen280
+\FV@BreakSymbolSepLeft=\dimen281
+\FV@BreakSymbolSepRight=\dimen282
+\FV@BreakSymbolIndentLeft=\dimen283
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 688.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+\FV@BreakSymbolIndentRight=\dimen284
+\c@FancyVerbLineBreakLast=\count191
+\FV@LineBox=\box53
+\FV@LineIndentBox=\box54
+\minted@bgbox=\box55
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count192
+\@float@every@listing=\toks60
+\c@listing=\count193
+)
+runsystem(mkdir -p "_minted-portfolio")...executed.
+
+
+(./_minted-portfolio/default.pygstyle) (./_minted-portfolio/autumn.pygstyle)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count194
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count195
+\c@listtotal=\count196
+\c@listcount=\count197
+\c@liststart=\count198
+\c@liststop=\count199
+\c@citecount=\count266
+\c@citetotal=\count267
+\c@multicitecount=\count268
+\c@multicitetotal=\count269
+\c@instcount=\count270
+\c@maxnames=\count271
+\c@minnames=\count272
+\c@maxitems=\count273
+\c@minitems=\count274
+\c@citecounter=\count275
+\c@savedcitecounter=\count276
+\c@uniquelist=\count277
+\c@uniquename=\count278
+\c@refsection=\count279
+\c@refsegment=\count280
+\c@maxextratitle=\count281
+\c@maxextratitleyear=\count282
+\c@maxextrayear=\count283
+\c@maxextraalpha=\count284
+\c@abbrvpenalty=\count285
+\c@highnamepenalty=\count286
+\c@lownamepenalty=\count287
+\c@maxparens=\count288
+\c@parenlevel=\count289
+\blx@tempcnta=\count290
+\blx@tempcntb=\count291
+\blx@tempcntc=\count292
+\blx@maxsection=\count293
+\blx@maxsegment@0=\count294
+\blx@notetype=\count295
+\blx@parenlevel@text=\count296
+\blx@parenlevel@foot=\count297
+\blx@sectionciteorder@0=\count298
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
+\blx@bcfin=\read4
+\blx@bcfout=\write7
+\c@mincomprange=\count299
+\c@maxcomprange=\count300
+\c@mincompwidth=\count301
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count302
+\c@savedafterword=\count303
+\c@annotator=\count304
+\c@savedannotator=\count305
+\c@author=\count306
+\c@savedauthor=\count307
+\c@bookauthor=\count308
+\c@savedbookauthor=\count309
+\c@commentator=\count310
+\c@savedcommentator=\count311
+\c@editor=\count312
+\c@savededitor=\count313
+\c@editora=\count314
+\c@savededitora=\count315
+\c@editorb=\count316
+\c@savededitorb=\count317
+\c@editorc=\count318
+\c@savededitorc=\count319
+\c@foreword=\count320
+\c@savedforeword=\count321
+\c@holder=\count322
+\c@savedholder=\count323
+\c@introduction=\count324
+\c@savedintroduction=\count325
+\c@namea=\count326
+\c@savednamea=\count327
+\c@nameb=\count328
+\c@savednameb=\count329
+\c@namec=\count330
+\c@savednamec=\count331
+\c@translator=\count332
+\c@savedtranslator=\count333
+\c@shortauthor=\count334
+\c@savedshortauthor=\count335
+\c@shorteditor=\count336
+\c@savedshorteditor=\count337
+\c@labelname=\count338
+\c@savedlabelname=\count339
+\c@institution=\count340
+\c@savedinstitution=\count341
+\c@lista=\count342
+\c@savedlista=\count343
+\c@listb=\count344
+\c@savedlistb=\count345
+\c@listc=\count346
+\c@savedlistc=\count347
+\c@listd=\count348
+\c@savedlistd=\count349
+\c@liste=\count350
+\c@savedliste=\count351
+\c@listf=\count352
+\c@savedlistf=\count353
+\c@location=\count354
+\c@savedlocation=\count355
+\c@organization=\count356
+\c@savedorganization=\count357
+\c@origlocation=\count358
+\c@savedoriglocation=\count359
+\c@origpublisher=\count360
+\c@savedorigpublisher=\count361
+\c@publisher=\count362
+\c@savedpublisher=\count363
+\c@language=\count364
+\c@savedlanguage=\count365
+\c@pageref=\count366
+\c@savedpageref=\count367
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count368
+\c@textcitetotal=\count369
+\c@textcitemaxnames=\count370
+\c@biburlnumpenalty=\count371
+\c@biburlucpenalty=\count372
+\c@biburllcpenalty=\count373
+\c@smartand=\count374
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count375
+\c@bbx:relatedtotal=\count376
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\glswrite=\write8
+\glo@main@file=\write9
+\openout9 = `portfolio.glo'.
+
+Package glossaries Info: Writing glossary file portfolio.glo on input line 51.
+runsystem(which "pygmentize" && touch "portfolio.aex")...executed.
+
+runsystem(rm "portfolio.aex")...executed.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count377
+\@quotereset=\count378
+(./portfolio.aux)
 \openout1 = `portfolio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 128.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
@@ -1286,7 +1601,7 @@ File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 92.
+LaTeX Info: Redefining \microtypecontext on input line 128.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1299,8 +1614,8 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 92.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1308,30 +1623,30 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count379
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (./portfolio.out) (./portfolio.out)
-\@outlinefile=\write6
-\openout6 = `portfolio.out'.
+\@outlinefile=\write10
+\openout10 = `portfolio.out'.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen275
-\scratchbox=\box52
-\nofMPsegments=\count177
-\nofMParguments=\count178
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen276
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count380
+\scratchdimen=\dimen285
+\scratchbox=\box57
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen286
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks62
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
@@ -1365,14 +1680,26 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ABD: EveryShipout initializing macros
+(./_minted-portfolio/default-pyg-prefix.pygstyle)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout7 = `portfolio.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'portfolio.bbl' found.
+ (./portfolio.bbl)
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
+
 
 pdfTeX warning: pdflatex (file ./external-pdfs/titlepage.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<external-pdfs/titlepage.pdf, id=95, 596.04083pt x 841.16357pt>
+<external-pdfs/titlepage.pdf, id=240, 596.04083pt x 841.16357pt>
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf>
-Package pdftex.def Info: external-pdfs/titlepage.pdf used on input line 96.
+Package pdftex.def Info: external-pdfs/titlepage.pdf used on input line 132.
 (pdftex.def)             Requested size: 596.03937pt x 841.16151pt.
 
 
@@ -1380,7 +1707,7 @@ pdfTeX warning: pdflatex (file ./external-pdfs/titlepage.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 <use external-pdfs/titlepage.pdf>
-Package pdftex.def Info: external-pdfs/titlepage.pdf used on input line 96.
+Package pdftex.def Info: external-pdfs/titlepage.pdf used on input line 132.
 (pdftex.def)             Requested size: 596.03937pt x 841.16151pt.
 
 
@@ -1390,69 +1717,69 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./external-pdfs/titlepage.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<external-pdfs/titlepage.pdf, id=98, page=1, 596.04083pt x 841.16357pt>
+<external-pdfs/titlepage.pdf, id=243, page=1, 596.04083pt x 841.16357pt>
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
 Package pdftex.def Info: external-pdfs/titlepage.pdf, page1 used on input line 
-96.
+132.
 (pdftex.def)             Requested size: 596.03937pt x 841.16151pt.
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
 Package pdftex.def Info: external-pdfs/titlepage.pdf, page1 used on input line 
-96.
+132.
 (pdftex.def)             Requested size: 597.54001pt x 843.2793pt.
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
 Package pdftex.def Info: external-pdfs/titlepage.pdf, page1 used on input line 
-96.
+132.
 (pdftex.def)             Requested size: 597.54001pt x 843.2793pt.
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
 Package pdftex.def Info: external-pdfs/titlepage.pdf, page1 used on input line 
-96.
+132.
 (pdftex.def)             Requested size: 597.54001pt x 843.2793pt.
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
 Package pdftex.def Info: external-pdfs/titlepage.pdf, page1 used on input line 
-96.
+132.
 (pdftex.def)             Requested size: 597.54001pt x 843.2793pt.
  [1
 
-\openout4 = `portfolio.ist'.
+\openout8 = `portfolio.ist'.
 
  <./external-pdfs/titlepage.pdf>]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 99.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 135.
 
 (./portfolio.toc
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 3.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1461,166 +1788,1595 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-\tf@toc=\write7
-\openout7 = `portfolio.toc'.
-
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./portfolio.lof)
-\tf@lof=\write8
-\openout8 = `portfolio.lof'.
+])
+\tf@toc=\write11
+\openout11 = `portfolio.toc'.
 
+ [2]
+(./portfolio.lof)
+\tf@lof=\write12
+\openout12 = `portfolio.lof'.
 
-[2
+ [3
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 107.
-<images/rainforest.jpg, id=159, 1284.8pt x 722.7pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 143.
+<images/rainforest.jpg, id=371, 1284.8pt x 722.7pt>
 File: images/rainforest.jpg Graphic file (type jpg)
 
 <use images/rainforest.jpg>
-Package pdftex.def Info: images/rainforest.jpg used on input line 111.
+Package pdftex.def Info: images/rainforest.jpg used on input line 147.
 (pdftex.def)             Requested size: 149.37956pt x 84.01851pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 148.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 151.
  [1
 
  <./images/rainforest.jpg>]
 Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 150
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 186
 .
-LaTeX Font Info:    No file OMSpplx.fd. on input line 150.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 186.
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 150.
+(Font)              for symbol `textbullet' on input line 186.
 
 [2
 
-] <images/project-plan.png, id=185, 462.72874pt x 502.87875pt>
+] <images/project-plan.png, id=396, 462.72874pt x 502.87875pt>
 File: images/project-plan.png Graphic file (type png)
 
 <use images/project-plan.png>
-Package pdftex.def Info: images/project-plan.png used on input line 184.
+Package pdftex.def Info: images/project-plan.png used on input line 220.
 (pdftex.def)             Requested size: 256.0774pt x 278.2953pt.
  [3 <./images/project-plan.png>]
 Chapter 3.
-<images/maze.jpg, id=194, 1284.8pt x 722.7pt>
+<images/maze.jpg, id=406, 1284.8pt x 722.7pt>
 File: images/maze.jpg Graphic file (type jpg)
  <use images/maze.jpg>
-Package pdftex.def Info: images/maze.jpg used on input line 202.
+Package pdftex.def Info: images/maze.jpg used on input line 238.
 (pdftex.def)             Requested size: 170.71718pt x 96.02747pt.
 
-<images/pipes.jpg, id=195, 1284.8pt x 722.7pt>
+<images/pipes.jpg, id=407, 1284.8pt x 722.7pt>
 File: images/pipes.jpg Graphic file (type jpg)
  <use images/pipes.jpg>
-Package pdftex.def Info: images/pipes.jpg used on input line 207.
+Package pdftex.def Info: images/pipes.jpg used on input line 243.
 (pdftex.def)             Requested size: 170.71718pt x 96.02747pt.
 File: images/rainforest.jpg Graphic file (type jpg)
 
 <use images/rainforest.jpg>
-Package pdftex.def Info: images/rainforest.jpg used on input line 218.
+Package pdftex.def Info: images/rainforest.jpg used on input line 254.
 (pdftex.def)             Requested size: 115.23404pt x 64.80861pt.
 
-<images/mandelbrot.jpeg, id=196, 285.065pt x 177.66376pt>
+<images/mandelbrot.jpeg, id=408, 285.065pt x 177.66376pt>
 File: images/mandelbrot.jpeg Graphic file (type jpg)
 
 <use images/mandelbrot.jpeg>
-Package pdftex.def Info: images/mandelbrot.jpeg used on input line 222.
+Package pdftex.def Info: images/mandelbrot.jpeg used on input line 258.
 (pdftex.def)             Requested size: 115.23404pt x 71.81787pt.
 
-<images/metaballs.jpg, id=197, 749.80125pt x 676.5275pt>
+<images/metaballs.jpg, id=409, 749.80125pt x 676.5275pt>
 File: images/metaballs.jpg Graphic file (type jpg)
 
 <use images/metaballs.jpg>
-Package pdftex.def Info: images/metaballs.jpg used on input line 226.
+Package pdftex.def Info: images/metaballs.jpg used on input line 262.
 (pdftex.def)             Requested size: 115.23404pt x 103.9729pt.
  [4
 
  <./images/maze.jpg> <./images/pipes.jpg>]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 233.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 269.
 
-<images/rafrex.png, id=203, 1375.1375pt x 1084.05pt>
+<images/rafrex.png, id=414, 1375.1375pt x 1084.05pt>
 File: images/rafrex.png Graphic file (type png)
  <use images/rafrex.png>
-Package pdftex.def Info: images/rafrex.png used on input line 249.
+Package pdftex.def Info: images/rafrex.png used on input line 285.
 (pdftex.def)             Requested size: 128.0387pt x 100.93471pt.
 
 Underfull \vbox (badness 2173) has occurred while \output is active []
 
  [5 <./images/mandelbrot.jpeg> <./images/metaballs.jpg>]
-<images/dynaballs.png, id=210, 723.70375pt x 435.6275pt>
+<images/dynaballs.png, id=421, 723.70375pt x 435.6275pt>
 File: images/dynaballs.png Graphic file (type png)
 
 <use images/dynaballs.png>
-Package pdftex.def Info: images/dynaballs.png used on input line 257.
+Package pdftex.def Info: images/dynaballs.png used on input line 293.
 (pdftex.def)             Requested size: 128.0387pt x 77.06683pt.
  [6 <./images/rafrex.png> <./images/dynaballs.png>]
-<images/gantt.jpg, id=219, 4304.08pt x 1497.595pt>
+<images/gantt.jpg, id=430, 4304.08pt x 1497.595pt>
 File: images/gantt.jpg Graphic file (type jpg)
  <use images/gantt.jpg>
-Package pdftex.def Info: images/gantt.jpg used on input line 296.
+Package pdftex.def Info: images/gantt.jpg used on input line 332.
 (pdftex.def)             Requested size: 512.1483pt x 178.19545pt.
 
 Underfull \vbox (badness 5578) has occurred while \output is active []
 
  [7]
-No file portfolio.gls.
 [8 <./images/gantt.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Chapter 4.
+
+Overfull \hbox (1.1983pt too wide) in paragraph at lines 373--380
+ [][] 
+ []
+
+[9
+
+] <images/flyweight-trees.png, id=473, 1043.9pt x 514.92375pt>
+File: images/flyweight-trees.png Graphic file (type png)
+
+<use images/flyweight-trees.png>
+Package pdftex.def Info: images/flyweight-trees.png used on input line 392.
+(pdftex.def)             Requested size: 192.39949pt x 94.89796pt.
+
+<images/flyweight-tree-model.png, id=474, 1043.9pt x 442.65375pt>
+File: images/flyweight-tree-model.png Graphic file (type png)
+
+<use images/flyweight-tree-model.png>
+Package pdftex.def Info: images/flyweight-tree-model.png used on input line 396
+.
+(pdftex.def)             Requested size: 225.85417pt x 95.76982pt.
+\openout6 = `portfolio.pyg'.
+
+
+(./_minted-portfolio/90C6F7B6EAA97B17002D8CB15A3E67109D9487E233634444F5E4BC069E
+3F20F7.pygtex
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+\openout4 = `portfolio.pyg'.
+
+
+(./_minted-portfolio/E0E649672BF7CCF696B571EBB8B0F8F02203EC576A36BF17E4C0F2E9CD
+341574.pygtex [10 <./images/flyweight-trees.png> <./images/flyweight-tree-model
+.png>])
+\openout4 = `portfolio.pyg'.
+
+
+(./_minted-portfolio/443D6597C7AB4A16E8E1B79E756351342203EC576A36BF17E4C0F2E9CD
+341574.pygtex) [11] [12]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+ (./portfolio.gls [13
+
+] [14
+
+
+]) [15]
+Chapter 5.
+<images/Clouds Context Diagram.png, id=559, 663.47874pt x 693.59125pt>
+File: images/Clouds Context Diagram.png Graphic file (type png)
+
+<use images/Clouds Context Diagram.png>
+Package pdftex.def Info: images/Clouds Context Diagram.png used on input line 4
+51.
+(pdftex.def)             Requested size: 384.10959pt x 401.54237pt.
+ [16
+
+ <./images/Clouds Context Diagram.png>] <images/Clouds Screensaver DFD.png, id=
+567, 864.22874pt x 970.62625pt>
+File: images/Clouds Screensaver DFD.png Graphic file (type png)
+
+<use images/Clouds Screensaver DFD.png>
+Package pdftex.def Info: images/Clouds Screensaver DFD.png used on input line 4
+61.
+(pdftex.def)             Requested size: 426.79134pt x 479.32848pt.
+ [17 <./images/Clouds Screensaver DFD.png>]
+<images/Clouds Screensaver Structure Chart.png, id=574, 1697.34125pt x 1825.821
+24pt>
+File: images/Clouds Screensaver Structure Chart.png Graphic file (type png)
+ <use images/Clouds Screensaver Structure Chart.png>
+Package pdftex.def Info: images/Clouds Screensaver Structure Chart.png used on 
+input line 471.
+(pdftex.def)             Requested size: 426.79134pt x 459.10088pt.
+ [18 <./images/Clouds Screensaver Structure Chart.png>]
+<images/Clouds Screensaver Storyboard.png, id=580, 1695.33376pt x 1217.54875pt>
+File: images/Clouds Screensaver Storyboard.png Graphic file (type png)
+<use images/Clouds Screensaver Storyboard.png>
+Package pdftex.def Info: images/Clouds Screensaver Storyboard.png used on input
+ line 480.
+(pdftex.def)             Requested size: 426.79134pt x 306.50436pt.
+ [19 <./images/Clouds Screensaver Storyboard.png>]
+<images/Mandelbrot Screensaver Context Diagram.png, id=586, 693.59125pt x 703.6
+2875pt>
+File: images/Mandelbrot Screensaver Context Diagram.png Graphic file (type png)
+
+ <use images/Mandelbrot Screensaver Context Diagram.png>
+Package pdftex.def Info: images/Mandelbrot Screensaver Context Diagram.png used
+ on input line 489.
+(pdftex.def)             Requested size: 426.79134pt x 432.98141pt.
+ [20 <./images/Mandelbrot Screensaver Context Diagram.png>]
+<images/Mandelbrot Screensaver DFD.png, id=592, 693.59125pt x 703.62875pt>
+File: images/Mandelbrot Screensaver DFD.png Graphic file (type png)
+
+<use images/Mandelbrot Screensaver DFD.png>
+Package pdftex.def Info: images/Mandelbrot Screensaver DFD.png used on input li
+ne 498.
+(pdftex.def)             Requested size: 426.79134pt x 432.98141pt.
+ [21 <./images/Mandelbrot Screensaver DFD.png>]
+<images/Mandelbrot Screensaver Structure Chart.png, id=599, 1699.34875pt x 1414
+.28375pt>
+File: images/Mandelbrot Screensaver Structure Chart.png Graphic file (type png)
+
+ <use images/Mandelbrot Screensaver Structure Chart.png>
+Package pdftex.def Info: images/Mandelbrot Screensaver Structure Chart.png used
+ on input line 507.
+(pdftex.def)             Requested size: 426.79134pt x 355.18858pt.
+ [22 <./images/Mandelbrot Screensaver Structure Chart.png>]
+<images/Mandelbrot Screensaver Story Board.png, id=605, 1692.3225pt x 1311.9012
+5pt>
+File: images/Mandelbrot Screensaver Story Board.png Graphic file (type png)
+ <use images/Mandelbrot Screensaver Story Board.png>
+Package pdftex.def Info: images/Mandelbrot Screensaver Story Board.png used on 
+input line 516.
+(pdftex.def)             Requested size: 426.79134pt x 330.83708pt.
+ [23 <./images/Mandelbrot Screensaver Story Board.png>]
+<images/Metaballs Screensaver Context Diagram.png, id=611, 693.59125pt x 703.62
+875pt>
+File: images/Metaballs Screensaver Context Diagram.png Graphic file (type png)
+ <use images/Metaballs Screensaver Context Diagram.png>
+Package pdftex.def Info: images/Metaballs Screensaver Context Diagram.png used 
+on input line 525.
+(pdftex.def)             Requested size: 426.79134pt x 432.98141pt.
+ [24 <./images/Metaballs Screensaver Context Diagram.png>]
+<images/Metaballs Screensaver DFD.png, id=617, 864.22874pt x 703.62875pt>
+File: images/Metaballs Screensaver DFD.png Graphic file (type png)
+
+<use images/Metaballs Screensaver DFD.png>
+Package pdftex.def Info: images/Metaballs Screensaver DFD.png used on input lin
+e 534.
+(pdftex.def)             Requested size: 426.79134pt x 347.47597pt.
+ [25 <./images/Metaballs Screensaver DFD.png>]
+<images/Metaballs Screensaver Structure Chart.png, id=623, 1695.33376pt x 1372.
+12625pt>
+File: images/Metaballs Screensaver Structure Chart.png Graphic file (type png)
+ <use images/Metaballs Screensaver Structure Chart.png>
+Package pdftex.def Info: images/Metaballs Screensaver Structure Chart.png used 
+on input line 543.
+(pdftex.def)             Requested size: 426.79134pt x 345.41754pt.
+ [26 <./images/Metaballs Screensaver Structure Chart.png>]
+<images/Metaballs Screensaver Story Board.png, id=629, 1697.34125pt x 1252.68pt
+>
+File: images/Metaballs Screensaver Story Board.png Graphic file (type png)
+ <use images/Metaballs Screensaver Story Board.png>
+Package pdftex.def Info: images/Metaballs Screensaver Story Board.png used on i
+nput line 552.
+(pdftex.def)             Requested size: 426.79134pt x 314.98509pt.
+ [27 <./images/Metaballs Screensaver Story Board.png>]
+<external-pdfs/CloudsAndMountainsScreen.pdf, id=636, 597.23125pt x 844.15375pt>
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+<use external-pdfs/CloudsAndMountainsScreen.pdf>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf used on inp
+ut line 558.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/CloudsAndMountainsScreen.pdf>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf used on inp
+ut line 558.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+
+<external-pdfs/CloudsAndMountainsScreen.pdf, id=639, page=1, 597.23125pt x 844.
+15375pt>
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+ <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
+ on input line 558.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
+ on input line 558.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
+ on input line 558.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
+ on input line 558.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
+ on input line 558.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+ [28 <./external-pdfs/CloudsAndMountainsScreen.pdf>]
+<external-pdfs/MandelbrotScreen.pdf, id=652, 597.23125pt x 844.15375pt>
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf used on input line 
+559.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf used on input line 
+559.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+
+<external-pdfs/MandelbrotScreen.pdf, id=655, page=1, 597.23125pt x 844.15375pt>
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+<use external-pdfs/MandelbrotScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
+t line 559.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
+t line 559.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
+t line 559.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
+t line 559.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MandelbrotScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
+t line 559.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+ [29 <./external-pdfs/MandelbrotScreen.pdf>]
+<external-pdfs/MetaballsScreen.pdf, id=668, 597.23125pt x 844.15375pt>
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 5
+60.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 5
+60.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+
+<external-pdfs/MetaballsScreen.pdf, id=671, page=1, 597.23125pt x 844.15375pt>
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
+ line 560.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
+ line 560.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
+ line 560.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
+ line 560.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
+
+<use external-pdfs/MetaballsScreen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
+ line 560.
+(pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
+ [30 <./external-pdfs/MetaballsScreen.pdf>]
+<external-pdfs/SDDDataDictionary.pdf, id=684, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
+ 562.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
+ 562.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<external-pdfs/SDDDataDictionary.pdf, id=687, page=1, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
+ut line 562.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
+ut line 562.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
+ut line 562.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
+ut line 562.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
+ut line 562.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [31 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+ <use external-pdfs/SDDDataDictionary.pdf>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
+ 563.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
+ 563.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<external-pdfs/SDDDataDictionary.pdf, id=702, page=2, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [32 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=707, page=3, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [33 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=713, page=4, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [34 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=718, page=5, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [35 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=723, page=6, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [36 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=728, page=7, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [37 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=733, page=8, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [38 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/SDDDataDictionary.pdf, id=738, page=9, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [39 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=744, page=10, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [40 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=749, page=11, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [41 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=754, page=12, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [42 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=764, page=13, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [43 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=769, page=14, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [44 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=774, page=15, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [45 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=780, page=16, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [46 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=785, page=17, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [47 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=790, page=18, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [48 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=795, page=19, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [49 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=800, page=20, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [50 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=810, page=21, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [51 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=816, page=22, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 563.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [52 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/JuliaBalajan.pdf, id=821, 597.50786pt x 845.04686pt>
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 565.
+
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+ <use external-pdfs/JuliaBalajan.pdf>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 565.
+
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/JuliaBalajan.pdf, id=824, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
+ne 565.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
+ne 565.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
+ne 565.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
+ne 565.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
+ne 565.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [53 <./external-pdfs/JuliaBalajan.pdf>]
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+ <use external-pdfs/JuliaBalajan.pdf>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 566.
+
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 566.
+
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/JuliaBalajan.pdf, id=845, page=2, 597.50786pt x 845.04686pt>
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
+ne 566.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
+ne 566.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
+ne 566.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
+ne 566.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
+
+<use external-pdfs/JuliaBalajan.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
+ne 566.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [54 <./external-pdfs/JuliaBalajan.pdf>] <external-pdfs/AarteeSaki.pdf, id=855,
+ 597.50786pt x 845.04686pt>
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 568.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+ <use external-pdfs/AarteeSaki.pdf>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 568.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/AarteeSaki.pdf, id=858, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 1>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
+ 568.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 1>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
+ 568.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 1>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
+ 568.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 1>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
+ 568.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 1>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
+ 568.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [55 <./external-pdfs/AarteeSaki.pdf>]
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+ <use external-pdfs/AarteeSaki.pdf>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 569.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+ <use external-pdfs/AarteeSaki.pdf>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 569.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/AarteeSaki.pdf, id=880, page=2, 597.50786pt x 845.04686pt>
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 2>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
+ 569.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 2>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
+ 569.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 2>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
+ 569.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 2>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
+ 569.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
+
+<use external-pdfs/AarteeSaki.pdf, page 2>
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
+ 569.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [56 <./external-pdfs/AarteeSaki.pdf>] <external-pdfs/ArjunMalikOld.pdf, id=890
+, 597.50786pt x 845.04686pt>
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 571
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+ <use external-pdfs/ArjunMalikOld.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 571
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/ArjunMalikOld.pdf, id=893, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
+ine 571.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
+ine 571.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
+ine 571.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
+ine 571.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalikOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
+ine 571.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [57 <./external-pdfs/ArjunMalikOld.pdf>] <external-pdfs/ArjunMalik.pdf, id=913
+, 597.50786pt x 845.04686pt>
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 572.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+ <use external-pdfs/ArjunMalik.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 572.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/ArjunMalik.pdf, id=916, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
+ 572.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
+ 572.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
+ 572.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
+ 572.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 1>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
+ 572.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [58 <./external-pdfs/ArjunMalik.pdf>]
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+ <use external-pdfs/ArjunMalik.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 573.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+ <use external-pdfs/ArjunMalik.pdf>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 573.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/ArjunMalik.pdf, id=937, page=2, 597.50786pt x 845.04686pt>
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 2>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
+ 573.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 2>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
+ 573.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 2>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
+ 573.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 2>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
+ 573.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
+
+<use external-pdfs/ArjunMalik.pdf, page 2>
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
+ 573.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [59 <./external-pdfs/ArjunMalik.pdf>] <external-pdfs/SamStacyOld.pdf, id=947, 
+597.50786pt x 845.04686pt>
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 575.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+ <use external-pdfs/SamStacyOld.pdf>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 575.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/SamStacyOld.pdf, id=950, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
+e 575.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
+e 575.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
+e 575.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
+e 575.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacyOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
+e 575.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [60 <./external-pdfs/SamStacyOld.pdf>] <external-pdfs/SamStacy.pdf, id=969, 59
+7.50786pt x 845.04686pt>
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 576.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+ <use external-pdfs/SamStacy.pdf>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 576.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/SamStacy.pdf, id=972, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 5
+76.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 5
+76.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 5
+76.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 5
+76.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 1>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 5
+76.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [61 <./external-pdfs/SamStacy.pdf>]
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 577.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+ <use external-pdfs/SamStacy.pdf>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 577.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/SamStacy.pdf, id=993, page=2, 597.50786pt x 845.04686pt>
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 5
+77.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 5
+77.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 5
+77.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 5
+77.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
+
+<use external-pdfs/SamStacy.pdf, page 2>
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 5
+77.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [62 <./external-pdfs/SamStacy.pdf>]
+<external-pdfs/JulianPeenOld.pdf, id=1003, 597.50786pt x 845.04686pt>
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 579
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+ <use external-pdfs/JulianPeenOld.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 579
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/JulianPeenOld.pdf, id=1006, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
+ine 579.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
+ine 579.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
+ine 579.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
+ine 579.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeenOld.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
+ine 579.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [63 <./external-pdfs/JulianPeenOld.pdf>] <external-pdfs/JulianPeen.pdf, id=102
+7, 597.50786pt x 845.04686pt>
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 580.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+ <use external-pdfs/JulianPeen.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 580.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/JulianPeen.pdf, id=1030, page=1, 597.50786pt x 845.04686pt>
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
+ 580.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
+ 580.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
+ 580.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
+ 580.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 1>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
+ 580.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [64 <./external-pdfs/JulianPeen.pdf>]
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+ <use external-pdfs/JulianPeen.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 581.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+ <use external-pdfs/JulianPeen.pdf>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 581.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<external-pdfs/JulianPeen.pdf, id=1051, page=2, 597.50786pt x 845.04686pt>
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
+ 581.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
+ 581.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
+ 581.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
+ 581.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
+
+<use external-pdfs/JulianPeen.pdf, page 2>
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
+ 581.
+(pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
+ [65 <./external-pdfs/JulianPeen.pdf>]
+runsystem(rm "portfolio.pyg")...executed.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
  (./portfolio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 585.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
 Package rerunfilecheck Info: File `portfolio.out' has not changed.
-(rerunfilecheck)             Checksum: 89E80FAE4A4F7E4EC09369FB201F0A76;1461.
+(rerunfilecheck)             Checksum: AB9F8A6014B5373A1AF38EB1E76003AB;4311.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
+Package logreq Info: Writing requests to 'portfolio.run.xml'.
+\openout1 = `portfolio.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 585.
  ) 
 Here is how much of TeX's memory you used:
- 26246 strings out of 493014
- 471215 string characters out of 6133350
- 630578 words of memory out of 5000000
- 29015 multiletter control sequences out of 15000+600000
- 53078 words of font info for 196 fonts, out of 8000000 for 9000
+ 34611 strings out of 493014
+ 634572 string characters out of 6133350
+ 1164143 words of memory out of 5000000
+ 37055 multiletter control sequences out of 15000+600000
+ 64365 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,77p,1957b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:OpenGL} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:shader} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:volumetric-clouds} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:volumetric-raymarching} has been referenced but
- does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:atmospheric-scattering} has been referenced but
- does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:pbr} has been referenced but does not exist, re
-placed by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on portfolio.pdf (11 pages, 3112753 bytes).
+ 55i,19n,77p,1953b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on portfolio.pdf (69 pages, 13950973 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 30462 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1126 PDF objects out of 1200 (max. 8388607)
+ 866 compressed objects within 9 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 44050 words of extra memory for PDF output out of 51595 (max. 10000000)
 

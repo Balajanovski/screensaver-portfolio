@@ -11,7 +11,7 @@
 \usepackage{microtype}
 \usepackage[english]{babel}
 \usepackage{hyperref}
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[usenames,dvipsnames,table,xcdraw]{xcolor}
 \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption}
 \usepackage[normalem]{ulem}
 \usepackage{setspace}
@@ -22,7 +22,17 @@
 \usepackage{parskip}
 \usepackage{tikz}
 \usepackage[toc]{glossaries}
+\usepackage[toc,page]{appendix}
 \usetikzlibrary{positioning,arrows}
+\usepackage[space]{grffile}
+
+\usepackage{minted}
+\usemintedstyle{autumn}
+\setminted{framesep=2mm, frame=lines}
+
+\usepackage[style=authoryear,natbib=true,backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+\setlength\bibitemsep{0.5\baselineskip}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -37,7 +47,6 @@
 \graphicspath{ {images/} }
 
 \urlstyle{rm}
-
 
 \makeglossaries
 
@@ -87,6 +96,33 @@
 {
 	name={OpenGL},
 	description={a cross-language, cross-platform API standard for rendering 2D and 3D vector graphics. The API is used to interact with a graphics processing unit, to achieve hardware-accelerated rendering}
+}
+
+\newglossaryentry{GLSL}
+{
+	name={GLSL},
+	description={GLSL (GLslang) is a short term for the official OpenGL Shading Language. GLSL is a C/C++ similar high level programming language for several parts of the graphic card. With GLSL you can code (right up to) short programs, called shaders, which are executed on the GPU}
+}
+
+\newglossaryentry{Assimp}
+{
+	name={Assimp},
+	description={Open Asset Import Library is a cross-platform 3D model import library which aims to provide a common application programming interface for different 3D asset file formats.}
+}
+
+\newglossaryentry{component} {
+	name={Component (Design Pattern)},
+	description={Allow a single entity to span multiple domains without coupling the domains to each other. \citep{nystrom2014game}}
+}
+
+\newglossaryentry{Flyweight} {
+	name={Flyweight (Design Pattern)},
+	description={A flyweight is an object that minimizes memory usage by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory. \citep{gamma1995design}}
+}
+
+\newglossaryentry{coupling} {
+	name={Coupling},
+	description={In software engineering, coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are. Low coupling is often a sign of a well-structured computer system and a good design, and when combined with high cohesion, supports the general goals of high readability and maintainability.}
 }
 
 \begin{document}
@@ -314,6 +350,236 @@ In summary:
 \end{itemize}	
 Hence, it is in our best interests that the project proceed.
 
+\chapter{Design}
+
+\section{System Modeling Diagrams}
+As a screensaver product is primarily visual, the first part of the design stage was to create an array of preliminary screen designs, with one for each of the three screensavers in the suite.
+These screen designs may be found in the appendix according to the list below:
+\begin{itemize}
+	\item Clouds and Mountains Screen Design (pg. \pageref{app:clouds-screen})
+	\item Mandelbrot Screen Design (pg. \pageref{app:mandelbrot-screen})
+	\item Metaballs Screen Design (pg. \pageref{app:metaballs-screen})
+\end{itemize}
+
+In the design stage, a detailed context diagram, data flow diagram (DFD), structure chart and storyboard were also created for each of the three screensavers. Furthermore a data dictionary was created to catalogue the variables used in each of the three screensavers.
+
+The data dictionary may be found on page \pageref{app:data-dictionary}.
+The design diagrams may be found on their respective pages as shown in table \ref{tab:page-nums}.
+
+\begin{table}[H]
+\centering
+\caption{Page Numbers of Design Documents}
+\label{tab:page-nums}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Screensaver & \begin{tabular}[c]{@{}l@{}}Context Diagram \\ \\ Page No.\end{tabular} & \begin{tabular}[c]{@{}l@{}}DFD \\ \\ Page No.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Structure Chart \\ \\ Page No.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Story board Page \\ \\ No.\end{tabular} \\ \hline
+Clouds and Mountains & \pageref{app:clouds-context} & \pageref{app:clouds-dfd} & \pageref{app:clouds-struc} & \pageref{app:clouds-story} \\ \hline
+Mandelbrot & \pageref{app:mandelbrot-context} & \pageref{app:mandelbrot-dfd} & \pageref{app:mandelbrot-struc} & \pageref{app:mandelbrot-story} \\ \hline
+Metaballs & \pageref{app:metaballs-context} & \pageref{app:metaballs-dfd} & \pageref{app:metaballs-struc} & \pageref{app:metaballs-story} \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Modularity and Design Patterns}
+\subsection{Clouds and Mountains Screensaver}
+When designing the clouds and mountains screensaver, careful attention was put into making an effective modular system, with each module only completing a certain task. By using these object-oriented design principles, each module is effectively able to be removed or added back to the screensaver easily, or even used for different purposes than initially intended as long as it is provided the required inputs, due to the layers of abstraction. Each module adheres to the \textit{\glslink{component}{Component}} design pattern as defined in \citep{nystrom2014game}, meaning that they are implemented classes which abstract the lower-level behaviour of higher level classes, to ensure modular design, clean code and to reduce the \glslink{coupling}{coupling} between different classes, meaning that the modules may be moved about and altered without causing the code to break. 
+
+A detail not shown in the data flow diagram is the use of the \textit{\glslink{Flyweight}{Flyweight}} design pattern as defined in \citep{gamma1995design}, which was implemented to optimize RAM usage. The \textit{\glslink{Flyweight}{Flyweight}} design pattern allows for the screensaver to only need to store the model data once on RAM, whilst simultaneously allowing for customization of the trees so that the forest does not look repetitive. If each instance of a tree had its own model, the amount of data that would need to be stored on RAM would grow $O(n)$ with the number of trees drawn to the landscape. To put that in perspective, the tree model used in the screensaver uses 86886 vertices to draw the leaves alone. If a copy of this data were stored for every instance of a tree drawn, the screensaver would quickly run out of RAM. A pictorial representation of a forest without the \textit{\glslink{Flyweight}{Flyweight}} design pattern compared with a forest with the pattern is shown is show in figure \ref{fig:flyweight}. Notice how the optimized version does not contain duplicate data, with each tree instead referencing the same model, and altering it based on its parameters.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.46\textwidth}
+  \centering
+  \includegraphics[width=.98\linewidth]{flyweight-trees}
+\end{minipage}%
+\begin{minipage}{.54\textwidth}
+  \centering
+  \includegraphics[width=.98\linewidth]{flyweight-tree-model}
+\end{minipage}
+\caption[Flyweight Forest]{A forest's storage without the \textit{\glslink{Flyweight}{Flyweight}} design pattern vs. with it. Sourced from \citep{nystrom2014game}}
+\label{fig:flyweight}
+\end{figure}	
+
+This design pattern may be extended to even reducing the number of \Gls{OpenGL} draw calls, and vertex data being sent to and from the graphics card, using a feature in \Gls{OpenGL} called \textit{instancing}, which allows for only one draw call to be used to render all of the trees. Running \Gls{OpenGL} calls such as \mintinline{VB.NET}{GL.DrawElements} is more expensive than the actual drawing of the vertices, as \Gls{OpenGL} needs to always undertake the necessary preparations to make the data ready for consumption by the GPU, and must also transfer the data slowly along the bus from the CPU to the graphics card. \citep{learnOpenGLInstancing}. By compressing all of these draw calls into a single instance draw call, the data may be transferred to the graphics card in a single, contiguous packet, avoiding all of the overhead associated with multiple \Gls{OpenGL} calls. In this way, the design of the product was not only carefully created to ensure a clear and logical method of viewing the code with limited coupling, yet was also able to optimize the actual product itself.
+
+\subsection{Mandelbrot Screensaver}
+The mandelbrot screensaver's calculations occurred entirely on a \glslink{shader}{shader} program on the graphics card. However, some efforts were still made to ensure modularity within the program, for even simple programs can benefit from it. For instance, as seen in the data flow diagram (pg. \pageref{app:mandelbrot-dfd}), the configuration manager is placed in its own module which reduces the \glslink{coupling}{coupling} between the actual screensaver itself, and its settings.
+
+Furthermore, a more subtle form of \glslink{coupling}{decoupling} occurs, in how the graphics code is separated from the management class in that it is stored in a shader. The two of them communicate using an \Gls{GLSL} feature called \textit{uniforms}, which are variables that are passed from the CPU to the graphics card via the bus every frame drawn. For instance, variables which are managed by the broader \textit{Screensaver} module, such as the system time, screen resolution, seed for the first zoom point and selected mandelbrot fractal palette are passed into the shader as defined by the uniforms:
+
+\begin{minted}[framesep=2mm, frame=lines]{GLSL}
+uniform vec3 iResolution;
+uniform float iTime;
+uniform int zoomPointSeed;
+uniform int selectedPalette;
+\end{minted}
+
+\subsection{Metaballs Screensaver}
+The metaballs screensaver is similarly designed to the mandelbrot screensaver, with the graphics calculations largely confined to its \glslink{shader}{shader} program. Like the mandelbrot screensaver, the metaballs screensaver too decouples its configuration manager from the main class. However it also decouples the physics calculations for each of the droplets into a droplet manager class as seen in the data flow diagram (pg. \pageref{app:metaballs-dfd}).
+
+The metaballs screensaver shader is also decoupled from the main metaballs class, with it passing the center and radii of each droplet to the shader, as well as the height / amplitude of the waves, the system time and the screen resolution, as defined by the uniforms:
+
+\begin{minted}[framesep=2mm, frame=lines]{GLSL}
+uniform vec3 iResolution;
+uniform float iTime;
+
+uniform float waveHeight;
+
+...
+
+uniform vec3 dropletCenters[NUM_DROPLETS];
+uniform float dropletRadii[NUM_DROPLETS];
+\end{minted}
+
+\section{User Feedback}
+When creating the final designs for the screensaver suite, the project utilized user feedback based on iterative prototypes of the product that had been made. For instance, the decision to implement a configuration manager for the screensaver suite was derived from Arjun Malik's second survey response (pg. \pageref{app:survey-arjun-2}) as well as Julian Peen's second survey response (pg. \pageref{app:survey-julian-2}). This configuration manager manifests itself in the final data flow diagram for each of the three screensavers, as a "Config Manager" process.
+
+The surveys also showed that personal preference still has an effect on screensaver choice, even when the screensavers are designed to be universally appealing. Samuel Stacy's second survey response (pg. \pageref{app:survey-sam-2}) showed that he did not dislike the mandelbrot fractal screensaver because of any technical or visual issue, yet simply due to personal preference. On asking him in person which screensaver he preferred the most, he said it was the clouds and mountains screensaver. This differed from other survey responses like, for instance, Ms Saki's (pg. \pageref{app:survey-aartee}), who stated that the metaballs screensaver was her favourite. This may have to do with people's subjective perceptions of beauty, for Samuel prefers the more realistic screensaver based on natural beauty, whilst some others prefer the abstract mathematical beauty of the mandelbrot fractal or metaballs. In this way, by creating a suite of three screensavers which contain both real and abstract beauty, the product is able to appeal to both of these preferences.
+
+One suggestion which has been suggested to be added is the option for adding music to the screensaver, as shown in Ms Saki's survey response (pg. \pageref{app:survey-aartee}). This idea is very original, as screensavers have never, in the scope of the market survey conducted, included the option for playing music. However, there do exist some concerns regarding this feature's utility, as screensavers typically run when the user is not at their computer, meaning that there would be no one to receive the music, except for the user when they return from whatever activity removed them from the computer. Furthermore, concerns surrounding time are paramount as the project is beginning to reach its conclusion, as the screensavers must be tested on other architectures and fixed if any issues are present, meaning that there may not be enough time to both implement this new feature and complete the testing. If this feature is not added to the final product, and it is likely that it would not be, a future experiment should be conducted to observe both the market and technical feasibility of a screensaver which employs both visual and auditory stimuli. If this experiment goes well, auditory features may either be incorporated into the current product, or a new screensaver may be created which would better showcase the potential of an audio-visual screensaver.
+
+All of the surveys conducted may be found in the appendix.
+
+\printbibliography[heading=bibintoc,title={Bibliography}]
+
 \printglossaries
+
+\chapter{Appendix}
+\section{Designs}
+\subsection{Clouds Screensaver Context Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Clouds Context Diagram}
+	\caption{Clouds Screensaver Context Diagram}
+	\glslink{Assimp}{}
+	\label{app:clouds-context}
+\end{figure}
+\newpage
+
+\subsection{Clouds Screensaver Data Flow Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Clouds Screensaver DFD}
+	\caption{Clouds Screensaver Data Flow Diagram}
+	\glslink{Assimp}{}
+	\label{app:clouds-dfd}
+\end{figure}
+\newpage
+
+\subsection{Clouds Screensaver Structure Chart}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Clouds Screensaver Structure Chart}
+	\caption{Clouds Screensaver Structure Chart}
+	\label{app:clouds-struc}
+\end{figure}
+\newpage
+
+\subsection{Clouds Screensaver Storyboard}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Clouds Screensaver Storyboard}
+	\caption{Clouds Screensaver Storyboard}
+	\label{app:clouds-story}
+\end{figure}
+\newpage
+
+\subsection{Mandelbrot Screensaver Context Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Mandelbrot Screensaver Context Diagram}
+	\caption{Mandelbrot Screensaver Context Diagram}
+	\label{app:mandelbrot-context}
+\end{figure}
+\newpage
+
+\subsection{Mandelbrot Screensaver Data Flow Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Mandelbrot Screensaver DFD}
+	\caption{Mandelbrot Screensaver Data Flow Diagram}
+	\label{app:mandelbrot-dfd}
+\end{figure}
+\newpage
+
+\subsection{Mandelbrot Screensaver Structure Chart}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Mandelbrot Screensaver Structure Chart}
+	\caption{Mandelbrot Screensaver Structure Chart}
+	\label{app:mandelbrot-struc}
+\end{figure}
+\newpage
+
+\subsection{Mandelbrot Screensaver Storyboard}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Mandelbrot Screensaver Story Board}
+	\caption{Mandelbrot Screensaver Storyboard}
+	\label{app:mandelbrot-story}
+\end{figure}
+\newpage
+
+\subsection{Metaballs Screensaver Context Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Metaballs Screensaver Context Diagram}
+	\caption{Metaballs Screensaver Context Diagram}
+	\label{app:metaballs-context}
+\end{figure}
+\newpage
+
+\subsection{Metaballs Screensaver Data Flow Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Metaballs Screensaver DFD}
+	\caption{Metaballs Screensaver Data Flow Diagram}
+	\label{app:metaballs-dfd}
+\end{figure}
+\newpage
+
+\subsection{Metaballs Screensaver Structure Chart}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Metaballs Screensaver Structure Chart}
+	\caption{Metaballs Screensaver Structure Chart}
+	\label{app:metaballs-struc}
+\end{figure}
+\newpage
+
+\subsection{Metaballs Screensaver Storyboard}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Metaballs Screensaver Story Board}
+	\caption{Metaballs Screensaver Storyboard}
+	\label{app:metaballs-story}
+\end{figure}
+\newpage
+
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Clouds and Mountains Screensaver Screen Design} \label{app:clouds-screen}}]{external-pdfs/CloudsAndMountainsScreen.pdf}
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Mandelbrot Screensaver Screen Design} \label{app:mandelbrot-screen}}]{external-pdfs/MandelbrotScreen.pdf}
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Metaballs Screensaver Screen Design} \label{app:metaballs-screen}}]{external-pdfs/MetaballsScreen.pdf}
+
+\includepdf[pages=1, scale=0.9, pagecommand={\subsection{Data Dictionary} \label{app:data-dictionary}}]{external-pdfs/SDDDataDictionary.pdf}
+\includepdf[pages={2-}, scale=0.9, pagecommand={}]{external-pdfs/SDDDataDictionary.pdf}
+
+\includepdf[pages=1, scale=0.78, pagecommand={\section{Survey Responses} \subsection{Julia Balajan - Survey Response} \label{app:survey-julia}}]{external-pdfs/JuliaBalajan.pdf}
+\includepdf[pages=2, scale=0.78, pagecommand={}]{external-pdfs/JuliaBalajan.pdf}
+
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Ms Saki - Survey Response} \label{app:survey-aartee}}]{external-pdfs/AarteeSaki.pdf}
+\includepdf[pages=2, scale=0.78, pagecommand={}]{external-pdfs/AarteeSaki.pdf}
+
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Arjun Malik - Survey Response 1} \label{app:survey-arjun-1}}]{external-pdfs/ArjunMalikOld.pdf}
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Arjun Malik - Survey Response 2} \label{app:survey-arjun-2}}]{external-pdfs/ArjunMalik.pdf}
+\includepdf[pages=2, scale=0.78, pagecommand={}]{external-pdfs/ArjunMalik.pdf}
+
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Samuel Stacy - Survey Response 1} \label{app:survey-sam-1}}]{external-pdfs/SamStacyOld.pdf}
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Samuel Stacy - Survey Response 2} \label{app:survey-sam-2}}]{external-pdfs/SamStacy.pdf}
+\includepdf[pages=2, scale=0.78, pagecommand={}]{external-pdfs/SamStacy.pdf}
+
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Julian Peen - Survey Response 1} \label{app:survey-julian-1}}]{external-pdfs/JulianPeenOld.pdf}
+\includepdf[pages=1, scale=0.78, pagecommand={\subsection{Julian Peen - Survey Response 2} \label{app:survey-julian-2}}]{external-pdfs/JulianPeen.pdf}
+\includepdf[pages=2, scale=0.78, pagecommand={}]{external-pdfs/JulianPeen.pdf}
+
+
 
 \end{document}

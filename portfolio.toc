@@ -1,23 +1,119 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {english}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Project Proposal}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Executive Summary}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Project Plan}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Defining and Understanding the Problem}{2}{section.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Design}{2}{section.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Implementation}{3}{section.2.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Testing}{3}{section.2.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Feasibility Study}{4}{chapter.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Executive Summary}{4}{section.3.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Description of Products and Services}{4}{section.3.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Technology Considerations}{5}{section.3.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Hardware Considerations}{5}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Software Considerations}{5}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Product/Service Marketplace}{5}{section.3.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Social and Ethical Considerations}{6}{section.3.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}Legal Considerations}{6}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}Ergonomics}{6}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.3}Inclusivity}{7}{subsection.3.5.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Organization and Staffing}{7}{section.3.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Schedule}{7}{section.3.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.8}Financial Projections}{8}{section.3.8}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.9}Findings and Recommendations}{8}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Design}{9}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}System Modeling Diagrams}{9}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Modularity and Design Patterns}{9}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Clouds and Mountains Screensaver}{9}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Mandelbrot Screensaver}{10}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Metaballs Screensaver}{11}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}User Feedback}{11}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{13}{chapter*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossary}{14}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Appendix}{16}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Designs}{16}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Clouds Screensaver Context Diagram}{16}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Clouds Screensaver Data Flow Diagram}{17}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Clouds Screensaver Structure Chart}{18}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}Clouds Screensaver Storyboard}{19}{subsection.5.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.5}Mandelbrot Screensaver Context Diagram}{20}{subsection.5.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.6}Mandelbrot Screensaver Data Flow Diagram}{21}{subsection.5.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.7}Mandelbrot Screensaver Structure Chart}{22}{subsection.5.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.8}Mandelbrot Screensaver Storyboard}{23}{subsection.5.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.9}Metaballs Screensaver Context Diagram}{24}{subsection.5.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.10}Metaballs Screensaver Data Flow Diagram}{25}{subsection.5.1.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.11}Metaballs Screensaver Structure Chart}{26}{subsection.5.1.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.12}Metaballs Screensaver Storyboard}{27}{subsection.5.1.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.13}Clouds and Mountains Screensaver Screen Design}{28}{subsection.5.1.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.14}Mandelbrot Screensaver Screen Design}{29}{subsection.5.1.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.15}Metaballs Screensaver Screen Design}{30}{subsection.5.1.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.16}Data Dictionary}{31}{subsection.5.1.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Survey Responses}{53}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Julia Balajan - Survey Response}{53}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Ms Saki - Survey Response}{55}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Arjun Malik - Survey Response 1}{57}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Arjun Malik - Survey Response 2}{58}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Samuel Stacy - Survey Response 1}{60}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.6}Samuel Stacy - Survey Response 2}{61}{subsection.5.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.7}Julian Peen - Survey Response 1}{63}{subsection.5.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.8}Julian Peen - Survey Response 2}{64}{subsection.5.2.8}

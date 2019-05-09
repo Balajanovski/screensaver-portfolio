@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{uniform} \PYG{k+kt}{vec3} \PYG{n}{iResolution}\PYG{p}{;}
+\PYG{k}{uniform} \PYG{k+kt}{float} \PYG{n}{iTime}\PYG{p}{;}
+\PYG{k}{uniform} \PYG{k+kt}{int} \PYG{n}{zoomPointSeed}\PYG{p}{;}
+\PYG{k}{uniform} \PYG{k+kt}{int} \PYG{n}{selectedPalette}\PYG{p}{;}
+\end{Verbatim}
