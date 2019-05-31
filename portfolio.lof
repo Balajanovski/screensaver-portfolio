@@ -1,57 +1,58 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Inspiration for Screensaver. Computer generated Rainforest by Inigo Quilez\relax }}{1}{figure.caption.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Graphics techniques that may be used\relax }}{1}{figure.caption.4}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces High-level diagram summarising project plan\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Inspiration for Screensaver. Computer generated Rainforest by Inigo Quilez\relax }}{1}{figure.caption.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Graphics techniques that may be used\relax }}{1}{figure.caption.4}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Windows 98 Maze\relax }}{4}{figure.caption.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Windows XP Pipes\relax }}{4}{figure.caption.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces From left to right example images of: Terrain with Volumetric Clouds, Mandelbrot Fractal and Metaballs.\relax }}{5}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Mandelbrot Fractal Rendered by Rafrex's "Fractal"}}{6}{figure.caption.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Metaballs Rendered by FlannelHead's "Dynaballs"}}{6}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Gantt chart\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces High-level diagram summarising project plan\relax }}{3}{figure.caption.5}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flyweight Forest}}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Windows 98 Maze\relax }}{4}{figure.caption.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Windows XP Pipes\relax }}{4}{figure.caption.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces From left to right example images of: Terrain with Volumetric Clouds, Mandelbrot Fractal and Metaballs.\relax }}{5}{figure.caption.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mandelbrot Fractal Rendered by Rafrex's "Fractal"}}{5}{figure.caption.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Metaballs Rendered by FlannelHead's "Dynaballs"}}{6}{figure.caption.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gantt chart\relax }}{7}{figure.caption.10}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Clouds Screensaver Context Diagram\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flyweight Forest}}{10}{figure.caption.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Clouds Screensaver Data Flow Diagram\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Configuration Window Message Box}}{12}{figure.caption.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Clouds Screensaver Structure Chart\relax }}{18}{figure.caption.18}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Clouds Screensaver Storyboard\relax }}{19}{figure.caption.19}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Clouds Screensaver Context Diagram\relax }}{16}{figure.caption.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Mandelbrot Screensaver Context Diagram\relax }}{20}{figure.caption.20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Clouds Screensaver Data Flow Diagram\relax }}{17}{figure.caption.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Mandelbrot Screensaver Data Flow Diagram\relax }}{21}{figure.caption.21}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Clouds Screensaver Structure Chart\relax }}{18}{figure.caption.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Mandelbrot Screensaver Structure Chart\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Clouds Screensaver Storyboard\relax }}{19}{figure.caption.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Mandelbrot Screensaver Storyboard\relax }}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Mandelbrot Screensaver Context Diagram\relax }}{20}{figure.caption.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Metaballs Screensaver Context Diagram\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Mandelbrot Screensaver Data Flow Diagram\relax }}{21}{figure.caption.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Metaballs Screensaver Data Flow Diagram\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Mandelbrot Screensaver Structure Chart\relax }}{22}{figure.caption.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Metaballs Screensaver Structure Chart\relax }}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Mandelbrot Screensaver Storyboard\relax }}{23}{figure.caption.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Metaballs Screensaver Storyboard\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Metaballs Screensaver Context Diagram\relax }}{24}{figure.caption.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Metaballs Screensaver Data Flow Diagram\relax }}{25}{figure.caption.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Metaballs Screensaver Structure Chart\relax }}{26}{figure.caption.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Metaballs Screensaver Storyboard\relax }}{27}{figure.caption.28}% 
