@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,15 +18,84 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
+  \sortlist[entry]{nyt/global/}
+    \entry{fast-waves}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3fb83f2ec46fc6a44fde79e4b0fab73a}{%
+           family={{afl\_ext}},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fb83f2ec46fc6a44fde79e4b0fab73a}
+      \strng{fullhash}{3fb83f2ec46fc6a44fde79e4b0fab73a}
+      \field{sortinit}{a}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 2nd of June 2019]}
+      \field{title}{Very fast procedural ocean}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.shadertoy.com/view/MdXyzX
+      \endverb
+    \endentry
+    \entry{goldnoise}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=247a2d0d4b7c3a197649ab26b2eb3327}{%
+           family={{dcerisano}},
+           family_i={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{247a2d0d4b7c3a197649ab26b2eb3327}
+      \strng{fullhash}{247a2d0d4b7c3a197649ab26b2eb3327}
+      \field{sortinit}{d}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 4th of June 2019]}
+      \field{title}{Gold Noise random static}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://www.shadertoy.com/view/ltB3zD
+      \endverb
+    \endentry
+    \entry{gpupro7}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fce9f6c66932ae85746b01a48e3392e8}{%
+           family={Engel},
+           family_i={E\bibinitperiod},
+           given={Wolfgang},
+           given_i={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {A K Peters/CRC Press}%
+      }
+      \strng{namehash}{fce9f6c66932ae85746b01a48e3392e8}
+      \strng{fullhash}{fce9f6c66932ae85746b01a48e3392e8}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelyear}{2016}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{149874253X}
+      \field{month}{04}
+      \field{title}{GPU Pro 7: Advanced Rendering Techniques}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.xarg.org/ref/a/149874253X/
+      \endverb
+    \endentry
     \entry{gamma1995design}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=abd927bf30d6566be0ac66a66e893fdd}{%
+        {{uniquename=0,hash=abd927bf30d6566be0ac66a66e893fdd}{%
            family={Gamma},
-           familyi={G\bibinitperiod},
+           family_i={G\bibinitperiod},
            given={Erich},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
+           given_i={E\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Reading, Mass}%
@@ -36,28 +105,44 @@
       }
       \strng{namehash}{abd927bf30d6566be0ac66a66e893fdd}
       \strng{fullhash}{abd927bf30d6566be0ac66a66e893fdd}
-      \strng{bibnamehash}{abd927bf30d6566be0ac66a66e893fdd}
-      \strng{authorbibnamehash}{abd927bf30d6566be0ac66a66e893fdd}
-      \strng{authornamehash}{abd927bf30d6566be0ac66a66e893fdd}
-      \strng{authorfullhash}{abd927bf30d6566be0ac66a66e893fdd}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1995}
+      \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0201633610}
       \field{title}{Design patterns : elements of reusable object-oriented software}
       \field{year}{1995}
     \endentry
+    \entry{wikipedia:raytracing}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=704ca1d7a836fc9de20e812201fb28c4}{%
+           family={{Henrik}},
+           family_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{704ca1d7a836fc9de20e812201fb28c4}
+      \strng{fullhash}{704ca1d7a836fc9de20e812201fb28c4}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 2nd of June 2019]}
+      \field{title}{Ray tracing (graphics)}
+      \field{year}{2008}
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Ray_trace_diagram.svg
+      \endverb
+    \endentry
     \entry{nystrom2014game}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=26313e6493577f16e529ef2698d1a15c}{%
+        {{uniquename=0,hash=26313e6493577f16e529ef2698d1a15c}{%
            family={Nystrom},
-           familyi={N\bibinitperiod},
+           family_i={N\bibinitperiod},
            given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
+           given_i={R\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {United States}%
@@ -67,55 +152,111 @@
       }
       \strng{namehash}{26313e6493577f16e529ef2698d1a15c}
       \strng{fullhash}{26313e6493577f16e529ef2698d1a15c}
-      \strng{bibnamehash}{26313e6493577f16e529ef2698d1a15c}
-      \strng{authorbibnamehash}{26313e6493577f16e529ef2698d1a15c}
-      \strng{authornamehash}{26313e6493577f16e529ef2698d1a15c}
-      \strng{authorfullhash}{26313e6493577f16e529ef2698d1a15c}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0990582908}
       \field{title}{Game programming patterns}
       \field{year}{2014}
     \endentry
-    \entry{learnOpenGLInstancing}{online}{}
+    \entry{gpugems2}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=516de641ba81d36bf9b42ee36a3b3a81}{%
-           family={Vries},
-           familyi={V\bibinitperiod},
-           given={Joey},
-           giveni={J\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
+        {{uniquename=0,hash=c69ff00a5e1719a4ad2dddd6254ac3c9}{%
+           family={Pharr},
+           family_i={P\bibinitperiod},
+           given={Matt},
+           given_i={M\bibinitperiod}}}%
       }
-      \strng{namehash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \strng{fullhash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \strng{bibnamehash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \strng{authorbibnamehash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \strng{authornamehash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \strng{authorfullhash}{516de641ba81d36bf9b42ee36a3b3a81}
-      \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{c69ff00a5e1719a4ad2dddd6254ac3c9}
+      \strng{fullhash}{c69ff00a5e1719a4ad2dddd6254ac3c9}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{[Online; accessed 7th of May 2019]}
+      \field{isbn}{0321335597}
+      \field{title}{GPU Gems 2: Programming Techniques for High-Performance Graphics and General-Purpose Computation}
+      \field{year}{2005}
+    \endentry
+    \entry{quilez-dist}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=00f9bcdad45f435417911d040feff60a}{%
+           family={Quilez},
+           family_i={Q\bibinitperiod},
+           given={Inigo},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{fullhash}{00f9bcdad45f435417911d040feff60a}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 2nd of June 2019]}
+      \field{title}{Distance Functions}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
+      \endverb
+    \endentry
+    \entry{quilez-smooth}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=00f9bcdad45f435417911d040feff60a}{%
+           family={Quilez},
+           family_i={Q\bibinitperiod},
+           given={Inigo},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{fullhash}{00f9bcdad45f435417911d040feff60a}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 2nd of June 2019]}
+      \field{title}{Smooth Iteration Count for Generalized Mandelbrot Sets}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.iquilezles.org/www/articles/mset_smooth/mset_smooth.htm
+      \endverb
+    \endentry
+    \entry{learnOpenGLInstancing}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dc51b0b49e9071292d8c6f2564a34ebb}{%
+           prefix={de},
+           prefix_i={d\bibinitperiod},
+           family={Vries},
+           family_i={V\bibinitperiod},
+           given={Joey},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \strng{fullhash}{dc51b0b49e9071292d8c6f2564a34ebb}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 7th of May 2019]}
       \field{title}{Learn OpenGL}
       \field{year}{2016}
-      \verb{urlraw}
-      \verb https://learnopengl.com/Advanced-OpenGL/Instancing
-      \endverb
       \verb{url}
       \verb https://learnopengl.com/Advanced-OpenGL/Instancing
       \endverb
     \endentry
-  \enddatalist
+  \endsortlist
 \endrefsection
 \endinput
 

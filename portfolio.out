@@ -28,32 +28,45 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Metaballs Screensaver}{section.4.2}% 28
 \BOOKMARK [1][-]{section.4.3}{User Feedback}{chapter.4}% 29
 \BOOKMARK [1][-]{section.4.4}{Configuration Windows}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter*.14}{Bibliography}{}% 31
-\BOOKMARK [0][-]{section*.15}{Glossary}{}% 32
-\BOOKMARK [0][-]{chapter.5}{Appendix}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Designs}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.1.1}{Clouds Screensaver Context Diagram}{section.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.1.2}{Clouds Screensaver Data Flow Diagram}{section.5.1}% 36
-\BOOKMARK [2][-]{subsection.5.1.3}{Clouds Screensaver Structure Chart}{section.5.1}% 37
-\BOOKMARK [2][-]{subsection.5.1.4}{Clouds Screensaver Storyboard}{section.5.1}% 38
-\BOOKMARK [2][-]{subsection.5.1.5}{Mandelbrot Screensaver Context Diagram}{section.5.1}% 39
-\BOOKMARK [2][-]{subsection.5.1.6}{Mandelbrot Screensaver Data Flow Diagram}{section.5.1}% 40
-\BOOKMARK [2][-]{subsection.5.1.7}{Mandelbrot Screensaver Structure Chart}{section.5.1}% 41
-\BOOKMARK [2][-]{subsection.5.1.8}{Mandelbrot Screensaver Storyboard}{section.5.1}% 42
-\BOOKMARK [2][-]{subsection.5.1.9}{Metaballs Screensaver Context Diagram}{section.5.1}% 43
-\BOOKMARK [2][-]{subsection.5.1.10}{Metaballs Screensaver Data Flow Diagram}{section.5.1}% 44
-\BOOKMARK [2][-]{subsection.5.1.11}{Metaballs Screensaver Structure Chart}{section.5.1}% 45
-\BOOKMARK [2][-]{subsection.5.1.12}{Metaballs Screensaver Storyboard}{section.5.1}% 46
-\BOOKMARK [2][-]{subsection.5.1.13}{Clouds and Mountains Screensaver Screen Design}{section.5.1}% 47
-\BOOKMARK [2][-]{subsection.5.1.14}{Mandelbrot Screensaver Screen Design}{section.5.1}% 48
-\BOOKMARK [2][-]{subsection.5.1.15}{Metaballs Screensaver Screen Design}{section.5.1}% 49
-\BOOKMARK [2][-]{subsection.5.1.16}{Data Dictionary}{section.5.1}% 50
-\BOOKMARK [1][-]{section.5.2}{Survey Responses}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.2.1}{Julia Balajan - Survey Response}{section.5.2}% 52
-\BOOKMARK [2][-]{subsection.5.2.2}{Ms Saki - Survey Response}{section.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.2.3}{Arjun Malik - Survey Response 1}{section.5.2}% 54
-\BOOKMARK [2][-]{subsection.5.2.4}{Arjun Malik - Survey Response 2}{section.5.2}% 55
-\BOOKMARK [2][-]{subsection.5.2.5}{Samuel Stacy - Survey Response 1}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.6}{Samuel Stacy - Survey Response 2}{section.5.2}% 57
-\BOOKMARK [2][-]{subsection.5.2.7}{Julian Peen - Survey Response 1}{section.5.2}% 58
-\BOOKMARK [2][-]{subsection.5.2.8}{Julian Peen - Survey Response 2}{section.5.2}% 59
+\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Mandelbrot Screensaver}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.1.1}{Point Mapping}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.2}{Colouring}{section.5.1}% 34
+\BOOKMARK [1][-]{section.5.2}{Metaballs Screensaver}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.2.1}{Raymarched Scene}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.2}{The SDF Raymarching Algorithm}{section.5.2}% 37
+\BOOKMARK [1][-]{section.5.3}{Clouds and Mountains Screensaver}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.3.1}{Atmospheric Scattering}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.2}{Volumetric Raymarching}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.3}{Procedural Terrain}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.4}{God Rays}{section.5.3}% 42
+\BOOKMARK [0][-]{chapter*.28}{Bibliography}{}% 43
+\BOOKMARK [0][-]{section*.29}{Glossary}{}% 44
+\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Designs}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.1.1}{Clouds Screensaver Context Diagram}{section.6.1}% 47
+\BOOKMARK [2][-]{subsection.6.1.2}{Clouds Screensaver Data Flow Diagram}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.3}{Clouds Screensaver Structure Chart}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.4}{Clouds Screensaver Storyboard}{section.6.1}% 50
+\BOOKMARK [2][-]{subsection.6.1.5}{Mandelbrot Screensaver Context Diagram}{section.6.1}% 51
+\BOOKMARK [2][-]{subsection.6.1.6}{Mandelbrot Screensaver Data Flow Diagram}{section.6.1}% 52
+\BOOKMARK [2][-]{subsection.6.1.7}{Mandelbrot Screensaver Structure Chart}{section.6.1}% 53
+\BOOKMARK [2][-]{subsection.6.1.8}{Mandelbrot Screensaver Storyboard}{section.6.1}% 54
+\BOOKMARK [2][-]{subsection.6.1.9}{Metaballs Screensaver Context Diagram}{section.6.1}% 55
+\BOOKMARK [2][-]{subsection.6.1.10}{Metaballs Screensaver Data Flow Diagram}{section.6.1}% 56
+\BOOKMARK [2][-]{subsection.6.1.11}{Metaballs Screensaver Structure Chart}{section.6.1}% 57
+\BOOKMARK [2][-]{subsection.6.1.12}{Metaballs Screensaver Storyboard}{section.6.1}% 58
+\BOOKMARK [2][-]{subsection.6.1.13}{Configuration Window Screen Design}{section.6.1}% 59
+\BOOKMARK [2][-]{subsection.6.1.14}{Clouds and Mountains Screensaver Screen Design}{section.6.1}% 60
+\BOOKMARK [2][-]{subsection.6.1.15}{Mandelbrot Screensaver Screen Design}{section.6.1}% 61
+\BOOKMARK [2][-]{subsection.6.1.16}{Metaballs Screensaver Screen Design}{section.6.1}% 62
+\BOOKMARK [2][-]{subsection.6.1.17}{Data Dictionary}{section.6.1}% 63
+\BOOKMARK [1][-]{section.6.2}{Survey Responses}{chapter.6}% 64
+\BOOKMARK [2][-]{subsection.6.2.1}{Julia Balajan - Survey Response}{section.6.2}% 65
+\BOOKMARK [2][-]{subsection.6.2.2}{Ms Saki - Survey Response}{section.6.2}% 66
+\BOOKMARK [2][-]{subsection.6.2.3}{Arjun Malik - Survey Response 1}{section.6.2}% 67
+\BOOKMARK [2][-]{subsection.6.2.4}{Arjun Malik - Survey Response 2}{section.6.2}% 68
+\BOOKMARK [2][-]{subsection.6.2.5}{Samuel Stacy - Survey Response 1}{section.6.2}% 69
+\BOOKMARK [2][-]{subsection.6.2.6}{Samuel Stacy - Survey Response 2}{section.6.2}% 70
+\BOOKMARK [2][-]{subsection.6.2.7}{Julian Peen - Survey Response 1}{section.6.2}% 71
+\BOOKMARK [2][-]{subsection.6.2.8}{Julian Peen - Survey Response 2}{section.6.2}% 72

@@ -125,6 +125,11 @@
 	description={In software engineering, coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are. Low coupling is often a sign of a well-structured computer system and a good design, and when combined with high cohesion, supports the general goals of high readability and maintainability.}
 }
 
+\newglossaryentry{mandelbrot fractal} {
+	name={Mandelbrot Fractal},
+	description={The mandelbrot fractal or mandelbrot set is the set of complex numbers for which the mandelbrot function does not diverge when iterated from, i.e., for which the sequence, etc., remains bounded in absolute value. Its definition and name are due to Adrien Douady, in tribute to the mathematician Benoit Mandelbrot.}
+}
+
 \begin{document}
 
 \pagenumbering{gobble}
@@ -441,9 +446,11 @@ All of the surveys conducted may be found in the appendix.
 
 \section{Configuration Windows}
 
-(TO DO: Screen designs)
+One excellent suggestion from Julian Peen's second survey (pg. \pageref{app:survey-julian-2}) was to enable the user to change the settings of the screensaver.
 
-The configuration windows were designed with usability and inclusivity in mind. All labels were given large font sizes to assist people with mild visual impairments with seeing the text. The sliders' values are displayed in the label as they change dynamically, allowing for the user to have a quantitative idea of how their settings have changed. On quitting the configuration window without saving, the application will open a message box, asking the user if they want to quit without saving their settings to prevent loss of settings. The appropriate question mark icon is used in this message box, as it is asking the user for input, rather than displaying an error message or a warning.
+The configuration windows were designed with usability and inclusivity in mind. All labels were given large font sizes to assist people with mild visual impairments with seeing the text. The sliders' values are displayed in the label as they change dynamically, allowing for the user to have a quantitative idea of how their settings have changed. The configuration window screen design may be found on page \pageref{app:config-screen}.
+
+On quitting the configuration window without saving, the application will open a message box, asking the user if they want to quit without saving their settings to prevent loss of settings. The appropriate question mark icon is used in this message box, as it is asking the user for input, rather than displaying an error message or a warning.
 
 \begin{figure}[H]
 	\centering
@@ -451,8 +458,187 @@ The configuration windows were designed with usability and inclusivity in mind. 
 	\caption[Configuration Window Message Box]{Message Box Which Appears on Not Saving Configuration Settings}
 \end{figure}	
 
-(TO DO: TALK ABOUT LOCALE)
+Localization was designed to work by storing the configuration window text in a \texttt{.resx} file for each language. When the language is changed, the configuration window would then swap the current resource file for the one corresponding to the new language whilst reloading the form to reload the text on screen.
 
+\chapter{Implementation}
+
+\section{Mandelbrot Screensaver}
+
+The \glslink{mandelbrot fractal}{Mandelbrot fractal}, also known as the mandelbrot set, is the set of complex numbers ($c$) which do not diverge when iterated through the mandelbrot function ($z = 0, 1, 2, 3, ...$). The mandelbrot function is defined in figure \ref{fig:mandelbrot-equ}.
+
+\begin{figure}[H]
+	\centering
+	\[ f_c(z) = z^2 + c \]
+	\caption{Mandelbrot Equation}
+	\label{fig:mandelbrot-equ}
+\end{figure}	
+
+The mandelbrot fractal is of particular interest for being a screensaver due to its properties of possessing an infinitely complex structure, which displays a profound mathematical beauty.
+
+\subsection{Point Mapping}
+
+The mandelbrot equation, as seen above, is not of a complex nature, and implementing it is trivial. The first consideration that must be made is how to map the screen pixel coordinates to the complex plane. A complex number consists of both an real component and an imaginary component. One may map the real component of the complex number to the x-axis and the imaginary component of the number to the y-axis ($c = x + iy$). This is illustrated in figure \ref{fig:mandelbrot-axis}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{MandelbrotAxis}
+	\caption{Real and Imaginary Component Mapping to Cartesian Plane}
+	\label{fig:mandelbrot-axis}
+\end{figure}	
+
+However, the screensaver must be able to zoom into the fractal, so the screen coordinate mapping to the complex plane must adjust based on the zoom value. This was solved by the following code:
+
+\begin{minted}[framesep=2mm, frame=lines]{GLSL}
+// Compute complez number C
+vec2 c = currZoomPoint.point + screenPos * zoom;
+\end{minted}
+
+The above mapping code adjusts the mapping of pixel coordinates to complex numbers by multiplying by a zoom value. This is then added to the coordinates of the point the program wishes to zoom into to shift the pixel coordinate mapping so that its center would be the zoomed into point.
+
+\subsection{Colouring}
+
+The mandelbrot fractal could be coloured monochrome, with black indicating that the pixel corresponds to a number which is within the set, and white indicating that the pixel corresponds to a number outside the set, however this would lead to a very dull screensaver. Instead, colours were defined based on inputting the iteration count into a palette function. However this resulted in a banding effect which is unappealing to the eye. The solution is to use the smooth iteration count formula \citep{quilez-smooth}.
+
+\begin{figure}[H]
+	\centering
+	\[ sn = n - \log_2\log_2(z_n \cdot z_n) + k \]
+	\caption{Smooth Iteration Count Formula from \citep{quilez-smooth}}
+	\label{fig:smooth-iter}
+\end{figure}
+
+Figure \ref{fig:smooth-mandel} contrasts the smooth and discrete mandelbrot fractals. Notice the banding effect at the bottom which is mitigated at the top.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{SmoothMandelbrot}
+	\caption{Smooth vs. Discrete Mandelbrot Fractals from \citep{quilez-smooth}}
+	\label{fig:smooth-mandel}
+\end{figure}
+
+\section{Metaballs Screensaver}
+
+The metaballs screensaver attempts to emulate the appearance of droplets falling into the ocean using the organic looking, mathematical object of the metaball, created by Jim Blinn. The screensaver uses a rendering technique called signed distance function raymarching or sphere tracing.
+
+\subsection{Raymarched Scene}
+A sphere traced scene is defined by a mathematical signed distance function (SDF). A signed distance function returns the distance from a point in euclidean space ($\vec{p}: (x,y,z)$) and the nearest point on the surface of any object in the scene. For instance, the signed distance function of a sphere is defined as $f(\vec{p}) = ||\vec{p}|| - 1$. 
+
+Each droplet was defined as a sphere with a certain radius and position. The wave SDF was defined as a plane SDF distorted by the wave height function from \citep{fast-waves}.
+
+To create the final scene SDF and exhibit the blending metaballs behaviour meant to emulate water, the results of querying point $\vec{p}$ in every object's SDF are then passed through the smooth union operation from \citep{quilez-dist}. The scene SDF function is shown below:
+
+\begin{minted}[framesep=2mm, frame=lines]{GLSL}
+float sceneSDF(in vec3 pos) {
+	float blendingFactor = 7.0;
+
+	float dist = wavesSDF(pos);
+	for (int i = 0; i < NUM_DROPLETS; ++i) {
+		dist = smoothUnion(dist, rainSDF(pos, dropletRadii[i], 
+			dropletCenters[i]), blendingFactor);
+	}
+
+	return dist;
+}
+\end{minted}
+
+\subsection{The SDF Raymarching Algorithm}
+
+Sphere tracing is like raytracing, in how a grid is placed infront of the camera and rays are sent from the camera through each point in the grid, with each grid square corresponding to a pixel in the output image. This is illustrated in figure \ref{fig:raytracing}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Raytracing}
+	\caption{Ray tracing from \citep{wikipedia:raytracing}}
+	\label{fig:raytracing}
+\end{figure}
+
+However, as opposed to conventional raytracing which determines the point of intersection between the cast ray and scene geometry through doing a series of geometric intersection tests, raymarching "marches" along the ray. What this means is that the SDF scene is queried at the beginning of the ray, asking if the point is inside the scene surface, or mathematically phrased as "does the SDF evaluate to a negative number at this point". If not, then the point is moved along the ray by the distance returned from evaluating the SDF. This is repeated till the point does evaluate as being negative, indicating that the ray has collided with an object, or a maximum threshold of increments is exceeded, indicating that no object was collided with. This is known as sphere tracing, and is illustrated in figure \ref{fig:sphere-tracing}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Spheretracing}
+	\caption{Sphere tracing illustrated from \citep{gpugems2}}
+	\label{fig:sphere-tracing}
+\end{figure}
+
+The advantages of using the raymarching technique as opposed to rasteurized or traditionally raytraced graphics are that it allows for the efficient definition of complex scenes through the use of mathematical operations such as the smooth union operation, which would require complex mesh adjustments or geometric primitives in the other two techniques. Furthermore, SDF raymarching allows for the accurate simulation of light based phenomena such as reflection and refraction due to how it colours pixels based on casting rays of light. 
+
+The water was coloured based on emulating the light's reflection and transmission through it using the Fresnel equation. Rays which do not intersect with any scene objects are given a colour using atmopsheric scattering, a technique discussed in section \ref{sec:clouds}. The code is as follows: 
+
+\section{Clouds and Mountains Screensaver}
+\label{sec:clouds}
+
+The graphics techniques used in the clouds and mountains screensaver are the most complex of the three, with there existing many research papers on each of them. As of such, the information on them must be heavily condensed to fit in this portfolio. To find out more comprehensive information on each, please visit their sources. 
+
+\subsection{Atmospheric Scattering}
+
+Atmospheric scattering involves numerically estimating the values of a series of light scattering equations by marching along a light ray and using the trapezoidal rule. There exist two types of light scattering models which are used to estimate how the light at the point P is modeled, due to the many different types of particles in the atmosphere. These are known as \textit{Rayleight scattering} and \textit{Mie scattering}. Rayleigh scattering is caused by small molecules in the air whilst Mie scattering is caused by large particles in the air called aerosols (such as ice and dust). \citep{gpugems2}
+
+\subsubsection{Phase function}
+
+To describe how much light is scattered in the camera's direction, the phase function is used. The phase function used for atmospheric scattering is an adaptation of the Henyey-Greenstein function also used in volumetric raymarching clouds.
+
+\begin{figure}[H]
+	\centering
+	\[F(\theta,g) = \frac{3 \times (1 - g^2)}{2 \times (2 + g^2)} \times \frac{1 + \cos^2\theta}{(1 + g^2 - 2 \times g \times \cos\theta)^\frac{3}{2}}\]
+	\caption{The Phase Function from \citep{gpugems2}}
+\end{figure}
+
+\subsubsection{Scattering}
+
+The light which reaches the camera is determined by the in-scattering equation, which uses the out-scattering equation in its calculation. The out-scattering equation is the integral mentioned earlier which must be approximated using the trapezoidal rule.
+
+\begin{figure}[H]
+	\centering
+	\[t(P_aP_b,\lambda) = 4\pi \times K(\lambda) \times \int_{P_a}^{P_b} exp(\frac{-h}{H_0}) ds \]
+	\caption{The Out-Scattering Equation from \citep{gpugems2}}
+\end{figure}
+
+The in-scattering equation describes how much light is added to a ray through the atmosphere due to light scattering from the sun.
+
+\begin{figure}[H]
+	\centering
+	\[I_v(\lambda) = I_s(\lambda) \times K(\lambda) \times F(\theta, g) \times \int_{P_a}^{P_b}(exp(\frac{-h}{H_0}) \times exp(-t(PP_c,\lambda) - t(PP_a,\lambda))) ds \]
+	\caption{The In-Scattering Equation from \citep{gpugems2}}
+\end{figure}
+
+By evaluating the in-scattering equation for each pixel on the screen, the colour due to atmospheric scattering can be approximated. This evaluation was implemented in a graphics shader programmed in \Gls{GLSL}.
+
+\subsection{Volumetric Raymarching}
+
+\subsubsection{Cloud Modelling}
+
+The volumetric cloud system is modelled using volumetric raymarching in real time through a 3D texture of fractal Brownian motion (FBM) noise. FBM is the sum if a series of octaves of noise, each with higher frequency and lower amplitude. Perlin noise is commonly used for this purpose, however it typically fails to describe, the round, billowy shapes of cumulus clouds. This issue may be remedied by combining standard Perlin FBM with another flavour of noise called Worley noise, which is normally used for rendering water effects, to give the noise a cauliflower-like look typical of clouds. \citep{gpupro7} 
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fbm}
+\end{minipage}%
+\begin{minipage}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{worley}
+\end{minipage}%
+\begin{minipage}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{perlin-worley}
+\end{minipage}
+\caption{From left to right example images of: Perlin FBM Noise, Worley Noise, Perlin-Worley Noise}
+\end{figure}	
+
+Furthermore, a density height function must be specified to bias, or scale the cloud density value based on height. Each type of cloud possesses its own density height function to describe the different altitudes at which these clouds form at. \citep{gpupro7}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{height-functions}
+	\caption{From left to right example images of height gradients for: Stratus, Cumulus and Cumulonimbus clouds from \citep{gpupro7}}
+\end{figure}
+
+Finally, a 2D weather texture is generated to specify the positions of clouds in the sky. It is created using low octave noise on the GPU through a compute shader. As GPUs do not possess random number generating capabilities by default, a random number generation function needed to be added which also supported seeding. The function which was used in known as gold noise, and uses the irrationalities of $\pi$, $\sqrt{2}$ and $\phi$ to generate pseudo-random numbers \citep{goldnoise}. 
+
+\subsection{Procedural Terrain}
+
+\subsection{God Rays}
 
 \printbibliography[heading=bibintoc,title={Bibliography}]
 
@@ -567,6 +753,15 @@ The configuration windows were designed with usability and inclusivity in mind. 
 	\includegraphics[width=1.0\linewidth]{Metaballs Screensaver Story Board}
 	\caption{Metaballs Screensaver Storyboard}
 	\label{app:metaballs-story}
+\end{figure}
+\newpage
+
+\subsection{Configuration Window Screen Design}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{ConfigurationWindow}
+	\caption{Configuration Window Screen Design}
+	\label{app:config-screen}
 \end{figure}
 \newpage
 
