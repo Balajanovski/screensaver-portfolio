@@ -115,6 +115,29 @@
       \field{title}{Design patterns : elements of reusable object-oriented software}
       \field{year}{1995}
     \endentry
+    \entry{volumetric-clouds}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9aa197e186854b995a0ffbc711e4dc08}{%
+           family={Haggstrom},
+           family_i={H\bibinitperiod},
+           given={Fredrik},
+           given_i={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Umea Universitet}%
+      }
+      \strng{namehash}{9aa197e186854b995a0ffbc711e4dc08}
+      \strng{fullhash}{9aa197e186854b995a0ffbc711e4dc08}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real-time rendering of volumetric clouds}
+      \field{type}{mathesis}
+      \field{year}{2018}
+    \endentry
     \entry{wikipedia:raytracing}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=704ca1d7a836fc9de20e812201fb28c4}{%
@@ -135,6 +158,52 @@
       \verb{url}
       \verb https://commons.wikimedia.org/wiki/File:Ray_trace_diagram.svg
       \endverb
+    \endentry
+    \entry{wikipedia:raymarching}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6ef67344a2dcddeede084b846aac1960}{%
+           family={Hofmann},
+           family_i={H\bibinitperiod},
+           given={Florian},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ef67344a2dcddeede084b846aac1960}
+      \strng{fullhash}{6ef67344a2dcddeede084b846aac1960}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; viewed 6th of June 2019]}
+      \field{title}{Volume ray casting}
+      \field{year}{2011}
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Volume_ray_casting.svg
+      \endverb
+    \endentry
+    \entry{gpugems3}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f42c41b05729beaad0d1740077b348ec}{%
+           family={Nguyen},
+           family_i={N\bibinitperiod},
+           given={Hubert},
+           given_i={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{f42c41b05729beaad0d1740077b348ec}
+      \strng{fullhash}{f42c41b05729beaad0d1740077b348ec}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0321515269}
+      \field{title}{GPU Gems 3}
+      \field{year}{2007}
     \endentry
     \entry{nystrom2014game}{book}{}
       \name{author}{1}{}{%

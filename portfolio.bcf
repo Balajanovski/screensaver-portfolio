@@ -2097,34 +2097,46 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="8">nystrom2014game</bcf:citekey>
-    <bcf:citekey order="9">gamma1995design</bcf:citekey>
-    <bcf:citekey order="10">nystrom2014game</bcf:citekey>
     <bcf:citekey order="11">nystrom2014game</bcf:citekey>
-    <bcf:citekey order="12">learnOpenGLInstancing</bcf:citekey>
-    <bcf:citekey order="13">quilez-smooth</bcf:citekey>
-    <bcf:citekey order="14">quilez-smooth</bcf:citekey>
-    <bcf:citekey order="15">quilez-smooth</bcf:citekey>
+    <bcf:citekey order="12">gamma1995design</bcf:citekey>
+    <bcf:citekey order="13">nystrom2014game</bcf:citekey>
+    <bcf:citekey order="14">nystrom2014game</bcf:citekey>
+    <bcf:citekey order="15">learnOpenGLInstancing</bcf:citekey>
     <bcf:citekey order="16">quilez-smooth</bcf:citekey>
     <bcf:citekey order="17">quilez-smooth</bcf:citekey>
-    <bcf:citekey order="18">fast-waves</bcf:citekey>
-    <bcf:citekey order="19">quilez-dist</bcf:citekey>
-    <bcf:citekey order="20">wikipedia:raytracing</bcf:citekey>
-    <bcf:citekey order="21">wikipedia:raytracing</bcf:citekey>
-    <bcf:citekey order="22">gpugems2</bcf:citekey>
-    <bcf:citekey order="23">gpugems2</bcf:citekey>
-    <bcf:citekey order="24">gpugems2</bcf:citekey>
+    <bcf:citekey order="18">quilez-smooth</bcf:citekey>
+    <bcf:citekey order="19">quilez-smooth</bcf:citekey>
+    <bcf:citekey order="20">quilez-smooth</bcf:citekey>
+    <bcf:citekey order="21">fast-waves</bcf:citekey>
+    <bcf:citekey order="22">quilez-dist</bcf:citekey>
+    <bcf:citekey order="23">wikipedia:raytracing</bcf:citekey>
+    <bcf:citekey order="24">wikipedia:raytracing</bcf:citekey>
     <bcf:citekey order="25">gpugems2</bcf:citekey>
     <bcf:citekey order="26">gpugems2</bcf:citekey>
     <bcf:citekey order="27">gpugems2</bcf:citekey>
     <bcf:citekey order="28">gpugems2</bcf:citekey>
     <bcf:citekey order="29">gpugems2</bcf:citekey>
     <bcf:citekey order="30">gpugems2</bcf:citekey>
-    <bcf:citekey order="31">gpupro7</bcf:citekey>
-    <bcf:citekey order="32">gpupro7</bcf:citekey>
-    <bcf:citekey order="33">goldnoise</bcf:citekey>
-    <bcf:citekey order="34">nystrom2014game</bcf:citekey>
-    <bcf:citekey order="35">gamma1995design</bcf:citekey>
+    <bcf:citekey order="31">gpugems2</bcf:citekey>
+    <bcf:citekey order="32">gpugems2</bcf:citekey>
+    <bcf:citekey order="33">gpugems2</bcf:citekey>
+    <bcf:citekey order="34">gpupro7</bcf:citekey>
+    <bcf:citekey order="35">gpupro7</bcf:citekey>
+    <bcf:citekey order="36">gpupro7</bcf:citekey>
+    <bcf:citekey order="37">gpupro7</bcf:citekey>
+    <bcf:citekey order="38">goldnoise</bcf:citekey>
+    <bcf:citekey order="39">wikipedia:raymarching</bcf:citekey>
+    <bcf:citekey order="40">wikipedia:raymarching</bcf:citekey>
+    <bcf:citekey order="41">gpupro7</bcf:citekey>
+    <bcf:citekey order="42">volumetric-clouds</bcf:citekey>
+    <bcf:citekey order="43">volumetric-clouds</bcf:citekey>
+    <bcf:citekey order="44">gpupro7</bcf:citekey>
+    <bcf:citekey order="45">gpupro7</bcf:citekey>
+    <bcf:citekey order="46">gpupro7</bcf:citekey>
+    <bcf:citekey order="47">gpugems3</bcf:citekey>
+    <bcf:citekey order="48">gpugems3</bcf:citekey>
+    <bcf:citekey order="49">nystrom2014game</bcf:citekey>
+    <bcf:citekey order="50">gamma1995design</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

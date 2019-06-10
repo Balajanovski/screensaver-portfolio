@@ -2,7 +2,7 @@
 
 \usepackage[sc]{mathpazo}
 \linespread{1.03}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[a4paper,width=140mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{array}
@@ -33,6 +33,9 @@
 \usepackage[style=authoryear,natbib=true,backend=biber]{biblatex}
 \addbibresource{biblio.bib}
 \setlength\bibitemsep{0.5\baselineskip}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -240,12 +243,12 @@ Screensavers, during the times of early computing, have been the medium for the 
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[width=.8\linewidth]{maze}
+  \includegraphics[width=.6\linewidth]{maze}
   \captionof{figure}{Windows 98 Maze}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[width=.8\linewidth]{pipes}
+  \includegraphics[width=.6\linewidth]{pipes}
   \captionof{figure}{Windows XP Pipes}
 \end{minipage}
 \end{figure}	
@@ -264,7 +267,7 @@ This project aims to investigate this avenue, with the aim of creating a suite o
 \end{minipage}%
 \begin{minipage}{.3\textwidth}
   \centering
-  \includegraphics[width=.9\linewidth]{metaballs}
+  \includegraphics[width=.7\linewidth]{metaballs}
 \end{minipage}
 \caption{From left to right example images of: Terrain with Volumetric Clouds, Mandelbrot Fractal and Metaballs.}
 \end{figure}	
@@ -283,20 +286,22 @@ The development will be carried out using the VB.NET programming language throug
 
 The marketplace for the utilisation of advanced graphics techniques in the context of screensavers has been fairly limited. No repositories on github were found for screensavers which utilised volumetric clouds, which is not surprising as it is a relatively new graphics technique which is still being researched. No procedural terrain screensavers were found either. This makes the first screensaver idea, of procedurally generated terrain with volumetric clouds, a venture into entirely uncharted territory, as the marketplace is entirely empty.
 
-As for the mandelbrot fractal screensaver, mandelbrot fractals are well documented mathematical structures which produce beautiful results when rendered, however have also, surprisingly not been applied in the context of screensavers. There have, however, been large numbers of mandelbrot fractal explorers generated, as it is seen as an excellent exercise to develop one’s programming skills. An example written in Javascript is shown below:
+As for the mandelbrot fractal screensaver, mandelbrot fractals are well documented mathematical structures which produce beautiful results when rendered, however have also, surprisingly not been applied in the context of screensavers. There have, however, been large numbers of mandelbrot fractal explorers generated, as it is seen as an excellent exercise to develop one’s programming skills, with one shown in figure \ref{fig:products}.
+
+Metaballs are also a well documented technique. Metaballs have been applied to a wide range of areas, however, one particular use of them is in simulating the behaviour of water droplets efficiently, without the use of complex and expensive fluid dynamics simulations. Metaballs have not been applied to the context of screensavers, however, various eye candy demos have been created such as the one in figure \ref{fig:products}.
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=.3\linewidth]{rafrex}
-	\caption[Mandelbrot Fractal Rendered by Rafrex's "Fractal"]{Mandelbrot Fractal Renderered by Rafrex's "Fractal" from \url{https://github.com/rafrex/fractal}}
-\end{figure}	
-
-Metaballs are also a well documented technique, created by Jim Blinn, the father of Blinn-Phong shading, which produce organic looking balls that change shape depending on their positions relative to other metaballs. Metaballs have been applied to a wide range of areas, however, one particular use of them is in simulating the behaviour of water droplets efficiently, without the use of complex and expensive fluid dynamics simulations. Metaballs have not been applied to the context of screensavers, however, various eye candy demos have been created such as the one below written in Javascript:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.3\linewidth]{dynaballs}
-	\caption[Metaballs Rendered by FlannelHead's "Dynaballs"]{Metaballs Rendered by FlannelHead's "Dynaballs" from \url{http://flannelhead.github.io/dynaballs/}}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{rafrex}  
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{dynaballs} 
+\end{minipage}
+\caption[Examples of mandelbrot and metaballs products]{Left to right: Mandelbrot drawn by Rafrex's "Fractal", Metaballs rendered by FlannelHead's "Dynaballs"}
+\label{fig:products}
 \end{figure}	
 
 \section{Social and Ethical Considerations}
@@ -334,7 +339,7 @@ The structure of this gantt chart aims to reflect the standard software developm
 
 \begin{figure}[H]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[width=1.2\linewidth]{gantt}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.0\linewidth]{gantt}}%
 	\caption{Gantt chart}
 	\label{fig:gantt}
 \end{figure}	
@@ -355,7 +360,7 @@ In summary:
 \end{itemize}	
 Hence, it is in our best interests that the project proceed.
 
-\chapter{Design}
+{\let\clearpage\relax \chapter{Design}}
 
 \section{System Modeling Diagrams}
 As a screensaver product is primarily visual, the first part of the design stage was to create an array of preliminary screen designs, with one for each of the three screensavers in the suite.
@@ -435,7 +440,7 @@ uniform vec3 dropletCenters[NUM_DROPLETS];
 uniform float dropletRadii[NUM_DROPLETS];
 \end{minted}
 
-\section{User Feedback}
+\section{Influence of Survey Responses on Design and Direction}
 When creating the final designs for the screensaver suite, the project utilized user feedback based on iterative prototypes of the product that had been made. For instance, the decision to implement a configuration manager for the screensaver suite was derived from Arjun Malik's second survey response (pg. \pageref{app:survey-arjun-2}) as well as Julian Peen's second survey response (pg. \pageref{app:survey-julian-2}). This configuration manager manifests itself in the final data flow diagram for each of the three screensavers, as a "Config Manager" process.
 
 The surveys also showed that personal preference still has an effect on screensaver choice, even when the screensavers are designed to be universally appealing. Samuel Stacy's second survey response (pg. \pageref{app:survey-sam-2}) showed that he did not dislike the mandelbrot fractal screensaver because of any technical or visual issue, yet simply due to personal preference. On asking him in person which screensaver he preferred the most, he said it was the clouds and mountains screensaver. This differed from other survey responses like, for instance, Ms Saki's (pg. \pageref{app:survey-aartee}), who stated that the metaballs screensaver was her favourite. This may have to do with people's subjective perceptions of beauty, for Samuel prefers the more realistic screensaver based on natural beauty, whilst some others prefer the abstract mathematical beauty of the mandelbrot fractal or metaballs. In this way, by creating a suite of three screensavers which contain both real and abstract beauty, the product is able to appeal to both of these preferences.
@@ -481,7 +486,7 @@ The mandelbrot equation, as seen above, is not of a complex nature, and implemen
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{MandelbrotAxis}
+	\includegraphics[width=0.4\linewidth]{MandelbrotAxis}
 	\caption{Real and Imaginary Component Mapping to Cartesian Plane}
 	\label{fig:mandelbrot-axis}
 \end{figure}	
@@ -489,7 +494,6 @@ The mandelbrot equation, as seen above, is not of a complex nature, and implemen
 However, the screensaver must be able to zoom into the fractal, so the screen coordinate mapping to the complex plane must adjust based on the zoom value. This was solved by the following code:
 
 \begin{minted}[framesep=2mm, frame=lines]{GLSL}
-// Compute complez number C
 vec2 c = currZoomPoint.point + screenPos * zoom;
 \end{minted}
 
@@ -510,7 +514,7 @@ Figure \ref{fig:smooth-mandel} contrasts the smooth and discrete mandelbrot frac
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{SmoothMandelbrot}
+	\includegraphics[width=0.4\linewidth]{SmoothMandelbrot}
 	\caption{Smooth vs. Discrete Mandelbrot Fractals from \citep{quilez-smooth}}
 	\label{fig:smooth-mandel}
 \end{figure}
@@ -529,13 +533,11 @@ To create the final scene SDF and exhibit the blending metaballs behaviour meant
 \begin{minted}[framesep=2mm, frame=lines]{GLSL}
 float sceneSDF(in vec3 pos) {
 	float blendingFactor = 7.0;
-
 	float dist = wavesSDF(pos);
 	for (int i = 0; i < NUM_DROPLETS; ++i) {
 		dist = smoothUnion(dist, rainSDF(pos, dropletRadii[i], 
 			dropletCenters[i]), blendingFactor);
 	}
-
 	return dist;
 }
 \end{minted}
@@ -546,7 +548,7 @@ Sphere tracing is like raytracing, in how a grid is placed infront of the camera
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{Raytracing}
+	\includegraphics[width=0.35\linewidth]{Raytracing}
 	\caption{Ray tracing from \citep{wikipedia:raytracing}}
 	\label{fig:raytracing}
 \end{figure}
@@ -555,7 +557,7 @@ However, as opposed to conventional raytracing which determines the point of int
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{Spheretracing}
+	\includegraphics[width=0.35\linewidth]{Spheretracing}
 	\caption{Sphere tracing illustrated from \citep{gpugems2}}
 	\label{fig:sphere-tracing}
 \end{figure}
@@ -613,15 +615,15 @@ The volumetric cloud system is modelled using volumetric raymarching in real tim
 \centering
 \begin{minipage}{.3\textwidth}
   \centering
-  \includegraphics[width=.9\linewidth]{fbm}
+  \includegraphics[width=.6\linewidth]{fbm}
 \end{minipage}%
 \begin{minipage}{.3\textwidth}
   \centering
-  \includegraphics[width=.9\linewidth]{worley}
+  \includegraphics[width=.6\linewidth]{worley}
 \end{minipage}%
 \begin{minipage}{.3\textwidth}
   \centering
-  \includegraphics[width=.9\linewidth]{perlin-worley}
+  \includegraphics[width=.6\linewidth]{perlin-worley}
 \end{minipage}
 \caption{From left to right example images of: Perlin FBM Noise, Worley Noise, Perlin-Worley Noise}
 \end{figure}	
@@ -630,15 +632,124 @@ Furthermore, a density height function must be specified to bias, or scale the c
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.8\linewidth]{height-functions}
+	\includegraphics[width=.6\linewidth]{height-functions}
 	\caption{From left to right example images of height gradients for: Stratus, Cumulus and Cumulonimbus clouds from \citep{gpupro7}}
 \end{figure}
 
 Finally, a 2D weather texture is generated to specify the positions of clouds in the sky. It is created using low octave noise on the GPU through a compute shader. As GPUs do not possess random number generating capabilities by default, a random number generation function needed to be added which also supported seeding. The function which was used in known as gold noise, and uses the irrationalities of $\pi$, $\sqrt{2}$ and $\phi$ to generate pseudo-random numbers \citep{goldnoise}. 
 
+\subsubsection{The Algorithm}
+
+Now that a model to describe clouds is created, it must be translated to colours on the screen. This is done through the volumetric raymarching algorithm which consists of 4 basic steps:
+\begin{enumerate}
+	\item \textbf{Ray casting}. Much the same as for SDF raymarching, a ray is cast from the camera through a grid infront of it.
+	\item \textbf{Sampling}. Along the path of the ray in the volume, samples are taken. In the case of the cloud model it samples the transmittance of the clouds.
+	\item \textbf{Shading}. Each sample point is shaded based on its value according to a shading algorithm.
+	\item \textbf{Compositing}. After all the sample points have been shaded, they are composited along the ray of sight to create the final pixel colour.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{volumetric-raymarching}
+	\caption{Image illustrating the 4 steps of volumetric raymarching from \citep{wikipedia:raymarching}}
+\end{figure}
+
+\subsubsection{Shading}
+
+When light enters a cloud, the majority of the light rays spend their time refracting through the water droplets inside of the cloud before scattering out to the eyes. \citep{gpupro7} A photon inside a cloud may do one of the three things:
+\begin{enumerate}
+	\item Be absorbed by a particle in the cloud. This is known as \textit{extinction} or \textit{absorption}.
+	\item Exit towards the eye. This is \textit{in-scattering} and was visited when atmospheric scattering was implemented.
+	\item Exit away from the eye. This is \textit{out-scattering} and was also visited in atmospheric scattering.
+\end{enumerate}
+The Beer-Lambert law is used to model the probability of these three outcomes.
+
+\begin{figure}[H]
+	\centering
+	\[E(b,d_s) = e^{-b \times d_s}\]
+	\caption[Beer-Lambert Law]{Beer-Lambert Law from \citep{volumetric-clouds}}
+\end{figure}
+
+However, Beer's law is an extinction model, meaning that it is concerned with how light energy attenuates over depth. This is ineffective at modelling an important lighting effect related to in-scattering on the sun-facing sides of clouds, which present themselves as dark edges on clouds when a view ray approaches the direction of the light ray. This is a similar effect to what is seen in powedered sugar, and is hence named the powdered sugar effect. \citep{gpupro7}
+
+To account for the powdered sugar effect the amended Beer's-Powder function is created.
+\begin{figure}[H]
+	\centering
+	\[E = 2e^{-d}(1-e^{-2d})\]
+	\caption[Beer's-Powder function]{Beer's-Powder function from \citep{gpupro7}}
+\end{figure}
+
+Using this (along with the Henyey-Greenstein function which is not covered for the sake of brevity), the cloud samples may be shaded.
+
 \subsection{Procedural Terrain}
 
+The terrain mesh is generated from a procedurally generated height map. The height map is generated using \textit{RidgedMultiFractal} noise from the \textit{SharpNoise} library. Samples are taken along the height map periodically, to determine the vertices of the terrain mesh. These points are then joined together into triangles which map be rendered to the screen through \Gls{OpenGL}. Tree models are randomly placed along the terrain. The terrain textures implement normal/bump mapping to give them depth when shaded using Blinn-Phong shading.
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.35\textwidth}
+		\centering
+	  	\includegraphics[width=.6\linewidth]{ridged-noise}
+	\end{minipage}%
+	\begin{minipage}{.65\textwidth}
+	  	\centering
+	  	\includegraphics[width=.6\linewidth]{mesh}
+	\end{minipage}
+	\caption{From left to right: Typical heightmap, Mesh viewed in RenderDoc Debugger}
+\end{figure}
+
 \subsection{God Rays}
+
+God rays, also known as crepuscular rays, are the rays of light which are seen as it scatters of particles in the air and into our eyes. They derive their heavenly name due to how it seems, when the clouds part to reveal the sun, that God is shining down. To draw god rays, they are implemented as a post-process effect on an occlusion texture. An occlusion texture specifies where on the screen the sun is occluded from the camera. The algorithm solves the following equations for each texel.
+
+\begin{figure}[H]
+	\centering
+	\[L(s,\theta) = L_{0}e^{-\beta_{\text{ex}}S} + \frac{1}{\beta_{\text{ex}}}E_{\text{sun}}\beta_{\text{sc}}(\theta)(1-e^{-\beta_{\text{ex}}S})\]
+	\[L(s,\theta,\phi) = \sum_{i=0}^{n}\frac{L(s_i,\theta_i)}{n}\]
+	\caption{Equations representing the recurrent determination of the amount of light absorbed from the point of emission to the view point as well as the amount due to light scattering into the path of the view ray from \citep{gpugems3}}
+\end{figure}
+
+\chapter{Testing}
+
+Testing was completed through close collaboration with users. The user Matthew Richards completed a pilot test of the product, and raised several issues such as the clouds and mountains screensaver not rendering after a few runs, as well as a notable jittering effect with the God rays. Communication was undertaken using the free online platform \textit{Discord\textsuperscript{TM}}, and screenshots of the chat are shown. \textit{Balajanovski} is the developer's username whilst \textit{Lasagenator} is the user's.
+
+Figure \ref{fig:not-working} shows the testing where it was observed that, after the program not working using 1:1 screen resolution ratio, it failed to work using any.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{testing1}
+	\caption{Screensaver not rendering}
+	\label{fig:not-working}
+\end{figure}
+
+All of the screensaver settings are saved in the Windows registry, so the issue may have been caused by a faulty \textit{resolutionRatio} registry value. Matthew was asked to provide a screenshot of his Windows registry, shown in figure \ref{fig:registry}, revealing that the resolution ratio is of the expected value, meaning the issue may be caused by something else.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{testing2}
+	\caption{User Windows registry showing expected values}
+	\label{fig:registry}
+\end{figure}
+
+Compute shaders run on the startup of the screensaver, and it was theorised that the user may have believed that the screensaver was not rendering as the compute shaders were still generating noise. To test this theory, Matthew was asked to allow the screensaver 5 seconds of time to allow it to render. After a few seconds of waiting the screensaver did render, revealing that there was no issue with the screensaver not rendering after successive activations.
+
+However, a new problem was revealed which indicated a graphical bug that lead to the jittering of the God rays. Mention of problem shown in figure \ref{fig:broken-rays}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{testing3}
+	\caption{God rays jumping}
+	\label{fig:broken-rays}
+\end{figure}
+
+This was fixed by increasing the distance of the sun from the camera position by upscaling the sun position unit vector. As the sun was too close to the camera, when it was projected to the screen through matrix multiplication with the camera's view and projection matrices, small changes in the position would not be detected as the mantissa of the floats would be truncated. Only once the change in the position vector became large enough would the change be observable, leading to the God rays seemingly jumping about. Once this change was made, the bug ceased to be exist, as shown in figure \ref{fig:fixed}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{testing4}
+	\caption{God ray jittering bug fixed}
+	\label{fig:fixed}
+\end{figure}
 
 \printbibliography[heading=bibintoc,title={Bibliography}]
 
