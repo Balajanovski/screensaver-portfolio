@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  10 JUN 2019 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  13 JUN 2019 19:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1707,7 +1707,7 @@ Package biblatex Info: Reference segment=0 on input line 136.
 
 pdfTeX warning: pdflatex (file ./external-pdfs/titlepage.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<external-pdfs/titlepage.pdf, id=300, 596.04083pt x 841.16357pt>
+<external-pdfs/titlepage.pdf, id=304, 596.04083pt x 841.16357pt>
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf>
@@ -1729,7 +1729,7 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./external-pdfs/titlepage.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<external-pdfs/titlepage.pdf, id=303, page=1, 596.04083pt x 841.16357pt>
+<external-pdfs/titlepage.pdf, id=307, page=1, 596.04083pt x 841.16357pt>
 File: external-pdfs/titlepage.pdf Graphic file (type pdf)
 
 <use external-pdfs/titlepage.pdf, page 1>
@@ -1807,17 +1807,21 @@ Package microtype Info: Loading generic settings for font family
 \openout11 = `portfolio.toc'.
 
  [2]
-(./portfolio.lof [3
+(./portfolio.lof
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [3
 
 ])
 \tf@lof=\write12
 \openout12 = `portfolio.lof'.
 
- [4]
+
+[4]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 151.
-<images/rainforest.jpg, id=512, 1284.8pt x 722.7pt>
+<images/rainforest.jpg, id=527, 1284.8pt x 722.7pt>
 File: images/rainforest.jpg Graphic file (type jpg)
 
 <use images/rainforest.jpg>
@@ -1841,7 +1845,7 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 
 [2
 
-] <images/project-plan.png, id=539, 462.72874pt x 502.87875pt>
+] <images/project-plan.png, id=553, 462.72874pt x 502.87875pt>
 File: images/project-plan.png Graphic file (type png)
 
 <use images/project-plan.png>
@@ -1849,13 +1853,13 @@ Package pdftex.def Info: images/project-plan.png used on input line 228.
 (pdftex.def)             Requested size: 239.00557pt x 259.74126pt.
  [3 <./images/project-plan.png>]
 Chapter 3.
-<images/maze.jpg, id=548, 1284.8pt x 722.7pt>
+<images/maze.jpg, id=562, 1284.8pt x 722.7pt>
 File: images/maze.jpg Graphic file (type jpg)
  <use images/maze.jpg>
 Package pdftex.def Info: images/maze.jpg used on input line 246.
 (pdftex.def)             Requested size: 119.50278pt x 67.2126pt.
 
-<images/pipes.jpg, id=549, 1284.8pt x 722.7pt>
+<images/pipes.jpg, id=563, 1284.8pt x 722.7pt>
 File: images/pipes.jpg Graphic file (type jpg)
  <use images/pipes.jpg>
 Package pdftex.def Info: images/pipes.jpg used on input line 251.
@@ -1866,14 +1870,14 @@ File: images/rainforest.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/rainforest.jpg used on input line 262.
 (pdftex.def)             Requested size: 107.55176pt x 60.49686pt.
 
-<images/mandelbrot.jpeg, id=550, 285.065pt x 177.66376pt>
+<images/mandelbrot.jpeg, id=564, 285.065pt x 177.66376pt>
 File: images/mandelbrot.jpeg Graphic file (type jpg)
 
 <use images/mandelbrot.jpeg>
 Package pdftex.def Info: images/mandelbrot.jpeg used on input line 266.
 (pdftex.def)             Requested size: 107.55176pt x 67.03038pt.
 
-<images/metaballs.jpg, id=551, 749.80125pt x 676.5275pt>
+<images/metaballs.jpg, id=565, 749.80125pt x 676.5275pt>
 File: images/metaballs.jpg Graphic file (type jpg)
 
 <use images/metaballs.jpg>
@@ -1885,13 +1889,13 @@ Package pdftex.def Info: images/metaballs.jpg used on input line 270.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 277.
 
-<images/rafrex.png, id=558, 1375.1375pt x 1084.05pt>
+<images/rafrex.png, id=572, 1375.1375pt x 1084.05pt>
 File: images/rafrex.png Graphic file (type png)
  <use images/rafrex.png>
 Package pdftex.def Info: images/rafrex.png used on input line 297.
 (pdftex.def)             Requested size: 79.66649pt x 62.79057pt.
 
-<images/dynaballs.png, id=559, 723.70375pt x 435.6275pt>
+<images/dynaballs.png, id=573, 723.70375pt x 435.6275pt>
 File: images/dynaballs.png Graphic file (type png)
 
 <use images/dynaballs.png>
@@ -1899,31 +1903,68 @@ Package pdftex.def Info: images/dynaballs.png used on input line 301.
 (pdftex.def)             Requested size: 79.66649pt x 47.95241pt.
  [5 <./images/mandelbrot.jpeg> <./images/metaballs.jpg>] [6 <./images/rafrex.pn
 g> <./images/dynaballs.png>]
-<images/gantt.jpg, id=570, 4304.08pt x 1497.595pt>
+<images/gantt.jpg, id=584, 4304.08pt x 1497.595pt>
 File: images/gantt.jpg Graphic file (type jpg)
  <use images/gantt.jpg>
 Package pdftex.def Info: images/gantt.jpg used on input line 342.
-(pdftex.def)             Requested size: 398.33858pt x 138.59392pt.
+(pdftex.def)             Requested size: 478.00507pt x 166.3127pt.
 
-[7 <./images/gantt.jpg>]
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [7 <./images/gantt.jpg>]
 Chapter 4.
 
-Overfull \hbox (29.65106pt too wide) in paragraph at lines 383--390
+<images/Mandelbrot Screensaver Context Diagram.png, id=592, 693.59125pt x 703.6
+2875pt>
+File: images/Mandelbrot Screensaver Context Diagram.png Graphic file (type png)
+
+ <use images/Mandelbrot Screensaver Context Diagram.png>
+Package pdftex.def Info: images/Mandelbrot Screensaver Context Diagram.png used
+ on input line 380.
+(pdftex.def)             Requested size: 129.45882pt x 131.32881pt.
+
+<images/Clouds Screensaver DFD.png, id=593, 864.22874pt x 970.62625pt>
+File: images/Clouds Screensaver DFD.png Graphic file (type png)
+
+<use images/Clouds Screensaver DFD.png>
+Package pdftex.def Info: images/Clouds Screensaver DFD.png used on input line 3
+84.
+(pdftex.def)             Requested size: 129.45882pt x 145.39511pt.
+ [8 <./images/Mandelbrot Screensaver Context Diagram.png> <./images/Clouds Scre
+ensaver DFD.png>]
+Overfull \hbox (29.65106pt too wide) in paragraph at lines 398--405
  [][] 
  []
 
-[8] <images/flyweight-trees.png, id=606, 1043.9pt x 514.92375pt>
+
+<images/Metaballs Screensaver Structure Chart.png, id=615, 1695.33376pt x 1372.
+12625pt>
+File: images/Metaballs Screensaver Structure Chart.png Graphic file (type png)
+ <use images/Metaballs Screensaver Structure Chart.png>
+Package pdftex.def Info: images/Metaballs Screensaver Structure Chart.png used 
+on input line 411.
+(pdftex.def)             Requested size: 159.33603pt x 128.95058pt.
+
+<images/Clouds Screensaver Storyboard.png, id=616, 1695.33376pt x 1217.54875pt>
+File: images/Clouds Screensaver Storyboard.png Graphic file (type png)
+<use images/Clouds Screensaver Storyboard.png>
+Package pdftex.def Info: images/Clouds Screensaver Storyboard.png used on input
+ line 415.
+(pdftex.def)             Requested size: 159.33603pt x 114.42358pt.
+ [9 <./images/Metaballs Screensaver Structure Chart.png> <./images/Clouds Scree
+nsaver Storyboard.png>]
+<images/flyweight-trees.png, id=639, 1043.9pt x 514.92375pt>
 File: images/flyweight-trees.png Graphic file (type png)
 
 <use images/flyweight-trees.png>
-Package pdftex.def Info: images/flyweight-trees.png used on input line 402.
+Package pdftex.def Info: images/flyweight-trees.png used on input line 430.
 (pdftex.def)             Requested size: 179.57286pt x 88.57301pt.
 
-<images/flyweight-tree-model.png, id=607, 1043.9pt x 442.65375pt>
+<images/flyweight-tree-model.png, id=640, 1043.9pt x 442.65375pt>
 File: images/flyweight-tree-model.png Graphic file (type png)
 
 <use images/flyweight-tree-model.png>
-Package pdftex.def Info: images/flyweight-tree-model.png used on input line 406
+Package pdftex.def Info: images/flyweight-tree-model.png used on input line 434
 .
 (pdftex.def)             Requested size: 210.79721pt x 89.38022pt.
 \openout6 = `portfolio.pyg'.
@@ -1935,445 +1976,466 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [9 <./images/flyweight-trees.png> <./images/flyweight-tree-model.png>]
+)
 \openout4 = `portfolio.pyg'.
 
 
 (./_minted-portfolio/E0E649672BF7CCF696B571EBB8B0F8F02203EC576A36BF17E4C0F2E9CD
-341574.pygtex)
+341574.pygtex) [10 <./images/flyweight-trees.png> <./images/flyweight-tree-mode
+l.png>]
 \openout4 = `portfolio.pyg'.
 
 
 (./_minted-portfolio/443D6597C7AB4A16E8E1B79E756351342203EC576A36BF17E4C0F2E9CD
-341574.pygtex) [10]
-<images/ExitWithoutSaving.jpg, id=652, 434.37282pt x 249.18094pt>
+341574.pygtex)
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+ [11]
+<images/ExitWithoutSaving.jpg, id=678, 434.37282pt x 249.18094pt>
 File: images/ExitWithoutSaving.jpg Graphic file (type jpg)
 
 <use images/ExitWithoutSaving.jpg>
-Package pdftex.def Info: images/ExitWithoutSaving.jpg used on input line 462.
+Package pdftex.def Info: images/ExitWithoutSaving.jpg used on input line 490.
 (pdftex.def)             Requested size: 199.16928pt x 114.2558pt.
- [11 <./images/ExitWithoutSaving.jpg>]
+ [12 <./images/ExitWithoutSaving.jpg>]
 Chapter 5.
-<images/MandelbrotAxis.png, id=660, 323.2075pt x 236.885pt>
+<images/MandelbrotAxis.png, id=686, 323.2075pt x 236.885pt>
 File: images/MandelbrotAxis.png Graphic file (type png)
 
 <use images/MandelbrotAxis.png>
-Package pdftex.def Info: images/MandelbrotAxis.png used on input line 489.
+Package pdftex.def Info: images/MandelbrotAxis.png used on input line 517.
 (pdftex.def)             Requested size: 159.333pt x 116.7795pt.
- [12
+ [13
 
  <./images/MandelbrotAxis.png>]
 \openout4 = `portfolio.pyg'.
 
 
 (./_minted-portfolio/7E41C6DC1BDCF32D577EF4C494BE775B2203EC576A36BF17E4C0F2E9CD
-341574.pygtex) <images/SmoothMandelbrot.png, id=670, 677.53125pt x 381.425pt>
+341574.pygtex) <images/SmoothMandelbrot.png, id=696, 677.53125pt x 381.425pt>
 File: images/SmoothMandelbrot.png Graphic file (type png)
 
 <use images/SmoothMandelbrot.png>
-Package pdftex.def Info: images/SmoothMandelbrot.png used on input line 517.
+Package pdftex.def Info: images/SmoothMandelbrot.png used on input line 545.
 (pdftex.def)             Requested size: 159.333pt x 89.6989pt.
- [13 <./images/SmoothMandelbrot.png>]
+ [14 <./images/SmoothMandelbrot.png>]
 \openout4 = `portfolio.pyg'.
 
 
 (./_minted-portfolio/23F371E436DD4365EB5F760AB77A49672203EC576A36BF17E4C0F2E9CD
-341574.pygtex) <images/Raytracing.png, id=681, 301.125pt x 200.75pt>
+341574.pygtex) <images/Raytracing.png, id=708, 301.125pt x 200.75pt>
 File: images/Raytracing.png Graphic file (type png)
 
 <use images/Raytracing.png>
-Package pdftex.def Info: images/Raytracing.png used on input line 551.
+Package pdftex.def Info: images/Raytracing.png used on input line 579.
 (pdftex.def)             Requested size: 139.42093pt x 92.94955pt.
 
-<images/Spheretracing.jpg, id=685, 301.125pt x 183.68625pt>
+<images/Spheretracing.jpg, id=712, 301.125pt x 183.68625pt>
 File: images/Spheretracing.jpg Graphic file (type jpg)
 
 <use images/Spheretracing.jpg>
-Package pdftex.def Info: images/Spheretracing.jpg used on input line 560.
+Package pdftex.def Info: images/Spheretracing.jpg used on input line 588.
 (pdftex.def)             Requested size: 139.42093pt x 85.04884pt.
- [14 <./images/Raytracing.png> <./images/Spheretracing.jpg>] [15] <images/fbm.p
-ng, id=711, 376.40625pt x 376.40625pt>
+ [15 <./images/Raytracing.png> <./images/Spheretracing.jpg>] [16] <images/fbm.p
+ng, id=737, 376.40625pt x 376.40625pt>
 File: images/fbm.png Graphic file (type png)
 
 <use images/fbm.png>
-Package pdftex.def Info: images/fbm.png used on input line 618.
+Package pdftex.def Info: images/fbm.png used on input line 646.
 (pdftex.def)             Requested size: 71.7024pt x 71.70172pt.
- <images/worley.jpg, id=712, 1027.84pt x 1027.84pt>
+ <images/worley.jpg, id=738, 1027.84pt x 1027.84pt>
 File: images/worley.jpg Graphic file (type jpg)
 
 <use images/worley.jpg>
-Package pdftex.def Info: images/worley.jpg used on input line 622.
+Package pdftex.def Info: images/worley.jpg used on input line 650.
 (pdftex.def)             Requested size: 71.7024pt x 71.68953pt.
 
-<images/perlin-worley.png, id=713, 201.75375pt x 200.75pt>
+<images/perlin-worley.png, id=739, 201.75375pt x 200.75pt>
 File: images/perlin-worley.png Graphic file (type png)
 
 <use images/perlin-worley.png>
-Package pdftex.def Info: images/perlin-worley.png used on input line 626.
+Package pdftex.def Info: images/perlin-worley.png used on input line 654.
 (pdftex.def)             Requested size: 71.7024pt x 71.34485pt.
 
-<images/height-functions.png, id=715, 627.34375pt x 209.78375pt>
+<images/height-functions.png, id=741, 627.34375pt x 209.78375pt>
 File: images/height-functions.png Graphic file (type png)
 
 <use images/height-functions.png>
-Package pdftex.def Info: images/height-functions.png used on input line 635.
+Package pdftex.def Info: images/height-functions.png used on input line 663.
 (pdftex.def)             Requested size: 239.00557pt x 79.92351pt.
- [16 <./images/fbm.png> <./images/worley.jpg> <./images/perlin-worley.png> <./i
+ [17 <./images/fbm.png> <./images/worley.jpg> <./images/perlin-worley.png> <./i
 mages/height-functions.png>]
-<images/volumetric-raymarching.png, id=727, 803.0pt x 271.0125pt>
+<images/volumetric-raymarching.png, id=754, 803.0pt x 271.0125pt>
 File: images/volumetric-raymarching.png Graphic file (type png)
 
 <use images/volumetric-raymarching.png>
 Package pdftex.def Info: images/volumetric-raymarching.png used on input line 6
-53.
+81.
 (pdftex.def)             Requested size: 278.83578pt x 94.1073pt.
- [17 <./images/volumetric-raymarching.png>] <images/ridged-noise.png, id=752, 7
+ [18 <./images/volumetric-raymarching.png>] <images/ridged-noise.png, id=778, 7
 52.8125pt x 752.8125pt>
 File: images/ridged-noise.png Graphic file (type png)
 
 <use images/ridged-noise.png>
-Package pdftex.def Info: images/ridged-noise.png used on input line 692.
+Package pdftex.def Info: images/ridged-noise.png used on input line 720.
 (pdftex.def)             Requested size: 83.6534pt x 83.64818pt.
 
-<images/mesh.png, id=753, 738.76pt x 360.34625pt>
+<images/mesh.png, id=779, 738.76pt x 360.34625pt>
 File: images/mesh.png Graphic file (type png)
  <use images/mesh.png>
-Package pdftex.def Info: images/mesh.png used on input line 696.
+Package pdftex.def Info: images/mesh.png used on input line 724.
 (pdftex.def)             Requested size: 155.35216pt x 75.77391pt.
 
-[18 <./images/ridged-noise.png> <./images/mesh.png>]
+[19 <./images/ridged-noise.png> <./images/mesh.png>]
 Chapter 6.
-<images/testing1.png, id=764, 481.8pt x 501.875pt>
+<images/testing1.png, id=790, 481.8pt x 501.875pt>
 File: images/testing1.png Graphic file (type png)
  <use images/testing1.png>
-Package pdftex.def Info: images/testing1.png used on input line 720.
+Package pdftex.def Info: images/testing1.png used on input line 748.
 (pdftex.def)             Requested size: 199.16928pt x 207.4625pt.
 
-<images/testing2.png, id=766, 474.77374pt x 495.8525pt>
+<images/testing2.png, id=792, 474.77374pt x 495.8525pt>
 File: images/testing2.png Graphic file (type png)
 
 <use images/testing2.png>
-Package pdftex.def Info: images/testing2.png used on input line 729.
+Package pdftex.def Info: images/testing2.png used on input line 757.
 (pdftex.def)             Requested size: 199.16928pt x 208.01451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [20
 
- <./images/testing1.png>] <images/testing3.png, id=773, 480.79625pt x 46.1725pt
+ <./images/testing1.png>] <images/testing3.png, id=800, 480.79625pt x 46.1725pt
 >
 File: images/testing3.png Graphic file (type png)
 
 <use images/testing3.png>
-Package pdftex.def Info: images/testing3.png used on input line 740.
+Package pdftex.def Info: images/testing3.png used on input line 768.
 (pdftex.def)             Requested size: 199.16928pt x 19.1274pt.
 
-<images/testing4.png, id=775, 479.7925pt x 379.4175pt>
+<images/testing4.png, id=802, 479.7925pt x 379.4175pt>
 File: images/testing4.png Graphic file (type png)
 
 <use images/testing4.png>
-Package pdftex.def Info: images/testing4.png used on input line 749.
+Package pdftex.def Info: images/testing4.png used on input line 777.
 (pdftex.def)             Requested size: 199.16928pt x 157.50163pt.
- [20 <./images/testing2.png> <./images/testing3.png> <./images/testing4.png>]
+ [21 <./images/testing2.png> <./images/testing3.png> <./images/testing4.png>]
+Chapter 7.
+<images/windows-gui.png, id=810, 461.725pt x 505.89pt>
+File: images/windows-gui.png Graphic file (type png)
+
+<use images/windows-gui.png>
+Package pdftex.def Info: images/windows-gui.png used on input line 804.
+(pdftex.def)             Requested size: 179.25113pt x 196.39314pt.
+
+<images/settings-gui.png, id=811, 806.01125pt x 756.8275pt>
+File: images/settings-gui.png Graphic file (type png)
+
+<use images/settings-gui.png>
+Package pdftex.def Info: images/settings-gui.png used on input line 808.
+(pdftex.def)             Requested size: 179.25113pt x 168.3041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
+
+]
+[23 <./images/windows-gui.png> <./images/settings-gui.png>]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
- (./portfolio.gls [21
+ (./portfolio.gls
+[24
 
-] [22
+] [25
 
 
-]) [23]
-Chapter 7.
-<images/Clouds Context Diagram.png, id=843, 663.47874pt x 693.59125pt>
+]) [26]
+Chapter 8.
+<images/Clouds Context Diagram.png, id=886, 663.47874pt x 693.59125pt>
 File: images/Clouds Context Diagram.png Graphic file (type png)
 
 <use images/Clouds Context Diagram.png>
-Package pdftex.def Info: images/Clouds Context Diagram.png used on input line 7
-63.
+Package pdftex.def Info: images/Clouds Context Diagram.png used on input line 8
+30.
 (pdftex.def)             Requested size: 358.50227pt x 374.77711pt.
- [24
+ [27
 
- <./images/Clouds Context Diagram.png>] <images/Clouds Screensaver DFD.png, id=
-850, 864.22874pt x 970.62625pt>
+ <./images/Clouds Context Diagram.png>]
 File: images/Clouds Screensaver DFD.png Graphic file (type png)
-
-<use images/Clouds Screensaver DFD.png>
-Package pdftex.def Info: images/Clouds Screensaver DFD.png used on input line 7
-73.
+ <use images/Clouds Screensaver DFD.png>
+Package pdftex.def Info: images/Clouds Screensaver DFD.png used on input line 8
+40.
 (pdftex.def)             Requested size: 398.33858pt x 447.38213pt.
- [25 <./images/Clouds Screensaver DFD.png>]
-<images/Clouds Screensaver Structure Chart.png, id=856, 1697.34125pt x 1825.821
+ [28]
+<images/Clouds Screensaver Structure Chart.png, id=898, 1697.34125pt x 1825.821
 24pt>
 File: images/Clouds Screensaver Structure Chart.png Graphic file (type png)
  <use images/Clouds Screensaver Structure Chart.png>
 Package pdftex.def Info: images/Clouds Screensaver Structure Chart.png used on 
-input line 783.
+input line 850.
 (pdftex.def)             Requested size: 398.33858pt x 428.483pt.
- [26 <./images/Clouds Screensaver Structure Chart.png>]
-<images/Clouds Screensaver Storyboard.png, id=862, 1695.33376pt x 1217.54875pt>
+ [29 <./images/Clouds Screensaver Structure Chart.png>]
 File: images/Clouds Screensaver Storyboard.png Graphic file (type png)
+
 <use images/Clouds Screensaver Storyboard.png>
 Package pdftex.def Info: images/Clouds Screensaver Storyboard.png used on input
- line 792.
+ line 859.
 (pdftex.def)             Requested size: 398.33858pt x 286.06827pt.
- [27 <./images/Clouds Screensaver Storyboard.png>]
-<images/Mandelbrot Screensaver Context Diagram.png, id=868, 693.59125pt x 703.6
-2875pt>
+ [30]
 File: images/Mandelbrot Screensaver Context Diagram.png Graphic file (type png)
 
- <use images/Mandelbrot Screensaver Context Diagram.png>
+
+<use images/Mandelbrot Screensaver Context Diagram.png>
 Package pdftex.def Info: images/Mandelbrot Screensaver Context Diagram.png used
- on input line 801.
+ on input line 868.
 (pdftex.def)             Requested size: 398.33858pt x 404.11098pt.
- [28 <./images/Mandelbrot Screensaver Context Diagram.png>]
-<images/Mandelbrot Screensaver DFD.png, id=874, 693.59125pt x 703.62875pt>
+ [31]
+<images/Mandelbrot Screensaver DFD.png, id=912, 693.59125pt x 703.62875pt>
 File: images/Mandelbrot Screensaver DFD.png Graphic file (type png)
 
 <use images/Mandelbrot Screensaver DFD.png>
 Package pdftex.def Info: images/Mandelbrot Screensaver DFD.png used on input li
-ne 810.
+ne 877.
 (pdftex.def)             Requested size: 398.33858pt x 404.11098pt.
- [29 <./images/Mandelbrot Screensaver DFD.png>]
-<images/Mandelbrot Screensaver Structure Chart.png, id=880, 1699.34875pt x 1414
+ [32 <./images/Mandelbrot Screensaver DFD.png>]
+<images/Mandelbrot Screensaver Structure Chart.png, id=919, 1699.34875pt x 1414
 .28375pt>
 File: images/Mandelbrot Screensaver Structure Chart.png Graphic file (type png)
 
  <use images/Mandelbrot Screensaver Structure Chart.png>
 Package pdftex.def Info: images/Mandelbrot Screensaver Structure Chart.png used
- on input line 819.
+ on input line 886.
 (pdftex.def)             Requested size: 398.33858pt x 331.5151pt.
- [30 <./images/Mandelbrot Screensaver Structure Chart.png>]
-<images/Mandelbrot Screensaver Story Board.png, id=886, 1692.3225pt x 1311.9012
+ [33 <./images/Mandelbrot Screensaver Structure Chart.png>]
+<images/Mandelbrot Screensaver Story Board.png, id=925, 1692.3225pt x 1311.9012
 5pt>
 File: images/Mandelbrot Screensaver Story Board.png Graphic file (type png)
  <use images/Mandelbrot Screensaver Story Board.png>
 Package pdftex.def Info: images/Mandelbrot Screensaver Story Board.png used on 
-input line 828.
+input line 895.
 (pdftex.def)             Requested size: 398.33858pt x 308.77727pt.
- [31 <./images/Mandelbrot Screensaver Story Board.png>]
-<images/Metaballs Screensaver Context Diagram.png, id=892, 693.59125pt x 703.62
+ [34 <./images/Mandelbrot Screensaver Story Board.png>]
+<images/Metaballs Screensaver Context Diagram.png, id=931, 693.59125pt x 703.62
 875pt>
 File: images/Metaballs Screensaver Context Diagram.png Graphic file (type png)
  <use images/Metaballs Screensaver Context Diagram.png>
 Package pdftex.def Info: images/Metaballs Screensaver Context Diagram.png used 
-on input line 837.
+on input line 904.
 (pdftex.def)             Requested size: 398.33858pt x 404.11098pt.
- [32 <./images/Metaballs Screensaver Context Diagram.png>]
-<images/Metaballs Screensaver DFD.png, id=899, 864.22874pt x 703.62875pt>
+ [35 <./images/Metaballs Screensaver Context Diagram.png>]
+<images/Metaballs Screensaver DFD.png, id=937, 864.22874pt x 703.62875pt>
 File: images/Metaballs Screensaver DFD.png Graphic file (type png)
 
 <use images/Metaballs Screensaver DFD.png>
 Package pdftex.def Info: images/Metaballs Screensaver DFD.png used on input lin
-e 846.
+e 913.
 (pdftex.def)             Requested size: 398.33858pt x 324.31734pt.
- [33 <./images/Metaballs Screensaver DFD.png>]
-<images/Metaballs Screensaver Structure Chart.png, id=905, 1695.33376pt x 1372.
-12625pt>
+ [36 <./images/Metaballs Screensaver DFD.png>]
 File: images/Metaballs Screensaver Structure Chart.png Graphic file (type png)
  <use images/Metaballs Screensaver Structure Chart.png>
 Package pdftex.def Info: images/Metaballs Screensaver Structure Chart.png used 
-on input line 855.
+on input line 922.
 (pdftex.def)             Requested size: 398.33858pt x 322.3869pt.
- [34 <./images/Metaballs Screensaver Structure Chart.png>]
-<images/Metaballs Screensaver Story Board.png, id=911, 1697.34125pt x 1252.68pt
+ [37]
+<images/Metaballs Screensaver Story Board.png, id=947, 1697.34125pt x 1252.68pt
 >
 File: images/Metaballs Screensaver Story Board.png Graphic file (type png)
  <use images/Metaballs Screensaver Story Board.png>
 Package pdftex.def Info: images/Metaballs Screensaver Story Board.png used on i
-nput line 864.
+nput line 931.
 (pdftex.def)             Requested size: 398.33858pt x 293.97844pt.
- [35 <./images/Metaballs Screensaver Story Board.png>]
-<images/ConfigurationWindow.jpg, id=917, 597.432pt x 845.0772pt>
+ [38 <./images/Metaballs Screensaver Story Board.png>]
+<images/ConfigurationWindow.jpg, id=955, 597.432pt x 845.0772pt>
 File: images/ConfigurationWindow.jpg Graphic file (type jpg)
 
 <use images/ConfigurationWindow.jpg>
-Package pdftex.def Info: images/ConfigurationWindow.jpg used on input line 873.
+Package pdftex.def Info: images/ConfigurationWindow.jpg used on input line 940.
 
 (pdftex.def)             Requested size: 318.67207pt x 450.77722pt.
- [36 <./images/ConfigurationWindow.jpg>]
-<external-pdfs/CloudsAndMountainsScreen.pdf, id=922, 597.23125pt x 844.15375pt>
+ [39 <./images/ConfigurationWindow.jpg>]
+<external-pdfs/CloudsAndMountainsScreen.pdf, id=960, 597.23125pt x 844.15375pt>
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 <use external-pdfs/CloudsAndMountainsScreen.pdf>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf used on inp
-ut line 879.
+ut line 946.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/CloudsAndMountainsScreen.pdf>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf used on inp
-ut line 879.
+ut line 946.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<external-pdfs/CloudsAndMountainsScreen.pdf, id=925, page=1, 597.23125pt x 844.
+<external-pdfs/CloudsAndMountainsScreen.pdf, id=963, page=1, 597.23125pt x 844.
 15375pt>
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
  <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
- on input line 879.
+ on input line 946.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
- on input line 879.
+ on input line 946.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
- on input line 879.
+ on input line 946.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
- on input line 879.
+ on input line 946.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/CloudsAndMountainsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/CloudsAndMountainsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/CloudsAndMountainsScreen.pdf, page1 used
- on input line 879.
+ on input line 946.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
- [37 <./external-pdfs/CloudsAndMountainsScreen.pdf>]
-<external-pdfs/MandelbrotScreen.pdf, id=938, 597.23125pt x 844.15375pt>
+ [40 <./external-pdfs/CloudsAndMountainsScreen.pdf>]
+<external-pdfs/MandelbrotScreen.pdf, id=976, 597.23125pt x 844.15375pt>
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf used on input line 
-880.
+947.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf used on input line 
-880.
+947.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<external-pdfs/MandelbrotScreen.pdf, id=941, page=1, 597.23125pt x 844.15375pt>
+<external-pdfs/MandelbrotScreen.pdf, id=979, page=1, 597.23125pt x 844.15375pt>
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 <use external-pdfs/MandelbrotScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
-t line 880.
+t line 947.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
-t line 880.
+t line 947.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
-t line 880.
+t line 947.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
-t line 880.
+t line 947.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MandelbrotScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MandelbrotScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MandelbrotScreen.pdf, page1 used on inpu
-t line 880.
+t line 947.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
- [38 <./external-pdfs/MandelbrotScreen.pdf>]
-<external-pdfs/MetaballsScreen.pdf, id=955, 597.23125pt x 844.15375pt>
+ [41 <./external-pdfs/MandelbrotScreen.pdf>]
+<external-pdfs/MetaballsScreen.pdf, id=992, 597.23125pt x 844.15375pt>
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf>
-Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 8
-81.
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 9
+48.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf>
-Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 8
-81.
+Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf used on input line 9
+48.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<external-pdfs/MetaballsScreen.pdf, id=958, page=1, 597.23125pt x 844.15375pt>
+<external-pdfs/MetaballsScreen.pdf, id=995, page=1, 597.23125pt x 844.15375pt>
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
- line 881.
+ line 948.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
- line 881.
+ line 948.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
- line 881.
+ line 948.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
- line 881.
+ line 948.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
 File: external-pdfs/MetaballsScreen.pdf Graphic file (type pdf)
 
 <use external-pdfs/MetaballsScreen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/MetaballsScreen.pdf, page1 used on input
- line 881.
+ line 948.
 (pdftex.def)             Requested size: 465.8385pt x 658.43727pt.
- [39 <./external-pdfs/MetaballsScreen.pdf>]
-<external-pdfs/SDDDataDictionary.pdf, id=972, 614.295pt x 794.97pt>
+ [42 <./external-pdfs/MetaballsScreen.pdf>]
+<external-pdfs/SDDDataDictionary.pdf, id=1008, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
- 883.
+ 950.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
- 883.
+ 950.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<external-pdfs/SDDDataDictionary.pdf, id=975, page=1, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1011, page=1, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
-ut line 883.
+ut line 950.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
-ut line 883.
+ut line 950.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
-ut line 883.
+ut line 950.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
-ut line 883.
+ut line 950.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page1 used on inp
-ut line 883.
+ut line 950.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
- [40 <./external-pdfs/SDDDataDictionary.pdf
+ [43 <./external-pdfs/SDDDataDictionary.pdf
 
 pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
@@ -2382,118 +2444,45 @@ ignored.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
  <use external-pdfs/SDDDataDictionary.pdf>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
- 884.
+ 951.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf used on input line
- 884.
+ 951.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<external-pdfs/SDDDataDictionary.pdf, id=989, page=2, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1025, page=2, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 2>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
-ut line 884.
+ut line 951.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 2>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
-ut line 884.
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 2>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
-ut line 884.
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 2>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
-ut line 884.
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
 <use external-pdfs/SDDDataDictionary.pdf, page 2>
 Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page2 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
- [41 <./external-pdfs/SDDDataDictionary.pdf
-
-pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
-usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
-ignored.
->] <external-pdfs/SDDDataDictionary.pdf, id=994, page=3, 614.295pt x 794.97pt>
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 3>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 3>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 3>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
- [42 <./external-pdfs/SDDDataDictionary.pdf
-
-pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
-usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
-ignored.
->] <external-pdfs/SDDDataDictionary.pdf, id=999, page=4, 614.295pt x 794.97pt>
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 4>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 4>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 4>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
- [43 <./external-pdfs/SDDDataDictionary.pdf
-
-pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
-usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
-ignored.
->]
-<external-pdfs/SDDDataDictionary.pdf, id=1004, page=5, 614.295pt x 794.97pt>
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 5>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 5>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
-ut line 884.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
-
-<use external-pdfs/SDDDataDictionary.pdf, page 5>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
-ut line 884.
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [44 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2501,24 +2490,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1010, page=6, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1031, page=3, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 6>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 6>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 6>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 3>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page3 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [45 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2526,24 +2515,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1015, page=7, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1036, page=4, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 7>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 7>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 7>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 4>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page4 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [46 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2551,24 +2540,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1020, page=8, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1041, page=5, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 8>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 8>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 8>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 5>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page5 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [47 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2576,24 +2565,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1025, page=9, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1046, page=6, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 9>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 9>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 9>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
-ut line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 6>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page6 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [48 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2601,24 +2590,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1030, page=10, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1051, page=7, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 10>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 10>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 10>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 7>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page7 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [49 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2626,24 +2615,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1035, page=11, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1056, page=8, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 11>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 11>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 11>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 8>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page8 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [50 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2651,24 +2640,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1041, page=12, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1062, page=9, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 12>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 12>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 12>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 9>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page9 used on inp
+ut line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [51 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2676,24 +2665,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1051, page=13, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1067, page=10, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 13>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 13>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 13>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 10>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page10 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [52 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2701,24 +2690,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1056, page=14, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1072, page=11, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 14>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 14>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 14>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 11>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page11 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [53 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2726,24 +2715,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1061, page=15, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1077, page=12, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 15>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 15>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 15>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 12>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page12 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [54 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2751,24 +2740,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1066, page=16, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1087, page=13, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 16>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 16>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 16>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 13>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page13 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [55 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2776,24 +2765,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1071, page=17, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1092, page=14, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 17>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 17>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 17>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 14>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page14 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [56 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2801,24 +2790,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1077, page=18, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1098, page=15, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 18>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 18>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 18>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 15>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page15 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [57 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2826,24 +2815,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1082, page=19, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1103, page=16, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 19>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 19>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 19>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 16>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page16 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [58 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2851,24 +2840,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1087, page=20, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1108, page=17, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 20>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 20>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 20>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 17>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page17 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [59 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2876,24 +2865,24 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1097, page=21, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1113, page=18, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 21>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 21>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 21>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 18>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page18 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [60 <./external-pdfs/SDDDataDictionary.pdf
 
@@ -2901,598 +2890,673 @@ pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<external-pdfs/SDDDataDictionary.pdf, id=1102, page=22, 614.295pt x 794.97pt>
+<external-pdfs/SDDDataDictionary.pdf, id=1118, page=19, 614.295pt x 794.97pt>
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 22>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 22>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
 
-<use external-pdfs/SDDDataDictionary.pdf, page 22>
-Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
-put line 884.
+<use external-pdfs/SDDDataDictionary.pdf, page 19>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page19 used on in
+put line 951.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [61 <./external-pdfs/SDDDataDictionary.pdf
 
 pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
->] <external-pdfs/JuliaBalajan.pdf, id=1107, 597.50786pt x 845.04686pt>
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=1124, page=20, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 20>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page20 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [62 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=1135, page=21, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 21>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page21 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [63 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+<external-pdfs/SDDDataDictionary.pdf, id=1140, page=22, 614.295pt x 794.97pt>
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: external-pdfs/SDDDataDictionary.pdf Graphic file (type pdf)
+
+<use external-pdfs/SDDDataDictionary.pdf, page 22>
+Package pdftex.def Info: external-pdfs/SDDDataDictionary.pdf, page22 used on in
+put line 951.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+ [64 <./external-pdfs/SDDDataDictionary.pdf
+
+pdfTeX warning: pdflatex (file ./external-pdfs/SDDDataDictionary.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>] <external-pdfs/JuliaBalajan.pdf, id=1145, 597.50786pt x 845.04686pt>
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf>
-Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 886.
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 953.
 
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
  <use external-pdfs/JuliaBalajan.pdf>
-Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 886.
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 953.
 
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/JuliaBalajan.pdf, id=1110, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/JuliaBalajan.pdf, id=1148, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
-ne 886.
+ne 953.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
-ne 886.
+ne 953.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
-ne 886.
+ne 953.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
-ne 886.
+ne 953.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page1 used on input li
-ne 886.
+ne 953.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [62 <./external-pdfs/JuliaBalajan.pdf>]
+ [65 <./external-pdfs/JuliaBalajan.pdf>]
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
  <use external-pdfs/JuliaBalajan.pdf>
-Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 887.
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 954.
 
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf>
-Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 887.
+Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf used on input line 954.
 
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/JuliaBalajan.pdf, id=1133, page=2, 597.50786pt x 845.04686pt>
+<external-pdfs/JuliaBalajan.pdf, id=1169, page=2, 597.50786pt x 845.04686pt>
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
-ne 887.
+ne 954.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
-ne 887.
+ne 954.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
-ne 887.
+ne 954.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
-ne 887.
+ne 954.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JuliaBalajan.pdf Graphic file (type pdf)
 
 <use external-pdfs/JuliaBalajan.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JuliaBalajan.pdf, page2 used on input li
-ne 887.
+ne 954.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [63 <./external-pdfs/JuliaBalajan.pdf>] <external-pdfs/AarteeSaki.pdf, id=1143
+ [66 <./external-pdfs/JuliaBalajan.pdf>] <external-pdfs/AarteeSaki.pdf, id=1179
 , 597.50786pt x 845.04686pt>
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf>
-Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 889.
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 956.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
  <use external-pdfs/AarteeSaki.pdf>
-Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 889.
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 956.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/AarteeSaki.pdf, id=1146, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/AarteeSaki.pdf, id=1182, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 1>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
- 889.
+ 956.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 1>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
- 889.
+ 956.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 1>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
- 889.
+ 956.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 1>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
- 889.
+ 956.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 1>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page1 used on input line
- 889.
+ 956.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [64 <./external-pdfs/AarteeSaki.pdf>]
+ [67 <./external-pdfs/AarteeSaki.pdf>]
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
  <use external-pdfs/AarteeSaki.pdf>
-Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 890.
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 957.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
  <use external-pdfs/AarteeSaki.pdf>
-Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 890.
+Package pdftex.def Info: external-pdfs/AarteeSaki.pdf used on input line 957.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/AarteeSaki.pdf, id=1167, page=2, 597.50786pt x 845.04686pt>
+<external-pdfs/AarteeSaki.pdf, id=1203, page=2, 597.50786pt x 845.04686pt>
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 2>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
- 890.
+ 957.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 2>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
- 890.
+ 957.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 2>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
- 890.
+ 957.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 2>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
- 890.
+ 957.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/AarteeSaki.pdf Graphic file (type pdf)
 
 <use external-pdfs/AarteeSaki.pdf, page 2>
 Package pdftex.def Info: external-pdfs/AarteeSaki.pdf, page2 used on input line
- 890.
+ 957.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [65 <./external-pdfs/AarteeSaki.pdf>] <external-pdfs/ArjunMalikOld.pdf, id=117
-7, 597.50786pt x 845.04686pt>
+ [68 <./external-pdfs/AarteeSaki.pdf>] <external-pdfs/ArjunMalikOld.pdf, id=121
+4, 597.50786pt x 845.04686pt>
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 892
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 959
 .
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
  <use external-pdfs/ArjunMalikOld.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 892
+Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf used on input line 959
 .
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/ArjunMalikOld.pdf, id=1180, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/ArjunMalikOld.pdf, id=1217, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
-ine 892.
+ine 959.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
-ine 892.
+ine 959.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
-ine 892.
+ine 959.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
-ine 892.
+ine 959.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalikOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalikOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalikOld.pdf, page1 used on input l
-ine 892.
+ine 959.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [66 <./external-pdfs/ArjunMalikOld.pdf>] <external-pdfs/ArjunMalik.pdf, id=119
-9, 597.50786pt x 845.04686pt>
+ [69 <./external-pdfs/ArjunMalikOld.pdf>] <external-pdfs/ArjunMalik.pdf, id=123
+6, 597.50786pt x 845.04686pt>
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 893.
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 960.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
  <use external-pdfs/ArjunMalik.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 893.
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 960.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/ArjunMalik.pdf, id=1202, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/ArjunMalik.pdf, id=1239, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
- 893.
+ 960.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
- 893.
+ 960.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
- 893.
+ 960.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
- 893.
+ 960.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 1>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page1 used on input line
- 893.
+ 960.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [67 <./external-pdfs/ArjunMalik.pdf>]
+ [70 <./external-pdfs/ArjunMalik.pdf>]
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
  <use external-pdfs/ArjunMalik.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 894.
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 961.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
  <use external-pdfs/ArjunMalik.pdf>
-Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 894.
+Package pdftex.def Info: external-pdfs/ArjunMalik.pdf used on input line 961.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/ArjunMalik.pdf, id=1223, page=2, 597.50786pt x 845.04686pt>
+<external-pdfs/ArjunMalik.pdf, id=1260, page=2, 597.50786pt x 845.04686pt>
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 2>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
- 894.
+ 961.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 2>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
- 894.
+ 961.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 2>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
- 894.
+ 961.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 2>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
- 894.
+ 961.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/ArjunMalik.pdf Graphic file (type pdf)
 
 <use external-pdfs/ArjunMalik.pdf, page 2>
 Package pdftex.def Info: external-pdfs/ArjunMalik.pdf, page2 used on input line
- 894.
+ 961.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [68 <./external-pdfs/ArjunMalik.pdf>] <external-pdfs/SamStacyOld.pdf, id=1234,
+ [71 <./external-pdfs/ArjunMalik.pdf>] <external-pdfs/SamStacyOld.pdf, id=1270,
  597.50786pt x 845.04686pt>
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf>
-Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 896.
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 963.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
  <use external-pdfs/SamStacyOld.pdf>
-Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 896.
+Package pdftex.def Info: external-pdfs/SamStacyOld.pdf used on input line 963.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/SamStacyOld.pdf, id=1237, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/SamStacyOld.pdf, id=1273, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
-e 896.
+e 963.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
-e 896.
+e 963.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
-e 896.
+e 963.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
-e 896.
+e 963.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacyOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacyOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/SamStacyOld.pdf, page1 used on input lin
-e 896.
+e 963.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [69 <./external-pdfs/SamStacyOld.pdf>] <external-pdfs/SamStacy.pdf, id=1256, 5
+ [72 <./external-pdfs/SamStacyOld.pdf>] <external-pdfs/SamStacy.pdf, id=1293, 5
 97.50786pt x 845.04686pt>
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 897.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 964.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
  <use external-pdfs/SamStacy.pdf>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 897.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 964.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/SamStacy.pdf, id=1259, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/SamStacy.pdf, id=1296, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 1>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 8
-97.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 9
+64.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 1>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 8
-97.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 9
+64.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 1>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 8
-97.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 9
+64.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 1>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 8
-97.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 9
+64.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 1>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 8
-97.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page1 used on input line 9
+64.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [70 <./external-pdfs/SamStacy.pdf>]
+ [73 <./external-pdfs/SamStacy.pdf>]
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 898.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 965.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
  <use external-pdfs/SamStacy.pdf>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 898.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf used on input line 965.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/SamStacy.pdf, id=1281, page=2, 597.50786pt x 845.04686pt>
+<external-pdfs/SamStacy.pdf, id=1317, page=2, 597.50786pt x 845.04686pt>
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 2>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 8
-98.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 9
+65.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 2>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 8
-98.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 9
+65.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 2>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 8
-98.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 9
+65.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 2>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 8
-98.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 9
+65.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/SamStacy.pdf Graphic file (type pdf)
 
 <use external-pdfs/SamStacy.pdf, page 2>
-Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 8
-98.
+Package pdftex.def Info: external-pdfs/SamStacy.pdf, page2 used on input line 9
+65.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [71 <./external-pdfs/SamStacy.pdf>]
-<external-pdfs/JulianPeenOld.pdf, id=1291, 597.50786pt x 845.04686pt>
+ [74 <./external-pdfs/SamStacy.pdf>]
+<external-pdfs/JulianPeenOld.pdf, id=1328, 597.50786pt x 845.04686pt>
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 900
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 967
 .
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
  <use external-pdfs/JulianPeenOld.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 900
+Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf used on input line 967
 .
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/JulianPeenOld.pdf, id=1294, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/JulianPeenOld.pdf, id=1331, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
-ine 900.
+ine 967.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
-ine 900.
+ine 967.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
-ine 900.
+ine 967.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
-ine 900.
+ine 967.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeenOld.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeenOld.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeenOld.pdf, page1 used on input l
-ine 900.
+ine 967.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [72 <./external-pdfs/JulianPeenOld.pdf>] <external-pdfs/JulianPeen.pdf, id=131
-3, 597.50786pt x 845.04686pt>
+ [75 <./external-pdfs/JulianPeenOld.pdf>] <external-pdfs/JulianPeen.pdf, id=135
+0, 597.50786pt x 845.04686pt>
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 901.
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 968.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
  <use external-pdfs/JulianPeen.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 901.
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 968.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/JulianPeen.pdf, id=1316, page=1, 597.50786pt x 845.04686pt>
+<external-pdfs/JulianPeen.pdf, id=1353, page=1, 597.50786pt x 845.04686pt>
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
- 901.
+ 968.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
- 901.
+ 968.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
- 901.
+ 968.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
- 901.
+ 968.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 1>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page1 used on input line
- 901.
+ 968.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [73 <./external-pdfs/JulianPeen.pdf>]
+ [76 <./external-pdfs/JulianPeen.pdf>]
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
  <use external-pdfs/JulianPeen.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 902.
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 969.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
  <use external-pdfs/JulianPeen.pdf>
-Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 902.
+Package pdftex.def Info: external-pdfs/JulianPeen.pdf used on input line 969.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<external-pdfs/JulianPeen.pdf, id=1337, page=2, 597.50786pt x 845.04686pt>
+<external-pdfs/JulianPeen.pdf, id=1374, page=2, 597.50786pt x 845.04686pt>
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
- 902.
+ 969.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
- 902.
+ 969.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
- 902.
+ 969.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
- 902.
+ 969.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
 File: external-pdfs/JulianPeen.pdf Graphic file (type pdf)
 
 <use external-pdfs/JulianPeen.pdf, page 2>
 Package pdftex.def Info: external-pdfs/JulianPeen.pdf, page2 used on input line
- 902.
+ 969.
 (pdftex.def)             Requested size: 466.05424pt x 659.13391pt.
- [74 <./external-pdfs/JulianPeen.pdf>]
+ [77 <./external-pdfs/JulianPeen.pdf>]
 runsystem(rm "portfolio.pyg")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 906.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 906.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 973.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 973.
  (./portfolio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 906.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 906.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 973.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 973.
 Package rerunfilecheck Info: File `portfolio.out' has not changed.
-(rerunfilecheck)             Checksum: 4A837BB3836487EE208B8C573BF87970;5386.
+(rerunfilecheck)             Checksum: 750221F903D7C5F36E5E697E1F63FC07;5432.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3500,14 +3564,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'portfolio.run.xml'.
 \openout1 = `portfolio.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 906.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 973.
  ) 
 Here is how much of TeX's memory you used:
- 35148 strings out of 493014
- 643843 string characters out of 6133350
- 1173114 words of memory out of 5000000
- 37465 multiletter control sequences out of 15000+600000
- 70782 words of font info for 297 fonts, out of 8000000 for 9000
+ 35178 strings out of 493014
+ 644275 string characters out of 6133350
+ 1173117 words of memory out of 5000000
+ 37474 multiletter control sequences out of 15000+600000
+ 71202 words of font info for 303 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,77p,1953b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -3523,10 +3587,10 @@ onts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on portfolio.pdf (79 pages, 15626388 bytes).
+Output written on portfolio.pdf (82 pages, 15893709 bytes).
 PDF statistics:
- 1442 PDF objects out of 1728 (max. 8388607)
- 1127 compressed objects within 12 object streams
- 232 named destinations out of 1000 (max. 500000)
- 41183 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1480 PDF objects out of 1728 (max. 8388607)
+ 1158 compressed objects within 12 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 41201 words of extra memory for PDF output out of 42996 (max. 10000000)
 

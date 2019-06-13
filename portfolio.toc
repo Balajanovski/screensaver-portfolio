@@ -44,116 +44,118 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.8}Financial Projections}{7}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Findings and Recommendations}{7}{section.3.9}
+\contentsline {section}{\numberline {3.9}Findings and Recommendations}{8}{section.3.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Design}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}System Modeling Diagrams}{8}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Modularity and Design Patterns}{8}{section.4.2}
+\contentsline {section}{\numberline {4.2}Modularity and Design Patterns}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Clouds and Mountains Screensaver}{8}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Clouds and Mountains Screensaver}{9}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Mandelbrot Screensaver}{9}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Mandelbrot Screensaver}{10}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Metaballs Screensaver}{10}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Influence of Survey Responses on Design and Direction}{10}{section.4.3}
+\contentsline {section}{\numberline {4.3}Influence of Survey Responses on Design and Direction}{11}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Configuration Windows}{11}{section.4.4}
+\contentsline {section}{\numberline {4.4}Configuration Windows}{12}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementation}{12}{chapter.5}
+\contentsline {chapter}{\numberline {5}Implementation}{13}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Mandelbrot Screensaver}{12}{section.5.1}
+\contentsline {section}{\numberline {5.1}Mandelbrot Screensaver}{13}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Point Mapping}{12}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Point Mapping}{13}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Colouring}{13}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Colouring}{14}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Metaballs Screensaver}{13}{section.5.2}
+\contentsline {section}{\numberline {5.2}Metaballs Screensaver}{14}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Raymarched Scene}{13}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Raymarched Scene}{14}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}The SDF Raymarching Algorithm}{14}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}The SDF Raymarching Algorithm}{15}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Clouds and Mountains Screensaver}{15}{section.5.3}
+\contentsline {section}{\numberline {5.3}Clouds and Mountains Screensaver}{16}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Atmospheric Scattering}{15}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Atmospheric Scattering}{16}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Phase function}{15}{subsection.5.3.1}
+\contentsline {subsubsection}{Phase function}{16}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scattering}{15}{figure.caption.19}
+\contentsline {subsubsection}{Scattering}{16}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Volumetric Raymarching}{16}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Volumetric Raymarching}{17}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cloud Modelling}{16}{subsection.5.3.2}
+\contentsline {subsubsection}{Cloud Modelling}{17}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Algorithm}{17}{figure.caption.23}
+\contentsline {subsubsection}{The Algorithm}{18}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Shading}{17}{figure.caption.24}
+\contentsline {subsubsection}{Shading}{18}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Procedural Terrain}{18}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Procedural Terrain}{19}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}God Rays}{18}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}God Rays}{19}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Testing}{19}{chapter.6}
+\contentsline {chapter}{\numberline {6}Testing}{20}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{21}{chapter*.33}
+\contentsline {chapter}{\numberline {7}Evaluation}{22}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{22}{section*.34}
+\contentsline {chapter}{Bibliography}{24}{chapter*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Appendix}{24}{chapter.7}
+\contentsline {chapter}{Glossary}{25}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Designs}{24}{section.7.1}
+\contentsline {chapter}{\numberline {8}Appendix}{27}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Clouds Screensaver Context Diagram}{24}{subsection.7.1.1}
+\contentsline {section}{\numberline {8.1}Designs}{27}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Clouds Screensaver Data Flow Diagram}{25}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {8.1.1}Clouds Screensaver Context Diagram}{27}{subsection.8.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Clouds Screensaver Structure Chart}{26}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {8.1.2}Clouds Screensaver Data Flow Diagram}{28}{subsection.8.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.4}Clouds Screensaver Storyboard}{27}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {8.1.3}Clouds Screensaver Structure Chart}{29}{subsection.8.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.5}Mandelbrot Screensaver Context Diagram}{28}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {8.1.4}Clouds Screensaver Storyboard}{30}{subsection.8.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.6}Mandelbrot Screensaver Data Flow Diagram}{29}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {8.1.5}Mandelbrot Screensaver Context Diagram}{31}{subsection.8.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.7}Mandelbrot Screensaver Structure Chart}{30}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {8.1.6}Mandelbrot Screensaver Data Flow Diagram}{32}{subsection.8.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.8}Mandelbrot Screensaver Storyboard}{31}{subsection.7.1.8}
+\contentsline {subsection}{\numberline {8.1.7}Mandelbrot Screensaver Structure Chart}{33}{subsection.8.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.9}Metaballs Screensaver Context Diagram}{32}{subsection.7.1.9}
+\contentsline {subsection}{\numberline {8.1.8}Mandelbrot Screensaver Storyboard}{34}{subsection.8.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.10}Metaballs Screensaver Data Flow Diagram}{33}{subsection.7.1.10}
+\contentsline {subsection}{\numberline {8.1.9}Metaballs Screensaver Context Diagram}{35}{subsection.8.1.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.11}Metaballs Screensaver Structure Chart}{34}{subsection.7.1.11}
+\contentsline {subsection}{\numberline {8.1.10}Metaballs Screensaver Data Flow Diagram}{36}{subsection.8.1.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.12}Metaballs Screensaver Storyboard}{35}{subsection.7.1.12}
+\contentsline {subsection}{\numberline {8.1.11}Metaballs Screensaver Structure Chart}{37}{subsection.8.1.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.13}Configuration Window Screen Design}{36}{subsection.7.1.13}
+\contentsline {subsection}{\numberline {8.1.12}Metaballs Screensaver Storyboard}{38}{subsection.8.1.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.14}Clouds and Mountains Screensaver Screen Design}{37}{subsection.7.1.14}
+\contentsline {subsection}{\numberline {8.1.13}Configuration Window Screen Design}{39}{subsection.8.1.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.15}Mandelbrot Screensaver Screen Design}{38}{subsection.7.1.15}
+\contentsline {subsection}{\numberline {8.1.14}Clouds and Mountains Screensaver Screen Design}{40}{subsection.8.1.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.16}Metaballs Screensaver Screen Design}{39}{subsection.7.1.16}
+\contentsline {subsection}{\numberline {8.1.15}Mandelbrot Screensaver Screen Design}{41}{subsection.8.1.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.17}Data Dictionary}{40}{subsection.7.1.17}
+\contentsline {subsection}{\numberline {8.1.16}Metaballs Screensaver Screen Design}{42}{subsection.8.1.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Survey Responses}{62}{section.7.2}
+\contentsline {subsection}{\numberline {8.1.17}Data Dictionary}{43}{subsection.8.1.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Julia Balajan - Survey Response}{62}{subsection.7.2.1}
+\contentsline {section}{\numberline {8.2}Survey Responses}{65}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Ms Saki - Survey Response}{64}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {8.2.1}Julia Balajan - Survey Response}{65}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Arjun Malik - Survey Response 1}{66}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {8.2.2}Ms Saki - Survey Response}{67}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Arjun Malik - Survey Response 2}{67}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {8.2.3}Arjun Malik - Survey Response 1}{69}{subsection.8.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.5}Samuel Stacy - Survey Response 1}{69}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {8.2.4}Arjun Malik - Survey Response 2}{70}{subsection.8.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.6}Samuel Stacy - Survey Response 2}{70}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {8.2.5}Samuel Stacy - Survey Response 1}{72}{subsection.8.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.7}Julian Peen - Survey Response 1}{72}{subsection.7.2.7}
+\contentsline {subsection}{\numberline {8.2.6}Samuel Stacy - Survey Response 2}{73}{subsection.8.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.8}Julian Peen - Survey Response 2}{73}{subsection.7.2.8}
+\contentsline {subsection}{\numberline {8.2.7}Julian Peen - Survey Response 1}{75}{subsection.8.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.8}Julian Peen - Survey Response 2}{76}{subsection.8.2.8}

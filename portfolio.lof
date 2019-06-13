@@ -26,78 +26,86 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flyweight Forest}}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces From left to right: Mandelbrot Screensaver Context Diagram, Clouds Screensaver DFD. For full resolution versions refer to appendix\relax }}{8}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Configuration Window Message Box}}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces From left to right: Metaballs Screensaver Structure Chart, Clouds Screensaver Storyboard. For full resolution versions refer to appendix\relax }}{9}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Flyweight Forest}}{10}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Mandelbrot Equation\relax }}{12}{figure.caption.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Real and Imaginary Component Mapping to Cartesian Plane\relax }}{12}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Smooth Iteration Count Formula from \citep {quilez-smooth}\relax }}{13}{figure.caption.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Smooth vs. Discrete Mandelbrot Fractals from \citep {quilez-smooth}\relax }}{13}{figure.caption.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ray tracing from \citep {wikipedia:raytracing}\relax }}{14}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Sphere tracing illustrated from \citep {gpugems2}\relax }}{14}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The Phase Function from \citep {gpugems2}\relax }}{15}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The Out-Scattering Equation from \citep {gpugems2}\relax }}{16}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The In-Scattering Equation from \citep {gpugems2}\relax }}{16}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces From left to right example images of: Perlin FBM Noise, Worley Noise, Perlin-Worley Noise\relax }}{16}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces From left to right example images of height gradients for: Stratus, Cumulus and Cumulonimbus clouds from \citep {gpupro7}\relax }}{16}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Image illustrating the 4 steps of volumetric raymarching from \citep {wikipedia:raymarching}\relax }}{17}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Beer-Lambert Law}}{17}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Beer's-Powder function}}{18}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces From left to right: Typical heightmap, Mesh viewed in RenderDoc Debugger\relax }}{18}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Equations representing the recurrent determination of the amount of light absorbed from the point of emission to the view point as well as the amount due to light scattering into the path of the view ray from \citep {gpugems3}\relax }}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Configuration Window Message Box}}{12}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Screensaver not rendering\relax }}{19}{figure.caption.29}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Mandelbrot Equation\relax }}{13}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces User Windows registry showing expected values\relax }}{20}{figure.caption.30}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Real and Imaginary Component Mapping to Cartesian Plane\relax }}{13}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces God rays jumping\relax }}{20}{figure.caption.31}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Smooth Iteration Count Formula from \citep {quilez-smooth}\relax }}{14}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces God ray jittering bug fixed\relax }}{20}{figure.caption.32}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Smooth vs. Discrete Mandelbrot Fractals from \citep {quilez-smooth}\relax }}{14}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ray tracing from \citep {wikipedia:raytracing}\relax }}{15}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Sphere tracing illustrated from \citep {gpugems2}\relax }}{15}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The Phase Function from \citep {gpugems2}\relax }}{16}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The Out-Scattering Equation from \citep {gpugems2}\relax }}{17}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The In-Scattering Equation from \citep {gpugems2}\relax }}{17}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces From left to right example images of: Perlin FBM Noise, Worley Noise, Perlin-Worley Noise\relax }}{17}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces From left to right example images of height gradients for: Stratus, Cumulus and Cumulonimbus clouds from \citep {gpupro7}\relax }}{17}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Image illustrating the 4 steps of volumetric raymarching from \citep {wikipedia:raymarching}\relax }}{18}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Beer-Lambert Law}}{18}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Beer's-Powder function}}{19}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces From left to right: Typical heightmap, Mesh viewed in RenderDoc Debugger\relax }}{19}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Equations representing the recurrent determination of the amount of light absorbed from the point of emission to the view point as well as the amount due to light scattering into the path of the view ray from \citep {gpugems3}\relax }}{19}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Clouds Screensaver Context Diagram\relax }}{24}{figure.caption.36}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Screensaver not rendering\relax }}{20}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Clouds Screensaver Data Flow Diagram\relax }}{25}{figure.caption.37}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces User Windows registry showing expected values\relax }}{21}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Clouds Screensaver Structure Chart\relax }}{26}{figure.caption.38}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces God rays jumping\relax }}{21}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Clouds Screensaver Storyboard\relax }}{27}{figure.caption.39}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces God ray jittering bug fixed\relax }}{21}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Mandelbrot Screensaver Context Diagram\relax }}{28}{figure.caption.40}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Mandelbrot Screensaver Data Flow Diagram\relax }}{29}{figure.caption.41}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces From left to right: Mandelbrot screensaver previewed in Windows screensaver selection GUI, Mountains screensaver Settings GUI\relax }}{23}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Mandelbrot Screensaver Structure Chart\relax }}{30}{figure.caption.42}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Mandelbrot Screensaver Storyboard\relax }}{31}{figure.caption.43}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Clouds Screensaver Context Diagram\relax }}{27}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Metaballs Screensaver Context Diagram\relax }}{32}{figure.caption.44}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Clouds Screensaver Data Flow Diagram\relax }}{28}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Metaballs Screensaver Data Flow Diagram\relax }}{33}{figure.caption.45}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Clouds Screensaver Structure Chart\relax }}{29}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Metaballs Screensaver Structure Chart\relax }}{34}{figure.caption.46}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Clouds Screensaver Storyboard\relax }}{30}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Metaballs Screensaver Storyboard\relax }}{35}{figure.caption.47}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Mandelbrot Screensaver Context Diagram\relax }}{31}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Configuration Window Screen Design\relax }}{36}{figure.caption.48}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Mandelbrot Screensaver Data Flow Diagram\relax }}{32}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Mandelbrot Screensaver Structure Chart\relax }}{33}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Mandelbrot Screensaver Storyboard\relax }}{34}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Metaballs Screensaver Context Diagram\relax }}{35}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Metaballs Screensaver Data Flow Diagram\relax }}{36}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Metaballs Screensaver Structure Chart\relax }}{37}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Metaballs Screensaver Storyboard\relax }}{38}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Configuration Window Screen Design\relax }}{39}{figure.caption.51}

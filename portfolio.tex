@@ -339,7 +339,7 @@ The structure of this gantt chart aims to reflect the standard software developm
 
 \begin{figure}[H]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[width=1.0\linewidth]{gantt}}%
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\linewidth]{gantt}}%
 	\caption{Gantt chart}
 	\label{fig:gantt}
 \end{figure}	
@@ -371,7 +371,22 @@ These screen designs may be found in the appendix according to the list below:
 	\item Metaballs Screen Design (pg. \pageref{app:metaballs-screen})
 \end{itemize}
 
-In the design stage, a detailed context diagram, data flow diagram (DFD), structure chart and storyboard were also created for each of the three screensavers. Furthermore a data dictionary was created to catalogue the variables used in each of the three screensavers.
+In the design stage, a detailed context diagram, data flow diagram (DFD), structure chart and storyboard were also created for each of the three screensavers. 
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=.65\linewidth]{Mandelbrot Screensaver Context Diagram}  
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=.65\linewidth]{Clouds Screensaver DFD} 
+	\end{minipage}
+	\caption{From left to right: Mandelbrot Screensaver Context Diagram, Clouds Screensaver DFD. For full resolution versions refer to appendix}
+\end{figure}
+
+Furthermore a data dictionary was created to catalogue the variables used in each of the three screensavers.
 
 The data dictionary may be found on page \pageref{app:data-dictionary}.
 The design diagrams may be found on their respective pages as shown in table \ref{tab:page-nums}.
@@ -388,6 +403,19 @@ Mandelbrot & \pageref{app:mandelbrot-context} & \pageref{app:mandelbrot-dfd} & \
 Metaballs & \pageref{app:metaballs-context} & \pageref{app:metaballs-dfd} & \pageref{app:metaballs-struc} & \pageref{app:metaballs-story} \\ \hline
 \end{tabular}
 \end{table}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=.8\linewidth]{Metaballs Screensaver Structure Chart}  
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+  		\centering
+  		\includegraphics[width=.8\linewidth]{Clouds Screensaver Storyboard} 
+	\end{minipage}
+	\caption{From left to right: Metaballs Screensaver Structure Chart, Clouds Screensaver Storyboard. For full resolution versions refer to appendix}
+\end{figure}
 
 \section{Modularity and Design Patterns}
 \subsection{Clouds and Mountains Screensaver}
@@ -609,7 +637,7 @@ By evaluating the in-scattering equation for each pixel on the screen, the colou
 
 \subsubsection{Cloud Modelling}
 
-The volumetric cloud system is modelled using volumetric raymarching in real time through a 3D texture of fractal Brownian motion (FBM) noise. FBM is the sum if a series of octaves of noise, each with higher frequency and lower amplitude. Perlin noise is commonly used for this purpose, however it typically fails to describe, the round, billowy shapes of cumulus clouds. This issue may be remedied by combining standard Perlin FBM with another flavour of noise called Worley noise, which is normally used for rendering water effects, to give the noise a cauliflower-like look typical of clouds. \citep{gpupro7} 
+The volumetric cloud system is modelled using volumetric raymarching in real time through a 3D texture of fractal Brownian motion (FBM) noise. FBM is the sum of a series of octaves of noise, each with higher frequency and lower amplitude. Perlin noise is commonly used for this purpose, however it typically fails to describe, the round, billowy shapes of cumulus clouds. This issue may be remedied by combining standard Perlin FBM with another flavour of noise called Worley noise, which is normally used for rendering water effects, to give the noise the cauliflower-like look typical of clouds. \citep{gpupro7} 
 
 \begin{figure}[H]
 \centering
@@ -750,6 +778,45 @@ This was fixed by increasing the distance of the sun from the camera position by
 	\caption{God ray jittering bug fixed}
 	\label{fig:fixed}
 \end{figure}
+
+\chapter{Evaluation}
+
+To decide if the project is a success, it must first be compared to the problem definition requirements to ensure that it has satisfied the project's demands. To summarise, these requirements are to:
+\begin{enumerate}
+	\item Create a suite of screensavers which effectively utilise advanced graphics techniques to generate visual appeal.
+	\item Run effectively (20-30 FPS) on an average computer's hardware.
+	\item Allow for users to customise their screensavers through a settings GUI.
+	\item Complete the project with minimal cost.
+	\item Complete the project on time.
+	\item Attract a global community of users through including a Russian locale as well as an English locale.
+\end{enumerate}
+
+Based on the positive feedback from the surveys conducted, which may be found in the appendix, it is reasonable to suggest that the screensavers possess visual appeal, satisfying requirement one.
+
+Requirement two however is not so simple. The second and third screensavers run effectively between 20 and 30 frames per second (FPS) on maximum resolution, however the first is only able to, on the developer's and pilot user's hardwares, when the resolution option is decreased. This is likely due to the expensive volumetric raymarching algorithm which must be computed each frame to render the clouds. However, it is reasonable to suggest that the project has satisfied requirement two, as the resolution option is specifically programmed to allow for a greater scope of screensaver usage by allowing for people who do not possess powerful computers to use the screensavers, at the expense of overall quality. The user may simply turn down the resolution to use the screensaver, sacrificing some of the high resolution but still producing a visually appealing result.
+
+Requirement three was satisfied by creating a settings GUI using WPF (Windows Presentation Framework), which would be activated on the user pressing the settings button in the Windows OS screensaver selection screen. The GUI satisfied the inclusivity requirements laid out, using large sans-serif font to aid users with visual impairments in navigating it. 
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+	  	\includegraphics[width=0.9\linewidth]{windows-gui}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+	  	\centering
+		\includegraphics[width=0.9\linewidth]{settings-gui}
+	\end{minipage}
+	\caption{From left to right: Mandelbrot screensaver previewed in Windows screensaver selection GUI, Mountains screensaver Settings GUI}
+\end{figure}
+
+Since the project was created with no costs other than those incurred by charging the laptop, as the developer voluntarily created the project, criterion four was satisfied.
+
+Furthermore, the implementation and testing stages were completed well before the deadline on the 10th of June 2019, satisfying criterion five.
+
+Finally, the option to change the locale of the screensaver settings GUIs were implemented. The language is able to be changed through a dropdown box in the top-left of the window. This satisfies requirement six.
+
+As all of the project requirements have been satisfied, it is reasonable to suggest that the project was a success.
 
 \printbibliography[heading=bibintoc,title={Bibliography}]
 
