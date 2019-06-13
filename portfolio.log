@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  13 JUN 2019 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.29)  13 JUN 2019 21:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1883,6 +1883,9 @@ File: images/metaballs.jpg Graphic file (type jpg)
 <use images/metaballs.jpg>
 Package pdftex.def Info: images/metaballs.jpg used on input line 270.
 (pdftex.def)             Requested size: 83.65157pt x 75.47119pt.
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
  [4
 
  <./images/maze.jpg> <./images/pipes.jpg>]
@@ -1951,22 +1954,23 @@ File: images/Clouds Screensaver Storyboard.png Graphic file (type png)
 Package pdftex.def Info: images/Clouds Screensaver Storyboard.png used on input
  line 415.
 (pdftex.def)             Requested size: 159.33603pt x 114.42358pt.
- [9 <./images/Metaballs Screensaver Structure Chart.png> <./images/Clouds Scree
-nsaver Storyboard.png>]
-<images/flyweight-trees.png, id=639, 1043.9pt x 514.92375pt>
+
+<images/flyweight-trees.png, id=625, 1043.9pt x 514.92375pt>
 File: images/flyweight-trees.png Graphic file (type png)
 
 <use images/flyweight-trees.png>
 Package pdftex.def Info: images/flyweight-trees.png used on input line 430.
 (pdftex.def)             Requested size: 179.57286pt x 88.57301pt.
 
-<images/flyweight-tree-model.png, id=640, 1043.9pt x 442.65375pt>
+<images/flyweight-tree-model.png, id=626, 1043.9pt x 442.65375pt>
 File: images/flyweight-tree-model.png Graphic file (type png)
 
 <use images/flyweight-tree-model.png>
 Package pdftex.def Info: images/flyweight-tree-model.png used on input line 434
 .
 (pdftex.def)             Requested size: 210.79721pt x 89.38022pt.
+ [9 <./images/Metaballs Screensaver Structure Chart.png> <./images/Clouds Scree
+nsaver Storyboard.png>]
 \openout6 = `portfolio.pyg'.
 
 
@@ -1981,14 +1985,14 @@ Package microtype Info: Loading generic settings for font family
 
 
 (./_minted-portfolio/E0E649672BF7CCF696B571EBB8B0F8F02203EC576A36BF17E4C0F2E9CD
-341574.pygtex) [10 <./images/flyweight-trees.png> <./images/flyweight-tree-mode
-l.png>]
+341574.pygtex)
 \openout4 = `portfolio.pyg'.
 
 
 (./_minted-portfolio/443D6597C7AB4A16E8E1B79E756351342203EC576A36BF17E4C0F2E9CD
-341574.pygtex)
-Underfull \vbox (badness 1960) has occurred while \output is active []
+341574.pygtex [10 <./images/flyweight-trees.png> <./images/flyweight-tree-model
+.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 <images/ExitWithoutSaving.jpg, id=678, 434.37282pt x 249.18094pt>
@@ -3587,7 +3591,7 @@ onts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on portfolio.pdf (82 pages, 15893709 bytes).
+Output written on portfolio.pdf (82 pages, 15892804 bytes).
 PDF statistics:
  1480 PDF objects out of 1728 (max. 8388607)
  1158 compressed objects within 12 object streams

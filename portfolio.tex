@@ -187,7 +187,7 @@ To manage the project, the structured approach will be utilised and documented i
 
 \chapter{Project Plan}
 \section{Defining and Understanding the Problem}
-Our initial thoughts on what software construction methodology to use leaned towards one which would benefit a small development team, such as the prototyping methodology. However, it is mandated by our project sponsor that a portfolio be developed to document our development process in a structured manner, so a structured approach is the best choice due to its reliance on documentation.
+The initial thoughts on what software construction methodology to use leaned towards one which would benefit a small development team, such as the prototyping methodology. However, it is mandated by our project sponsor that a portfolio be developed to document our development process in a structured manner, so a structured approach is the best choice due to its reliance on documentation.
 
 Thus, the project will be split into 5 stages according to the structured approach:
 \begin{itemize}
@@ -207,10 +207,10 @@ After initial implementation, a survey will be conducted requesting the opinions
 \section{Design}
 When developing the designs for the product, the following will be created.
 \begin{itemize}
-	\item A Context Diagram
-	\item A Data Flow Diagram	
-	\item A Structure Diagram
-	\item High level flowcharts for key functions in the program.
+	\item Context Diagrams.
+	\item Data Flow Diagrams.	
+	\item Structure Charts.
+	\item Story board.
 	\item A Data Dictionary.
 \end{itemize}	
 All besides the data dictionary will be created before the implementation stage. The data dictionary will be created along with the product itself.  
@@ -218,10 +218,10 @@ All besides the data dictionary will be created before the implementation stage.
 \section{Implementation}
 The implementation stage will firstly begin with a technical research stage. Advanced graphics techniques involve use of heavy amounts of mathematics, and as of such, research papers must be studied and cited.
 
-After the initial research, implementation will commence. Testing will be done regularly as the project progresses, to ensure each module is functioning before moving onto the next one and to avoid the accumulation of errors. 
+After the initial research, implementation will commence. Testing will be done regularly as the project progresses, to ensure each module is functional before moving onto the next one whilst avoiding the accumulation of errors. 
 
 \section{Testing}
-On completing the implementation, the screensaver suite will be tested on a variety of hardwares, to ensure it functions correctly on other GPUs. This is critical, as graphics \gls{shader}s may perform differently and possibly unexpectedly based on each graphics card provider's \gls{OpenGL} implementation.
+On completing the implementation, the screensaver suite will be tested on a variety of hardwares, to ensure that it functions correctly on other computer hardwares. This is critical, as graphics \gls{shader}s may perform differently and possibly unexpectedly based on each graphics card provider's \gls{OpenGL} implementation.
 
 \begin{figure}[H]
 	\centering
@@ -237,7 +237,7 @@ Screensavers have been a medium of graphics experimentation during the times of 
 
 \section{Description of Products and Services}
 
-Screensavers, during the times of early computing, have been the medium for the showcasing of various graphics techniques. From the Windows 98 era with the notable screensaver maze, bringing rasteurized graphics to the customer in a display of engineering creativity to the classic Windows XP pipes, using random generation to provide the customer with a new and consistently unique scene, graphics techniques have found their place in the world of screensavers. However, these screensavers have often been quite basic, using simple Phong shading or even no shading at all with only rasteur based techniques lacking lighting shading. This makes one wonder why advanced graphics techniques, such as the ones explored by video game companies and animation studies such as Pixar, have not been explored in the avenue of screensaver creation. 
+Screensavers, during the times of early computing, have been the medium for the showcasing of various graphics techniques. From the Windows 98 era with the notable screensaver maze, bringing rasteurized graphics to the customer in a display of engineering creativity to the classic Windows XP pipes, using random generation to provide the customer with a new and consistently unique scene, graphics techniques have found their place in the world of screensavers. However, these screensavers have often been quite basic, using simple Phong shading or even no shading at all. This makes one wonder why advanced graphics techniques, such as the ones explored by video game companies and animation studios such as Pixar, have not been explored in the avenue of screensaver creation. 
 
 \begin{figure}[H]
 \centering
@@ -280,13 +280,13 @@ The personnel possess a single HP Pavilion laptop running Windows 10 OS that use
 
 \subsection{Software Considerations}
 
-The development will be carried out using the VB.NET programming language through the Visual Studio IDE. VB.NET was chosen as a matter of preference from our project sponsor. Due to this unorthodox choice for a programming language for graphics programming, in which C and C++ are most commonly used due to their performance, extra considerations may need to be taken regarding the overhead of the VB.NET language. Furthermore, as VB.NET is being used to create the screensaver suite, the project is only going to work on the Windows operating system as it required the .NET framework. However, projects such as .NET core and Mono aim to port the .NET framework to linux and mac, so cross compatibility is not completely out of the question, and can be implemented later if the demand is ever shown. 
+The development will be carried out using the VB.NET programming language through the Visual Studio IDE. VB.NET was chosen as a matter of preference from our project sponsor. Due to this unorthodox choice for a programming language for graphics programming, in which C and C++ are most commonly used due to their performance, extra considerations may need to be taken regarding the overhead of the VB.NET language. Furthermore, as VB.NET is being used to create the screensaver suite, the project is only going to work on the Windows operating system as it requires the .NET framework. However, projects such as .NET core and Mono aim to port the .NET framework to linux and mac, so cross compatibility is not completely out of the question, and can be implemented later if the demand is ever shown. 
 
 \section{Product/Service Marketplace}
 
 The marketplace for the utilisation of advanced graphics techniques in the context of screensavers has been fairly limited. No repositories on github were found for screensavers which utilised volumetric clouds, which is not surprising as it is a relatively new graphics technique which is still being researched. No procedural terrain screensavers were found either. This makes the first screensaver idea, of procedurally generated terrain with volumetric clouds, a venture into entirely uncharted territory, as the marketplace is entirely empty.
 
-As for the mandelbrot fractal screensaver, mandelbrot fractals are well documented mathematical structures which produce beautiful results when rendered, however have also, surprisingly not been applied in the context of screensavers. There have, however, been large numbers of mandelbrot fractal explorers generated, as it is seen as an excellent exercise to develop one’s programming skills, with one shown in figure \ref{fig:products}.
+As for the mandelbrot fractal screensaver, mandelbrot fractals are well documented mathematical structures which produce beautiful results when rendered, however have also, surprisingly not been applied in the context of screensavers. There however exists a large number of mandelbrot fractal explorers generated, as it is seen as an excellent exercise to develop one’s programming skills, with one shown in figure \ref{fig:products}.
 
 Metaballs are also a well documented technique. Metaballs have been applied to a wide range of areas, however, one particular use of them is in simulating the behaviour of water droplets efficiently, without the use of complex and expensive fluid dynamics simulations. Metaballs have not been applied to the context of screensavers, however, various eye candy demos have been created such as the one in figure \ref{fig:products}.
 
@@ -312,7 +312,7 @@ As this project is primarily a non-profit, research experiment, the project will
 \subsection{Ergonomics}
 \begin{itemize}
 	\item The screensaver should be designed to be ergonomic and user friendly. This is easily achievable, as screensavers lack the traditional GUIs of many other products, their main purpose being to be eye candy. Options for these screensavers may be programmed to be directly accessible through the Windows control panel, or could be programmed to be configurable through a separate GUI all together.
-	\item The design of the screensaver options dialog will aim to keep the interface simple and intuitive to use, not overflowing the user with unnecessary options. Advanced options will be hidden behind a drop down menu, for experienced users to utilise.
+	\item The design of the screensaver options dialog will aim to keep the interface simple and intuitive to use, not overwhelming the user with unnecessary options. 
 	\item The screensavers will aim to maximise FPS without jeopardising the quality of the screensavers.	
 \end{itemize}	
 
@@ -323,14 +323,14 @@ suite options dialog, as English is one of the most widely spoken languages in t
 	\item Data formats that differ internationally, such as dates and currency, are not being handled and hence these factors do not need to be accounted for.
 	\item The screensaver would be free and released under the open source licence, allowing anyone of any economic background to utilise it.
 	\item The scenes rendered in the screensavers will be designed to be universally appealing to all demographics.	
-	\item The option for the screensaver to play music may be programmed in at a later date. One option used to cater for people with hearing disabilities in software is to include subtitles. However, this solution is not suitable, as the person would still not be able to experience the music through a simple text prompt which says "Music Plays". As of such, this issue will be left open to the open source community to solve, if a solution is found in the future.
-	\item People with visual impairments must also be catered for. Legal blindness cannot be catered for, as the product is a purely visual one. However, for people with mild visual impairments, text can be written using a clear serif or sans-serif font with a large font size. Poor color combinations will be avoided like yellow on white, only using colors which contrast well, such as black on white.
+	\item The option for the screensaver to play music may be programmed in at a later date. One option used to cater for people with hearing disabilities in software is to include subtitles. However, this solution is not suitable, as the person would still not be able to experience the music through a simple text prompt which says "Music Plays". As of such, this issue will be left to the open source community to consider, if a solution is found in the future.
+	\item People with visual impairments must also be catered for. Legal blindness cannot be accounted for, as the product is a purely visual one. However, for people with mild visual impairments, text can be written using a clear serif or sans-serif font with a large font size. Poor color combinations will be avoided like yellow on white, only using colors which contrast well, such as black on white.
 	\item Issues pertaining to cultural inclusivity need not be worried about, as the screensavers aim to have universal beauty, showcasing the remarkable natures of both the natural and mathematical worlds. 	
 \end{itemize}	
 
 \section{Organization and Staffing}
 
-In considering to create this product, considerations must be made regarding whether the developers of this project possess the expertise and the technology required to complete the project. The development team consists of one student programmer, indicating that the personnel may lack the expertise required to develop an advanced graphics screensaver. However, the deadline for the end of the project provides enough time for the programmer to research and become knowledgable on these techniques before implementation.
+Considerations must be made regarding whether the developers of this project possess the expertise and the technology required to complete the project. The development team consists of one student programmer, indicating that the personnel may lack the expertise required to develop an advanced graphics screensaver. However, the deadline for the end of the project provides enough time for the programmer to research and become knowledgable on these techniques before implementation.
 
 \section{Schedule}
 
@@ -419,9 +419,9 @@ Metaballs & \pageref{app:metaballs-context} & \pageref{app:metaballs-dfd} & \pag
 
 \section{Modularity and Design Patterns}
 \subsection{Clouds and Mountains Screensaver}
-When designing the clouds and mountains screensaver, careful attention was put into making an effective modular system, with each module only completing a certain task. By using these object-oriented design principles, each module is effectively able to be removed or added back to the screensaver easily, or even used for different purposes than initially intended as long as it is provided the required inputs, due to the layers of abstraction. Each module adheres to the \textit{\glslink{component}{Component}} design pattern as defined in \citep{nystrom2014game}, meaning that they are implemented classes which abstract the lower-level behaviour of higher level classes, to ensure modular design, clean code and to reduce the \glslink{coupling}{coupling} between different classes, meaning that the modules may be moved about and altered without causing the code to break. 
+When designing the clouds and mountains screensaver, careful attention was put into making an effective modular system, with each module only completing a certain task. By using these object-oriented design principles, each module is effectively able to be removed or added back to the screensaver easily, or even used for different purposes than initially intended so long as it is provided the required inputs. Each module adheres to the \textit{\glslink{component}{Component}} design pattern as defined in \citep{nystrom2014game}, meaning that they are classes which abstract the lower-level behaviour of higher level classes, to ensure modular design, clean code and to reduce the \glslink{coupling}{coupling} between different classes, meaning that the modules may be moved about and altered without causing the code to break. 
 
-A detail not shown in the data flow diagram is the use of the \textit{\glslink{Flyweight}{Flyweight}} design pattern as defined in \citep{gamma1995design}, which was implemented to optimize RAM usage. The \textit{\glslink{Flyweight}{Flyweight}} design pattern allows for the screensaver to only need to store the model data once on RAM, whilst simultaneously allowing for customization of the trees so that the forest does not look repetitive. If each instance of a tree had its own model, the amount of data that would need to be stored on RAM would grow $O(n)$ with the number of trees drawn to the landscape. To put that in perspective, the tree model used in the screensaver uses 86886 vertices to draw the leaves alone. If a copy of this data were stored for every instance of a tree drawn, the screensaver would quickly run out of RAM. A pictorial representation of a forest without the \textit{\glslink{Flyweight}{Flyweight}} design pattern compared with a forest with the pattern is shown is show in figure \ref{fig:flyweight}. Notice how the optimized version does not contain duplicate data, with each tree instead referencing the same model, and altering it based on its parameters.
+A detail not shown in the data flow diagram is the use of the \textit{\glslink{Flyweight}{Flyweight}} design pattern as defined in \citep{gamma1995design}, which was implemented to optimize RAM usage. The \textit{\glslink{Flyweight}{Flyweight}} design pattern allows for the screensaver to only need to store the model data once on RAM, whilst simultaneously allowing for customization of the trees so that the forest does not look repetitive. If each instance of a tree had its own model, the amount of data that would need to be stored on RAM would grow `$O(n)$ with the number of trees drawn to the landscape. To put that in perspective, the tree model used in the screensaver uses 86886 vertices to draw the leaves alone. If a copy of this data were stored for every instance of a tree drawn, the screensaver would quickly run out of RAM. A pictorial representation of a forest without the \textit{\glslink{Flyweight}{Flyweight}} design pattern compared with a forest with the pattern is shown is show in figure \ref{fig:flyweight}. Notice how the optimized version does not contain duplicate data. Each tree instead references the same model data, altering it based on its parameters.
 
 \begin{figure}[H]
 \centering
@@ -529,7 +529,7 @@ The above mapping code adjusts the mapping of pixel coordinates to complex numbe
 
 \subsection{Colouring}
 
-The mandelbrot fractal could be coloured monochrome, with black indicating that the pixel corresponds to a number which is within the set, and white indicating that the pixel corresponds to a number outside the set, however this would lead to a very dull screensaver. Instead, colours were defined based on inputting the iteration count into a palette function. However this resulted in a banding effect which is unappealing to the eye. The solution is to use the smooth iteration count formula \citep{quilez-smooth}.
+The mandelbrot fractal could be coloured monochrome, with black indicating that the pixel corresponds to a number which is within the set, and white indicating that the pixel corresponds to a number outside the set, however this would lead to a very dull screensaver. Instead, colours were defined based on inputting the integer iteration count into a palette function. However this resulted in a banding effect which is unappealing to the eye. The solution is to use the smooth iteration count formula \citep{quilez-smooth}.
 
 \begin{figure}[H]
 	\centering
@@ -601,7 +601,7 @@ The graphics techniques used in the clouds and mountains screensaver are the mos
 
 \subsection{Atmospheric Scattering}
 
-Atmospheric scattering involves numerically estimating the values of a series of light scattering equations by marching along a light ray and using the trapezoidal rule. There exist two types of light scattering models which are used to estimate how the light at the point P is modeled, due to the many different types of particles in the atmosphere. These are known as \textit{Rayleight scattering} and \textit{Mie scattering}. Rayleigh scattering is caused by small molecules in the air whilst Mie scattering is caused by large particles in the air called aerosols (such as ice and dust). \citep{gpugems2}
+Atmospheric scattering involves numerically estimating the values of a series of light scattering equations by marching along a light ray and using the trapezoidal rule. There exist two types of light scattering models which are used to estimate how the light at the point P is modeled, due to the many different types of particles in the atmosphere. These are known as \textit{Rayleigh scattering} and \textit{Mie scattering}. Rayleigh scattering is caused by small molecules in the air whilst Mie scattering is caused by large particles in the air called aerosols (such as ice and dust). \citep{gpugems2}
 
 \subsubsection{Phase function}
 
@@ -728,7 +728,7 @@ The terrain mesh is generated from a procedurally generated height map. The heig
 
 \subsection{God Rays}
 
-God rays, also known as crepuscular rays, are the rays of light which are seen as it scatters of particles in the air and into our eyes. They derive their heavenly name due to how it seems, when the clouds part to reveal the sun, that God is shining down. To draw god rays, they are implemented as a post-process effect on an occlusion texture. An occlusion texture specifies where on the screen the sun is occluded from the camera. The algorithm solves the following equations for each texel.
+God rays, also known as crepuscular rays, are the rays of light which are seen as it scatters off of particles in the air and into our eyes. They derive their heavenly name due to how it seems, when the clouds part to reveal the sun, that God is shining down. They are implemented as a post-process effect on an occlusion texture. This occlusion texture specifies where on the screen the sun is occluded from the camera. The algorithm solves the following equations for each texel of the occlusion texture.
 
 \begin{figure}[H]
 	\centering
@@ -750,7 +750,7 @@ Figure \ref{fig:not-working} shows the testing where it was observed that, after
 	\label{fig:not-working}
 \end{figure}
 
-All of the screensaver settings are saved in the Windows registry, so the issue may have been caused by a faulty \textit{resolutionRatio} registry value. Matthew was asked to provide a screenshot of his Windows registry, shown in figure \ref{fig:registry}, revealing that the resolution ratio is of the expected value, meaning the issue may be caused by something else.
+All of the screensaver settings are saved in the Windows registry, so the issue may have been caused by a faulty \textit{resolutionRatio} registry value. Matthew was asked to provide a screenshot of his Windows registry, shown in figure \ref{fig:registry}, revealing that the resolution ratio is of the expected value, meaning the issue must be caused by something else.
 
 \begin{figure}[H]
 	\centering
@@ -761,7 +761,7 @@ All of the screensaver settings are saved in the Windows registry, so the issue 
 
 Compute shaders run on the startup of the screensaver, and it was theorised that the user may have believed that the screensaver was not rendering as the compute shaders were still generating noise. To test this theory, Matthew was asked to allow the screensaver 5 seconds of time to allow it to render. After a few seconds of waiting the screensaver did render, revealing that there was no issue with the screensaver not rendering after successive activations.
 
-However, a new problem was revealed which indicated a graphical bug that lead to the jittering of the God rays. Mention of problem shown in figure \ref{fig:broken-rays}.
+However, a new problem was revealed which indicated a graphical bug that lead to the jittering of the God rays. Mention of the problem is shown in figure \ref{fig:broken-rays}.
 
 \begin{figure}[H]
 	\centering
@@ -812,9 +812,9 @@ Requirement three was satisfied by creating a settings GUI using WPF (Windows Pr
 
 Since the project was created with no costs other than those incurred by charging the laptop, as the developer voluntarily created the project, criterion four was satisfied.
 
-Furthermore, the implementation and testing stages were completed well before the deadline on the 10th of June 2019, satisfying criterion five.
+Furthermore, the implementation and testing stages were completed on the 10th of June, well before the deadline, satisfying criterion five.
 
-Finally, the option to change the locale of the screensaver settings GUIs were implemented. The language is able to be changed through a dropdown box in the top-left of the window. This satisfies requirement six.
+Finally, the option to change the locale of the screensaver settings GUI was implemented. The language is able to be changed through a dropdown box in the top-left of the window. This satisfies requirement six.
 
 As all of the project requirements have been satisfied, it is reasonable to suggest that the project was a success.
 
